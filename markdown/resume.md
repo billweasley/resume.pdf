@@ -1,68 +1,118 @@
-王超
-====
+# Haoxuan (Horace) Wang
 
-- 男， 汉族， 1992年4月生， 现居上海
 
-- 电话: 1850-1617-303
+-  Phone: China:　[+86 18622468042](tel://008618622468042)  　|　　UK: 　[+44 (0)7774857427](tel://00447774857427)
+-  Email:
+　[sghwan26@student.liverpool.ac.uk](sghwan26@student.liverpool.ac.uk)　|　[billweasley20092@gmail.com](billweasley20092@gmail.com)
 
-- 邮箱: hit9@icloud.com
+-  Github: 　[https://github.com/billweasley](https://github.com/billweasley)
 
-- GitHub: github.com/hit9
+-  Linkedin:　 [https://www.linkedin.com/in/horace-haoxuan-wang/](https://www.linkedin.com/in/horace-haoxuan-wang)
 
-教育背景
+
+Education
 --------
 
-- 2010.09 - 2014.07 哈尔滨工业大学， 信息系统与信息管理专业， 本科
+- Estimated Overall GPA 3.80 / 4.00, Expected First Honor Degree.  
 
-项目经验
+- <datetime>2014 - 2016</datetime> <head_>**Xi'an Jiaotong-Liverpool University**</head_>, Bsc Information and Computing Science
+  <description>Year 0 overall grade: 66%; Year 1 overall: 71% (Top 10%) </description>
+  <description><small>Core subjects: Computer Systems; Introduction to Databases;   
+  Introduction to Programming in Java; Algorithmic Foundations and Problem Solving;   
+  Data Structures; Operating Systems Concepts; Human-Centric Computing  
+  Calculus; Introduce to Discrete Mathematics  
+  </small></description>
+  
+- <datetime>2016 - 2018</datetime> <head_>**University of Liverpool**</head_>, Bsc Internet Computing 
+  <description>Year 2 overall: 85.1% </description>
+    <description><small>Core subjects: Software Engineering; Database Development;   
+	Internet Principles (Introduce to OSI layers); Advanced Object-Oriented Programming (in Java);  
+	Distributed Systems; Software Development Tools (Mainly about testing);  
+	Advanced Object-Oriented C Programming (C++/Objective-C); Principles of C && Memory Management;   
+  </small></description>
+
+Honors and Awards
 --------
 
-- <datetime>2015.12 - 今</datetime> <head_>**banshee** *(github.com/eleme/banshee)* <lang>Go</lang></head_>
-<description>饿了么业务接口的调用量、响应时间、错误数等指标的异常点监控和报警系统</description>
+- <datetime>October 2015</datetime> <head_>**The National Endeavor Scholarship** </head_>
+<description>Scholarship from Chinese Government.</description>
 
-- <datetime>2014.09 - 今</datetime> <head_>**thriftpy** *(github.com/eleme/thriftpy)* <lang>Python</lang></head_>
-<description>Apache Thrift的Python实现, 实现thrift的Parser部分</description>
+- <datetime>July 2015</datetime> <head_>**XJTLU Academic Achievement Award** </head_>
+<description>Progression scholarships are awarded based upon a student’s average marks in the previous academic session.</description>
 
-- <datetime>2015.09 - 今</datetime> <head_>**statsd-proxy** *(github.com/hit9/statsd-proxy)* <lang>C</lang></head_>
-<description>etsy/statsd的一致性哈希代理, 利用reuseport解决Nodejs无法使用多个udp socket复用同一端口的问题</description>
-
-- <datetime>2014.07 - 2014.10</datetime> <head_>**node-ssdb, ssdb.py, lua-resty-ssdb** *(eleme/node-ssdb & hit9/ssdb.py & eleme/lua-resty-ssdb)* 
-<lang>Nodejs/Python/Lua</lang></head_>
-<description>NoSQL数据库服务器ssdb的Nodejs, Python, lua-ngx客户端实现</description>
-
-- <datetime>2012.09 - 2013.07</datetime> <head_>**skylark** *(github.com/hit9/skylark)* <lang>Python</lang></head_>
-<description>支持mysql/sqlite3的Python轻量级ORM框架</description>
-
-- <datetime>2013.02 - 2013.07</datetime> <head_>**rux** *(github.com/hit9/rux)*  <lang>Python, C</lang></head_>
-<description>极简飞快的静态博客生成器，用在个人的日记博客上</description>
-
-- <datetime>2013.04 - 2013.07</datetime> <head_>**oo** *(github.com/hit9/oo)* <lang>Shell</lang></head_>
-<description>简洁易用的Go版本管理工具</description>
-
-工作经历
+Projects
 --------
 
-- <datetime>2014.03 - 今 </datetime> <head_>**饿了么产品部平台架构组工程师**</head_>
-<description>饿了么Python服务框架的开发和维护，包括服务容器、指标、日志、熔断等. 负责指标监控的开发和维护.
+- <datetime>2017.04 - 2017.05</datetime> <head_>**bookswop.me** *(https://github.com/billweasley/Distributed_library_Release)* </head_>
+<description>
+An free book swop platform targeted for UK collage teachers and students.  
+This is the second year group project (in a group of 9 people).
+<ul style="margin-left:9.8em">
+  <li> Technology in use: Play! framework 2 (Mainly in Java) + MySQL＋ Nginx + Amazon AWS </li>
+  <li> My responsibilities: 
+		<ul>
+		 <li> General Team leader;</li>
+		 <li> The entire design and implementation of server backend including </li>
+		 <ul>
+			<li> A timing token-based Single Sign On Service;</li>
+			<li> Server RESTful API design and implementation;</li>
+			<li> Geolocation based range searching;</li>
+			<li> Security mechanism ( HTTPs (TLS v1.2) + AES + bCrypt).</li></ul>
+		<li> Database design and development;</li>
+		<li> Server manipulation on Amazon AWS Instance.</li></ul></li>
+</ul>
 </description>
 
-- <datetime>2013.07 - 2013.09</datetime> <head_>**知乎产品开发Python后端实习生**</head_>
-<description>负责维护知乎图片、视频和头像上传服务，修补日常bug等。在知乎不仅学到了很多开发技巧，
-而且学会融入团队，也更加热爱提问、热于帮别人解决问题。</description>
+- <datetime>2016.08 - 2016.09</datetime> <head_>**A crawler for XJTLU learning platform** *(http://shellcottage.me/firstSpider)*</head_>
+<description>
+A Java crawler that automatically back up all the learning resources from the XJTLU ICE learning platform.
+  <ul style="margin-left:9.8em"> <li>Technology in use: JSoup + Java Swing</li></ul>
+</description>
 
-其它
-----
-
-- 爱好: 滑冰、羽毛球、旅游、写博客、写日记等
-
-- 特长: 作画、编程
-
-自我评价
+Publications
 --------
 
-- 积极向上、热爱自由、崇尚开源、待人友善、富有激情
+- <datetime>August 2016</datetime> <head_>**Bluetooth Based Software Defined Function in Internet of Things** </head_>
+<description>
+The 1st Conference on Emerging Topics in Interactive Systems (ETIS 2016), XJTLU    
+**Haoxuan Wang**, Yuan Gao, Kai Zheng, Jie Zhang, Yang Du and Xin Huang
+</description>
 
-![school-logo](../images/hit_logo.jpg)
-![avatar](../images/avatar.jpg)
 
-<footnote>Resumé Git Repository: https://github.com/hit9/resume.pdf</footnote>
+- <datetime>December 2016</datetime> <head_>**Applying Docker Swarm Cluster into Software Defined Internet of Things** </head_>
+<description>
+The 8th International Conference on Information Technology in Medicine and Education (ITME 2016, EI Indexed)    
+Yuan Gao, **Haoxuan Wang** and Xin Huang
+</description>
+
+
+Skills
+--------
+
+★ *indicates the proficiency. The more* ★ *appears, the more proficiency I have on the item.*
+
+#### *Programming Languages*
+-  Java　(including　Java　8)　★★★★✰
+-  C　★★★✰✰
+-  SQL ★★★✰✰
+-  Objective-C　★✰✰✰✰
+-  x86 C-inline Assembly ★✰✰✰✰
+-  C++ (For my level, a better C with classes) ✰✰✰✰✰
+
+#### *Markup / Templating Languages*
+-  HTML ★★★✰✰
+-  XML ★★★✰✰
+-  CSS ★✰✰✰✰
+-  Markdown ★★★✰✰
+-  LaTeX ✰✰✰✰✰
+
+#### *Frameworks & Others*
+-  Play! framework 2 (using Java) ★★★✰✰
+-  Ebean ORM   ★★✰✰✰
+-  jQuery ★✰✰✰✰
+-  Ant ★★★✰✰
+-  JUnit ★★★✰✰
+-  Git   ★★✰✰✰
+-  Valgrind ★★★✰✰
+-  gcc/clang/g++/clang++/javac ★✰✰✰✰
+-  Google + Stackoverflow ★★★★★

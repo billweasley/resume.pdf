@@ -28,9 +28,12 @@ h2 {
 }
 
 /* H1 and H2 has underline */
-h1, h2 {
+h2 {
   border-bottom: 1px solid #999;
   font-weight: bold;
+}
+h1 {
+	font-weight: bold;
 }
 
 /* ul & li */
@@ -91,6 +94,10 @@ description {
   margin-top: .5em; /* away from big title, looks like a block*/
   display: block;
   margin-left: 9.8em;  /* 9 + .5 + .3*/
+}
+desline {
+  margin-left: 15em;  
+
 }
 
 hireable {
