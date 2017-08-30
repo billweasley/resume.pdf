@@ -13,10 +13,10 @@
 Education
 --------
 
-- Estimated Overall GPA 3.80 / 4.00, Expected First Honor Degree.  
+- Estimated Overall GPA 3.70 / 4.00, Expected First Honor Degree.  
 
 - <datetime>2014 - 2016</datetime> <head_>**Xi'an Jiaotong-Liverpool University**</head_>, Bsc Information and Computing Science
-  <description>Year 0 overall grade: 66%; Year 1 overall: 71% (Top 10%) </description>
+  <description>Year 0 overall grade: 66%; Year 1 overall: 71% (Ranking：7 out of 65+)</description>
   <description><small>Core subjects: Computer Systems; Introduction to Databases;   
   Introduction to Programming in Java; Algorithmic Foundations and Problem Solving;   
   Data Structures; Operating Systems Concepts; Human-Centric Computing  
@@ -24,7 +24,7 @@ Education
   </small></description>
   
 - <datetime>2016 - 2018</datetime> <head_>**University of Liverpool**</head_>, Bsc Internet Computing 
-  <description>Year 2 overall: 85.1% </description>
+  <description>Year 2 overall: 85.5% (Ranking：2 out of 200+)</description>
     <description><small>Core subjects: Software Engineering; Database Development;   
 	Internet Principles (Introduce to OSI layers); Advanced Object-Oriented Programming (in Java);  
 	Distributed Systems; Software Development Tools (Mainly about testing);  
@@ -43,9 +43,16 @@ Honors and Awards
 Projects
 --------
 
+- <datetime>2017.02 - 2017.02</datetime> <head_>**An automatic voter for Chinese TV Eagle Prize** *(https://github.com/billweasley/AutoVoter)*</head_>
+<description>
+The idea starts from a senior female class mate. She is mad with a TV star.
+The original page uses a large chunk of AJAX script, which is hardly to find those dedicated information, so for this situation I used selenium drivers to simulate the login process.
+  <ul style="margin-left:9.8em"> <li>Technology in use: Java + Selenium in Java</li></ul>
+</description>
+
 - <datetime>2017.04 - 2017.05</datetime> <head_>**bookswop.me** *(https://github.com/billweasley/Distributed_library_Release)* </head_>
 <description>
-An free book swop platform targeted for UK collage teachers and students.  
+A book swap platform targeted for UK college teachers and students.  
 This is the second year group project (in a group of 9 people).
 <ul style="margin-left:9.8em">
   <li> Technology in use: Play! framework 2 (Mainly in Java) + MySQL＋ Nginx + Amazon AWS </li>
@@ -107,11 +114,13 @@ Skills
 -  LaTeX ✰✰✰✰✰
 
 #### *Frameworks & Others*
+-  Ant ★★★✰✰
+-  JUnit ★★★✰✰
+-  Fiddler ★✰✰✰✰
+-  Selenium in Java ★✰✰✰✰
 -  Play! framework 2 (using Java) ★★★✰✰
 -  Ebean ORM   ★★✰✰✰
 -  jQuery ★✰✰✰✰
--  Ant ★★★✰✰
--  JUnit ★★★✰✰
 -  Git   ★★✰✰✰
 -  Valgrind ★★★✰✰
 -  gcc/clang/g++/clang++/javac ★✰✰✰✰
