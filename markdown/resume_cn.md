@@ -13,23 +13,24 @@
 教育背景
 --------
 
-- 预估 GPA 3.70 / 4.00, 预计可获得一等荣誉学士学位.  
+- 预估 GPA 3.80 / 4.00, 预计可获得一等荣誉学士学位.
 
-- <datetime>2014 - 2016</datetime> <head_>**西交利物浦大学**</head_>, 信息与计算科学 （理学学士） 
-  <description>大一（英制 Year 0）成绩 : 66%; 大二（英制 Year 1）成绩: 71% (排名：7/65+) </description>
-  <description><small>核心课程: Computer Systems 计算机系统; Introduction to Databases 数据库导论;   
-  Introduction to Programming in Java Java编程导论; Algorithmic Foundations and Problem Solving 算法基础和问题求解;   
-  Data Structures 数据结构; Operating Systems Concepts 操作系统概念; Human-Centric Computing  人机计算
-  Calculus 微积分; Introduce to Discrete Mathematics 离散数学导论
-  </small></description>
-  
-- <datetime>2016 - 2018</datetime> <head_>**英国利物浦大学**</head_>, 互联网计算 （理学学士） 
-  <description>大三（英制 Year 2）成绩: 85.5% (排名：2/200+)</description>
-    <description><small>核心课程: Software Engineering 软件工程; Database Development 数据库开发;   
-	Internet Principles 互联网原理（OSI导论）; Advanced Object-Oriented Programming  面向对象编程（Java）;  
-	Distributed Systems 分布式系统; Software Development Tools 软件开发工具（主要关于测试）;  
-	Advanced Object-Oriented C Programming (C++/Objective-C) 面向对象编程（C++/Objective-C）; Principles of C && Memory Management C语言和内存管理;   
-  </small></description>
+- <datetime>2016 - 2018</datetime> <head_>**英国利物浦大学**</head_>, 互联网计算 （理学学士）
+  <description>大三（英制 Year 2）成绩: 85.5% </description>
+    <description>
+    <small>
+    核心课程: 软件工程;  数据库开发; 网络原理（OSI导论）; 面向对象编程; 分布式系统原理; 软件开发工具（主要关于测试）;  
+       C语言和内存管理; iOS编程 (Swift); 知识表达和推理 (Modal Logic 和 Descriptive Logic);   
+       多代理系统 (MARs); E-commerce (拍卖机制, RSA, DH密钥交换, 椭圆曲线加密)  
+    </small>
+  </description>
+
+- <datetime>2014 - 2016</datetime> <head_>**西交利物浦大学**</head_>, 信息与计算科学 （理学学士）
+  <description>
+  <small>
+    核心课程: 计算机系统; 数据库导论; Java编程导论;  算法基础和问题求解; 数据结构; 操作系统概念; 微积分;  离散数学导论
+  </small>
+  </description>
 
 奖励和荣誉
 --------
@@ -41,7 +42,14 @@
 
 
 项目
-----
+---
+- <datetime>2017.09 - 2018.05</datetime> <head_>**2维情况下对集群协议(Population Protocol)和网络构造协议(Network Constructor)的模拟，可视化和实验分析**</head_>  
+<a style="margin-left:9.8em"/><head_> *(https://github.com/billweasley/Bsc-dissertation)*</head_>
+<description>
+Population protocol is a theoretical model for distributed computation. The model contains a collection of indistinguishable agents. The network constructor and the terminating grid network constructor are some models extending population protocol but with a different aim to construct network in different topologies.  
+  <ul style="margin-left:9.8em"> <li>使用的技术:  Kotlin, GraphStream</li></ul>
+</description>
+
 - <datetime>2017.02 - 2017.02</datetime> <head_>**电视金鹰奖自动投票脚本** *(https://github.com/billweasley/AutoVoter)*</head_>
 <description>
 需求来源于某学姐，她是某影星的迷妹。
@@ -54,7 +62,7 @@
 针对于英国大学学生和教师的图书交换平台。此为大三小组项目（小组9人）。
 <ul style="margin-left:9.8em">
   <li> 使用的技术: Play! framework 2 (以Java为主) + MySQL＋ Nginx + 亚马逊 AWS </li>
-  <li> 我的职责: 
+  <li> 我的职责:
 		<ul>
 		 <li> 团队负责人;</li>
 		 <li> 全部服务器后端的设计和实现，包括：</li>
@@ -90,35 +98,3 @@ The 1st Conference on Emerging Topics in Interactive Systems (ETIS 2016), XJTLU
 The 8th International Conference on Information Technology in Medicine and Education (ITME 2016, EI Indexed)    
 Yuan Gao, **Haoxuan Wang** and Xin Huang
 </description>
-
-
-技能
---------
-
-★ *表示熟悉程度.* ★ *越多表示我对该项越熟悉.*
-
-#### *编程语言*
--  Java　(包括　Java　8)　★★★★✰
--  C　★★★✰✰
--  SQL ★★★✰✰
--  Objective-C　★✰✰✰✰
--  x86 C-inline Assembly ★✰✰✰✰
--  C++ (就我的水平来说, a better C with classes) ✰✰✰✰✰
-
-#### *标记 / 模板语言*
--  HTML ★★★✰✰
--  XML ★★★✰✰
--  CSS ★✰✰✰✰
--  Markdown ★★★✰✰
--  LaTeX ✰✰✰✰✰
-
-#### *框架 & 其它*
--  Play! framework 2 (using Java) ★★★✰✰
--  Ebean ORM   ★★✰✰✰
--  jQuery ★✰✰✰✰
--  Ant ★★★✰✰
--  JUnit ★★★✰✰
--  Git   ★★✰✰✰
--  Valgrind ★★★✰✰
--  gcc/clang/g++/clang++/javac ★✰✰✰✰
--  Google + Stackoverflow ★★★★★

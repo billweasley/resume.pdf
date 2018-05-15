@@ -13,23 +13,22 @@
 Education
 --------
 
-- Estimated Overall GPA 3.70 / 4.00, Expected First Honor Degree.  
+- Estimated Overall GPA 3.80 / 4.00, Expected First Honors Degree.  
+
+- <datetime>2016 - 2018</datetime> <head_>**University of Liverpool**</head_>, Bsc Internet Computing
+  <description>Year 2 overall: 85.5% </description>
+    <description><small>Core subjects: Software Engineering; Database Concepts; Internet Principles (Introduce to OSI layers); Object-Oriented Programming; Distributed Systems Concepts; Software Development Tools (Mainly about testing); Principles of C && Memory Management; iOS Programming (Swift); Knowledge Representation & Reasoning;
+    Multi-agent System; E-commerce (Auction and Security [RSA, Diffie–Hellman key exchange, Elliptic Curve Encryption]);
+  </small></description>
 
 - <datetime>2014 - 2016</datetime> <head_>**Xi'an Jiaotong-Liverpool University**</head_>, Bsc Information and Computing Science
-  <description>Year 0 overall grade: 66%; Year 1 overall: 71% (Ranking：7 out of 65+)</description>
   <description><small>Core subjects: Computer Systems; Introduction to Databases;   
   Introduction to Programming in Java; Algorithmic Foundations and Problem Solving;   
   Data Structures; Operating Systems Concepts; Human-Centric Computing  
   Calculus; Introduce to Discrete Mathematics  
   </small></description>
-  
-- <datetime>2016 - 2018</datetime> <head_>**University of Liverpool**</head_>, Bsc Internet Computing 
-  <description>Year 2 overall: 85.5% (Ranking：2 out of 200+)</description>
-    <description><small>Core subjects: Software Engineering; Database Development;   
-	Internet Principles (Introduce to OSI layers); Advanced Object-Oriented Programming (in Java);  
-	Distributed Systems; Software Development Tools (Mainly about testing);  
-	Advanced Object-Oriented C Programming (C++/Objective-C); Principles of C && Memory Management;   
-  </small></description>
+
+
 
 Honors and Awards
 --------
@@ -42,6 +41,12 @@ Honors and Awards
 
 Projects
 --------
+- <datetime>2017.09 - 2018.05</datetime> <head_>**Simulation, Visualization and Experimental Analysis for Population Protocols and Network Constructor**</head_>  
+<a style="margin-left:9.8em"/><head_>**in 2-Dimension** *(https://github.com/billweasley/Bsc-dissertation)*</head_>
+<description>
+Population protocol is a theoretical model for distributed computation. The model contains a collection of indistinguishable agents.  The network constructor and the terminating grid network constructor are some models extending population protocol but with a different aim to construct network in different topologies.  
+  <ul style="margin-left:9.8em"> <li>Technology in use: Kotlin, GraphStream</li></ul>
+</description>
 
 - <datetime>2017.02 - 2017.02</datetime> <head_>**An automatic voter for Chinese TV Eagle Prize** *(https://github.com/billweasley/AutoVoter)*</head_>
 <description>
@@ -56,7 +61,7 @@ A book swap platform targeted for UK college teachers and students.
 This is the second year group project (in a group of 9 people).
 <ul style="margin-left:9.8em">
   <li> Technology in use: Play! framework 2 (Mainly in Java) + MySQL＋ Nginx + Amazon AWS </li>
-  <li> My responsibilities: 
+  <li> My responsibilities:
 		<ul>
 		 <li> General Team leader;</li>
 		 <li> The entire design and implementation of server backend including </li>
@@ -91,37 +96,3 @@ The 1st Conference on Emerging Topics in Interactive Systems (ETIS 2016), XJTLU
 The 8th International Conference on Information Technology in Medicine and Education (ITME 2016, EI Indexed)    
 Yuan Gao, **Haoxuan Wang** and Xin Huang
 </description>
-
-
-Skills
---------
-
-★ *indicates the proficiency. The more* ★ *appears, the more proficiency I have on the item.*
-
-#### *Programming Languages*
--  Java　(including　Java　8)　★★★★✰
--  C　★★★✰✰
--  SQL ★★★✰✰
--  Objective-C　★✰✰✰✰
--  x86 C-inline Assembly ★✰✰✰✰
--  C++ (For my level, a better C with classes) ✰✰✰✰✰
-
-#### *Markup / Templating Languages*
--  HTML ★★★✰✰
--  XML ★★★✰✰
--  CSS ★✰✰✰✰
--  Markdown ★★★✰✰
--  LaTeX ✰✰✰✰✰
-
-#### *Frameworks & Others*
--  Ant ★★★✰✰
--  JUnit ★★★✰✰
--  Fiddler ★✰✰✰✰
--  Selenium in Java ★✰✰✰✰
--  Play! framework 2 (using Java) ★★★✰✰
--  Ebean ORM   ★★✰✰✰
--  jQuery ★✰✰✰✰
--  Git   ★★✰✰✰
--  Valgrind ★★★✰✰
--  gcc/clang/g++/clang++/javac ★✰✰✰✰
--  Google + Stackoverflow ★★★★★
