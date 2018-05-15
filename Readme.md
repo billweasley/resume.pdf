@@ -1,8 +1,3 @@
-MY Resumé
--------------
-
-**Not available for hire**
-
 About
 ------
 
