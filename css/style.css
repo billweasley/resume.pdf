@@ -36,6 +36,7 @@ h1 {
 ul {
   list-style-type: circle;
   margin-left: -0.4em;
+  mergin-up: 0.4em;
 }
 
 li {
@@ -73,6 +74,7 @@ li em {
 datetime {
   display: inline-block;
   width: 9em;
+  float: left;
 }
 
 head_ {
@@ -85,11 +87,23 @@ lang {
   font-size: .8em;
   border-bottom: 1px dotted #ddd;
 }
-
+to_right{
+ float: right;
+}
+to_left{
+ float: left;
+}
+description_nleft {
+  margin-top: 1em; /* away from big title, looks like a block*/
+  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+}
 description {
   margin-top: .5em; /* away from big title, looks like a block*/
   display: block;
   margin-left: 9.8em;  /* 9 + .5 + .3*/
+}
+adjestl{
+  margin-left: 5em; 
 }
 desline {
   margin-left: 15em;

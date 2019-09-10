@@ -1,98 +1,77 @@
-# Haoxuan (Horace) Wang
-
-
--  Phone: China:　[+86 18622468042](tel://008618622468042)  　|　　UK: 　[+44 (0)7774857427](tel://00447774857427)
--  Email:
-　[sghwan26@student.liverpool.ac.uk](sghwan26@student.liverpool.ac.uk)　|　[billweasley20092@gmail.com](billweasley20092@gmail.com)
-
--  Github: 　[https://github.com/billweasley](https://github.com/billweasley)
-
--  Linkedin:　 [https://www.linkedin.com/in/horace-haoxuan-wang/](https://www.linkedin.com/in/horace-haoxuan-wang)
-
-
+# <to_left>Haoxuan (Horace) Wang</to_left>  <description_nleft><to_right>[ +44 (0)7774857427](tel://00447774857427)</to_right><br> <to_right>[billweasley20092@gmail.com](billweasley20092@gmail.com) </to_right><br><to_right><b>Github: </b> [https://github.com/billweasley](https://github.com/billweasley)</to_right><br><to_right><b>Linkedin: </b> [https://www.linkedin.com/in/horace-haoxuan-wang](https://www.linkedin.com/in/horace-haoxuan-wang)</to_right></description_nleft>    
 Education
 --------
+- <datetime>2018 - 2019 (Expected)</datetime> <head_>**University College London**</head_>, Msc Web Science and Big Data Analytics
+    <description><small>Core subjects: Probability Graphical Models; Introduction to Deep Learning; Complex Network; Affective Computing; Statistical NLP; Information Retrieval; Multi-agent AI, Applied Machine Learning</small></description>
 
-- Estimated Overall GPA 3.80 / 4.00, Expected First Honors Degree.  
-
-- <datetime>2016 - 2018</datetime> <head_>**University of Liverpool**</head_>, Bsc Internet Computing
-  <description>Year 2 overall: 85.5% </description>
-    <description><small>Core subjects: Software Engineering; Database Concepts; Internet Principles (Introduce to OSI layers); Object-Oriented Programming; Distributed Systems Concepts; Software Development Tools (Mainly about testing); Principles of C && Memory Management; iOS Programming (Swift); Knowledge Representation & Reasoning;
-    Multi-agent System; E-commerce (Auction and Security [RSA, Diffie–Hellman key exchange, Elliptic Curve Encryption]);
+- <datetime>2016 - 2018</datetime> <head_>**University of Liverpool**</head_>, Bsc Internet Computing, 1st Class with an average of 80.75 %
+    <description><small>Core subjects: Software Engineering; Database Concepts; Internet Principles (Introduce to OSI layers); Object-Oriented Programming; Distributed Systems Concepts; Software Development Tools (Mainly about testing); Principles of C && Memory Management; iOS Programming (Swift); Knowledge Representation & Reasoning; E-commerce (Auction and Security [RSA, Diffie–Hellman key exchange, Elliptic Curve Encryption]);
   </small></description>
 
 - <datetime>2014 - 2016</datetime> <head_>**Xi'an Jiaotong-Liverpool University**</head_>, Bsc Information and Computing Science
-  <description><small>Core subjects: Computer Systems; Introduction to Databases;   
-  Introduction to Programming in Java; Algorithmic Foundations and Problem Solving;   
-  Data Structures; Operating Systems Concepts; Human-Centric Computing  
-  Calculus; Introduce to Discrete Mathematics  
+  <description>2+2 pathway routine (first 2 years in Suzhou, China and final 2 years in Liverpool, UK), dual degree.</description>
+  <description><small>Core subjects: Computer Systems; Introduction to Databases; Introduction to Programming in Java; Algorithmic Foundations and Problem Solving; Data Structures; Operating Systems Concepts; Human-Centric Computing; Calculus; Introduce to Discrete Mathematics  
   </small></description>
-
-
-
-Honors and Awards
+  
+Work Experiences
 --------
-
-- <datetime>October 2015</datetime> <head_>**The National Endeavor Scholarship** </head_>
-<description>Scholarship from Chinese Government.</description>
-
-- <datetime>July 2015</datetime> <head_>**XJTLU Academic Achievement Award** </head_>
-<description>Progression scholarships are awarded based upon a student’s average marks in the previous academic session.</description>
+- <datetime>2019.08 - Now</datetime> <head_>**Barclays PLC UK**</head_> Technology Graduate 
+<description><small>1st Rotation: Barclaycard Backend Shared Service Web API Development</small></description>
 
 Projects
 --------
+- <datetime>2019.06 - 2019.09</datetime> <head_>**Project Internship (Master Degree Thesis) @ Astroscreen** </head_>
+<description><small>
+Social media posting language source identification (tweets and gabs) project.
+Finished a crawler for collecting language (posts) data from Gab.com, pre-processed data using Regular Expression, built models for classifying the source of these data by fine-turning BERT and XLNet,
+visualised results using t-SNE, did "leave-one-hashtag-out" cross-validation and evaluated models using some common matrics (Accuracy, F1 score, Confusion Matrix, Matthews Correlation Coefficient).
+<ul style="margin-left:9.8em"> <li>Python, Karas, Tensorflow, MulticoreTSNE, Matlabplot</li></ul></small>
+</small>
+</description>
+
+- <datetime>2019.03 - 2019.04</datetime> <head_>**Information Retrieval Course Project** </head_>
+<description><small>
+Multiple practices using Fact Extraction and Verification (FEVER) dataset。  
+Including word counting and verfication of zip's law; implementation of vector space information retreive (TF-IDF); inplementation of query likelihood document retreive (applying Laplace Smoothing，Jelinek-Mercer Smoothing and Dirichlet Smoothing, respectively); implementation logistic regression to predict senatance relevance; implementation of Precious, Recall and F score function; using nenral network to predict document truthness.
+</small>
+</description>
+
+- <datetime>2019.02 - 2019.03</datetime> <head_>**Integrating BERT and Embeddings into CommonsenseQA Chanllenge** </head_>
+<description><small>
+We fine-turned Google BERT to CommonsenseQA chanllenge 1.0 (with 3 options of each question) and then integrated Conceptnet Numberbatch and ELMo embeddings attempting to improve the model proformance. The chanllenge involves a set of MCQ questions that requiring human commonsense knowledge.
+We achieved 68.79% of accuracy on validation set using BERT + ELMo (soly BERT : 67.47%; BERT + Numberbatch: 67.68%).
+  <ul style="margin-left:9.8em"> <li>Python, Keras</li></ul></small>
+</description>
+
+- <datetime>2019.02 - 2019.02</datetime> <head_>**"Recogising food-stimalated emotions" experimental labelling platform** </head_>
+<description><small>
+A simple web app that we used to collect experimental data (food taste affection).  An online demo could be visited at https://affective-computing-data-collection-dist.cfapps.io/sessions （Offine now, because out of charge）.
+I finished this on own on a weekend. This is a draft version of it (we then removed the personal info and produced a local version of it).
+  <ul style="margin-left:9.8em"> <li>Bootstrap, JQuery, Recordrtc.js, Java, Play! framework 2, PostgreSQL, Cloud Foundry</li></ul></small>
+</description>
+
+- <datetime>2019.02 - 2019.03</datetime> <head_>**Maximise number of clicks through AD CTR prediction and bidding functions selection** </head_>
+<description><small>
+Pedicting whether user would click the online AD (advertisement) on a AD real-time DSP bidding history dataset. The prediction results then were inputted to a bidding strategy function to predict a bid price. The total pay price is bounded by a constant total number. The dataset is unbalanced with only about 3000 positive samples (clicks) among more than 300000 bidding records. We tried many different
+different models (XGBoosting, Shallow NN, Logistic Regression) and some bidding stratgies. We also applied downsampling and re-calibration techniques in the project. We did a competition in a leaderboard with other students (30 groups) and ranked a 3rd place
+(with 185 clicks and the first 2 are with 186 clicks). 
+  <ul style="margin-left:9.8em"> <li>Python, Karas, XGBoost, Numpy, Pandas, Matlabplot</li></ul></small>
+</description>
+
+- <datetime>2018.12 - 2019.01</datetime> <head_>**Is a uploader with more uploaded videos also more popular? A network based analysis on bilibili** </head_>
+<description><small>
+Bilibili is one of largest Chinese video sharing website.  The project aims to examine some properties (degree distribution and assortative coefficient) 
+of the user (uploader) following relation network and then attempts to check if they are related
+between the number of archives (that reflecting how the user active is) and the
+in-coming degree of the nodes (that reflecting how popular the user is) through visualisation of the network.
+A crawler was written in the project to accuire data from Bilibili's RESTful API.
+  <ul style="margin-left:9.8em"> <li>Python, networkx, graph-tool, MySQL</li></ul></small>
+</description>
+
 - <datetime>2017.09 - 2018.05</datetime> <head_>**Simulation, Visualization and Experimental Analysis for Population Protocols and Network Constructor**</head_>  
-<a style="margin-left:9.8em"/><head_>**in 2-Dimension** *(https://github.com/billweasley/Bsc-dissertation)*</head_>
-<description>
+<head_>**in 2-Dimension** *(https://github.com/billweasley/Bsc-dissertation)*</head_>
+<description><small>
 Population protocol is a theoretical model for distributed computation. The model contains a collection of indistinguishable agents.  The network constructor and the terminating grid network constructor are some models extending population protocol but with a different aim to construct network in different topologies.  
-  <ul style="margin-left:9.8em"> <li>Technology in use: Kotlin, GraphStream</li></ul>
+  <ul style="margin-left:9.8em"> <li>Kotlin, GraphStream</li></ul></small>
 </description>
 
-- <datetime>2017.02 - 2017.02</datetime> <head_>**An automatic voter for Chinese TV Eagle Prize** *(https://github.com/billweasley/AutoVoter)*</head_>
-<description>
-The idea starts from a senior female class mate. She is mad with a TV star.
-The original page uses a large chunk of AJAX script, which is hardly to find those dedicated information, so for this situation I used selenium drivers to simulate the login process.
-  <ul style="margin-left:9.8em"> <li>Technology in use: Java + Selenium in Java</li></ul>
-</description>
-
-- <datetime>2017.04 - 2017.05</datetime> <head_>**bookswop.me** *(https://github.com/billweasley/Distributed_library_Release)* </head_>
-<description>
-A book swap platform targeted for UK college teachers and students.  
-This is the second year group project (in a group of 9 people).
-<ul style="margin-left:9.8em">
-  <li> Technology in use: Play! framework 2 (Mainly in Java) + MySQL＋ Nginx + Amazon AWS </li>
-  <li> My responsibilities:
-		<ul>
-		 <li> General Team leader;</li>
-		 <li> The entire design and implementation of server backend including </li>
-		 <ul>
-			<li> A timing token-based Single Sign On Service;</li>
-			<li> Server RESTful API design and implementation;</li>
-			<li> Geolocation based range searching;</li>
-			<li> Security mechanism ( HTTPs (TLS v1.2) + AES + bCrypt).</li></ul>
-		<li> Database design and development;</li>
-		<li> Server manipulation on Amazon AWS Instance.</li></ul></li>
-</ul>
-</description>
-
-- <datetime>2016.08 - 2016.09</datetime> <head_>**A crawler for XJTLU learning platform** *(http://shellcottage.me/firstSpider)*</head_>
-<description>
-A Java crawler that automatically back up all the learning resources from the XJTLU ICE learning platform.
-  <ul style="margin-left:9.8em"> <li>Technology in use: JSoup + Java Swing</li></ul>
-</description>
-
-Publications
---------
-
-- <datetime>August 2016</datetime> <head_>**Bluetooth Based Software Defined Function in Internet of Things** </head_>
-<description>
-The 1st Conference on Emerging Topics in Interactive Systems (ETIS 2016), XJTLU    
-**Haoxuan Wang**, Yuan Gao, Kai Zheng, Jie Zhang, Yang Du and Xin Huang
-</description>
-
-
-- <datetime>December 2016</datetime> <head_>**Applying Docker Swarm Cluster into Software Defined Internet of Things** </head_>
-<description>
-The 8th International Conference on Information Technology in Medicine and Education (ITME 2016, EI Indexed)    
-Yuan Gao, **Haoxuan Wang** and Xin Huang
-</description>

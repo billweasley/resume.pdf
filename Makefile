@@ -1,6 +1,6 @@
 # vim:set noet:
 
-all: pdf/resume_cn.pdf pdf/resume_en.pdf
+all: pdf/resume_en.pdf pdf/resume_cn.pdf 
 
 pdf/resume_cn.pdf: markdown/resume_cn.md Makefile
 	md2pdf markdown/resume_cn.md -s css/style.css -o html/resume_cn.html
@@ -8,4 +8,4 @@ pdf/resume_cn.pdf: markdown/resume_cn.md Makefile
 
 pdf/resume_en.pdf: markdown/resume_en.md Makefile
 	md2pdf markdown/resume_en.md -s css/style.css -o html/resume_en.html
-	xvfb-run -a -- /usr/bin/wkhtmltopdf --zoom 0.75 'html/resume_en.html' 'pdf/resume_en.pdf'
+	xvfb-run -a -- /usr/bin/wkhtmltopdf --zoom 0.4 'html/resume_en.html' 'pdf/resume_en.pdf'

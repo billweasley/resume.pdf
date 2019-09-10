@@ -41,6 +41,7 @@ h1 {
 ul {
   list-style-type: circle;
   margin-left: -0.4em;
+  mergin-up: 0.4em;
 }
 
 li {
@@ -78,6 +79,7 @@ li em {
 datetime {
   display: inline-block;
   width: 9em;
+  float: left;
 }
 
 head_ {
@@ -90,11 +92,23 @@ lang {
   font-size: .8em;
   border-bottom: 1px dotted #ddd;
 }
-
+to_right{
+ float: right;
+}
+to_left{
+ float: left;
+}
+description_nleft {
+  margin-top: 1em; /* away from big title, looks like a block*/
+  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+}
 description {
   margin-top: .5em; /* away from big title, looks like a block*/
   display: block;
   margin-left: 9.8em;  /* 9 + .5 + .3*/
+}
+adjestl{
+  margin-left: 5em; 
 }
 desline {
   margin-left: 15em;
@@ -117,65 +131,72 @@ footnote {
   </style>
 </head>
 <body>
-  <h1>王昊轩</h1>
-
-<ul>
-<li> 电话: 中国:　<a href="tel://008618622468042">+86 18622468042</a>  　|　　英国: 　<a href="tel://00447774857427">+44 (0)7774857427</a></li>
-<li><p>Email:
-　<a href="sghwan26@student.liverpool.ac.uk">sghwan26@student.liverpool.ac.uk</a>　|　<a href="billweasley20092@gmail.com">billweasley20092@gmail.com</a></p></li>
-<li><p>Github: 　<a href="https://github.com/billweasley">https://github.com/billweasley</a></p></li>
-<li><p>领英:　 <a href="https://www.linkedin.com/in/horace-haoxuan-wang">https://www.linkedin.com/in/horace-haoxuan-wang/</a></p></li>
-</ul>
+  <h1><to_left>王昊轩</to_left><description_nleft><to_right><a href="tel://008618622468042"> +86 18622468042</a></to_right><br> <to_right><a href="billweasley20092@gmail.com">billweasley20092@gmail.com</a> </to_right><br><to_right><b>Github: </b> <a href="https://github.com/billweasley">https://github.com/billweasley</a></to_right><br><to_right><b>领英: </b> <a href="https://www.linkedin.com/in/horace-haoxuan-wang">https://www.linkedin.com/in/horace-haoxuan-wang</a></to_right></description_nleft></h1>
 
 <h2>教育背景</h2>
 
 <ul>
-<li><p>预估 GPA 3.80 / 4.00, 预计可获得一等荣誉学士学位.</p></li>
-<li><p><datetime>2016 - 2018</datetime> <head_><strong>英国利物浦大学</strong></head_>, 互联网计算 （理学学士）
-<description>大三（英制 Year 2）成绩: 85.5% </description>
+<li><p><datetime>2018 - 2019 (预期)</datetime> <head_><strong>伦敦大学学院</strong></head_>, 网络科学和大数据分析 （硕士）
+<description><small>核心课程: 概率图模型; 复杂网络; 情感计算; NLP; 信息检索; 多智能体AI; 应用机器学习; 深度学习导论</small></description></p></li>
+<li><p><datetime>2016 - 2018</datetime> <head_><strong>英国利物浦大学</strong></head_>, 互联网计算 （理学学士），一等荣誉学士学位 (80.75 % ≈ GPA 3.8 / 4.0)
 <description>
 <small>
-核心课程: 软件工程;  数据库开发; 网络原理（OSI导论）; 面向对象编程; 分布式系统原理; 软件开发工具（主要关于测试）;<br>
-   C语言和内存管理; iOS编程 (Swift); 知识表达和推理 (Modal Logic 和 Descriptive Logic);<br>
-   多代理系统 (MARs); E-commerce (拍卖机制, RSA, DH密钥交换, 椭圆曲线加密)<br>
+核心课程: 软件工程;  数据库开发; 网络原理（OSI导论）; 面向对象编程; 分布式系统原理; 软件开发工具（主要关于测试）;  C语言和内存管理; iOS编程 (Swift); 知识表达和推理 (Modal Logic 和 Descriptive Logic); 多代理系统 (MARs); E-commerce (拍卖机制, RSA, DH密钥交换, 椭圆曲线加密)<br>
 </small>
 </description></p></li>
 <li><p><datetime>2014 - 2016</datetime> <head_><strong>西交利物浦大学</strong></head_>, 信息与计算科学 （理学学士）
 <description>
 <small>
-核心课程: 计算机系统; 数据库导论; Java编程导论;  算法基础和问题求解; 数据结构; 操作系统概念; 微积分;  离散数学导论
+核心课程: 计算机系统; 数据库导论; Java编程导论; 算法基础和问题求解; 数据结构; 操作系统概念; 微积分;  离散数学导论
 </small>
 </description></p></li>
-</ul>
-
-<h2>奖励和荣誉</h2>
-
-<ul>
-<li><p><datetime>2015年 10月</datetime> <head_><strong>国家励志奖学金</strong> </head_></p></li>
-<li><p><datetime>2015年 7月</datetime> <head_><strong>西浦学业成就奖（升学奖学金）</strong> </head_>
-<description>升学奖学金基于学生前一学年的均分颁发。</description></p></li>
 </ul>
 
 <h2>项目</h2>
 
 <ul>
+<li><p><datetime>2019.03 - 2019.04</datetime> <head_><strong>信息检索课程项目</strong> </head_>
+<description><small>
+使用Fact Extraction and Verification (FEVER)数据集进行了多项练习。<br>
+包括词频统计并验证zipf&#39;s law;实现向量空间文档索引（TF-IDF); 实现查询似然（Query likelihood）文档索引（并分别应用Laplace平滑，Jelinek-Mercer平滑和Dirichlet平滑），实现逻辑回归比较句子相似性; 实现Precious, Recall和F score函数; 使用神经网络检验文档Truthfulness。
+</small>
+</description></p></li>
+<li><p><datetime>2019.02 - 2019.03</datetime> <head_><strong>Integrating BERT and Embeddings into CommonsenseQA Chanllenge</strong> </head_>
+<description><small>
+我们在CommonsenseQA 1.0数据集（3选项）上fine-turn了Google BERT并尝试整合了Conceptnet Numberbatch and ELMo 词嵌入来尝试提高模型性能。这个数据集包含一组需要人类常识来回答的多选题。<br>
+使用BERT+ELMo的组合我们在验证集上取得了68.79%的准确率（BERT: 67.47%; BERT + Numberbatch: 67.68%)。多次实验取最佳结果
+<ul style="margin-left:9.8em"> <li>Python, Keras</li></ul></small>
+</description></p></li>
+<li><p><datetime>2019.02 - 2019.02</datetime> <head_><strong>&quot;识别由食物引起的情感&quot; 项目标注平台</strong> </head_>
+<description><small>
+一个用来收集数据（食物味觉情感）的简单的自适应web app。这个网站曾有个demo运行在<a href="https://affective-computing-data-collection-dist.cfapps.io/sessions">https://affective-computing-data-collection-dist.cfapps.io/sessions</a> （当前因云服务费用用尽已下线）
+本项目是我在一个周末完成的，是这个项目的草稿版本（后续团队中其他人移除了个人信息并创建了一个本地版本）
+<ul style="margin-left:9.8em"> <li>Bootstrap, JQuery, Recordrtc.js, Java, Play! framework 2, PostgreSQL, Cloud Foundry</li></ul></small>
+</description></p></li>
+<li><p><datetime>2019.02 - 2019.03</datetime> <head_><strong>通过CTR预测和拍卖函数选择以最大化广告点击数</strong> </head_>
+<description><small>
+在一个实时广告需求方平台拍卖的历史数据库中预测是否用户想要点击在线广告。预测结果作为一个拍卖竞价函数的输入去预测出价价格。同时总出价会有一个最大限制。数据集是非平衡数据集（超过300000条拍卖纪录中约有3000个正样本（点击数））。我们尝试了许多不同的模型（XGBoosting, 浅层nn, 逻辑回归）和一些竞价函数。我们也在这个项目应用了下采样和重矫正技巧。我们与其它学生在leaderboard进行了比赛（共30组学生），取得了第3名。<br>
+（我们取得了185个点击，前两名均取得了186个点击）。
+<ul style="margin-left:9.8em"> <li>Python, Karas, XGBoost, Numpy, Pandas, Matlabplot</li></ul></small>
+</description></p></li>
+<li><p><datetime>2018.12 - 2019.01</datetime> <head_><strong>上传越多的up主越受欢迎吗？一个对bilibili基于网络的分析</strong> </head_>
+<description><small>
+该项目检验了一些b站用户（up主）关注网络的属性（度分布和assortative系数），并通过网络可视化检查了是否上传视频数量（反映活跃度）和节点入度（反映受欢迎程度）是相关的。
+过程中写了一个爬虫来通过b站的RESTful API抓取数据。
+<ul style="margin-left:9.8em"> <li>Python, networkx, graph-tool, MySQL</li></ul></small>
+</description></p></li>
 <li><p><datetime>2017.09 - 2018.05</datetime> <head_><strong>2维情况下对集群协议(Population Protocol)和网络构造协议(Network Constructor)的模拟，可视化和实验分析</strong></head_><br>
 <a style="margin-left:9.8em"/><head_> <em>(<a href="https://github.com/billweasley/Bsc-dissertation">https://github.com/billweasley/Bsc-dissertation</a>)</em></head_>
-<description>
-Population protocol is a theoretical model for distributed computation. The model contains a collection of indistinguishable agents. The network constructor and the terminating grid network constructor are some models extending population protocol but with a different aim to construct network in different topologies.<br>
-<ul style="margin-left:9.8em"> <li>使用的技术:  Kotlin, GraphStream</li></ul>
-</description></p></li>
-<li><p><datetime>2017.02 - 2017.02</datetime> <head_><strong>电视金鹰奖自动投票脚本</strong> <em>(<a href="https://github.com/billweasley/AutoVoter">https://github.com/billweasley/AutoVoter</a>)</em></head_>
-<description>
-需求来源于某学姐，她是某影星的迷妹。
-原页面使用了大量Ajax调用和脚本混淆，较难获得登陆cookie。因而我通过selenium模拟了登录过程，模拟登陆后定期执行投票。
-<ul style="margin-left:9.8em"> <li>使用的技术:  Selenium in Java</li></ul>
+<description><small>
+集群协议（Population protocol）是一个分布式计算理论模型。该模型包含一组不可区分的agent. Network constructor 和 Terminating grid network constructor 是对集群协议的扩展，不同之处在于其目标在于构建不同拓扑的网络而非计算函数。</p>
+
+<p><ul style="margin-left:9.8em"> <li> TornadoFX (JavaFX for Kotlin) + Kotlin + Gradle + GraphStream</li></ul></small>
 </description></p></li>
 <li><p><datetime>2017.04 - 2017.05</datetime> <head_><strong>bookswop.me</strong> <em>(<a href="https://github.com/billweasley/Distributed_library_Release">https://github.com/billweasley/Distributed_library_Release</a>)</em> </head_>
-<description>
+<description><small>
 针对于英国大学学生和教师的图书交换平台。此为大三小组项目（小组9人）。
 <ul style="margin-left:9.8em">
-<li> 使用的技术: Play! framework 2 (以Java为主) + MySQL＋ Nginx + 亚马逊 AWS </li>
+<li> Play! framework 2 (以Java为主) + MySQL＋ Nginx + 亚马逊 AWS </li>
 <li> 我的职责:
     <ul>
      <li> 团队负责人;</li>
@@ -187,28 +208,28 @@ Population protocol is a theoretical model for distributed computation. The mode
         <li> 强安全机制( HTTPs (TLS v1.2) + AES + bCrypt).</li></ul>
     <li> 数据库设计和实现;</li>
     <li> 亚马逊 AWS 服务器实例的设置和维护.</li></ul></li>
-</ul>
+</ul></small>
 </description></p></li>
 <li><p><datetime>2016.08 - 2016.09</datetime> <head_><strong>西浦ICE学习平台爬虫</strong> <em>(<a href="http://shellcottage.me/firstSpider">http://shellcottage.me/firstSpider</a>)</em></head_>
-<description>
+<description><small>
 一个可以自动备份西浦ICE学习平台资料的爬虫。
-<ul style="margin-left:9.8em"> <li>使用的技术: JSoup + Java Swing</li></ul>
+<ul style="margin-left:9.8em"> <li>使用的技术: JSoup + Java Swing</li></ul></small>
 </description></p></li>
+</ul>
+
+<h2>奖励和荣誉</h2>
+
+<ul>
+<li><p><datetime>2015年 10月</datetime> <head_><strong>国家励志奖学金</strong> </head_></p></li>
+<li><p><datetime>2015年 7月</datetime> <head_><strong>西浦学业成就奖（升学奖学金）</strong> </head_></p></li>
 </ul>
 
 <h2>论文发表</h2>
 
 <ul>
-<li><p><datetime>2016 年 8月</datetime> <head_><strong>Bluetooth Based Software Defined Function in Internet of Things</strong> </head_>
-<description>
-The 1st Conference on Emerging Topics in Interactive Systems (ETIS 2016), XJTLU<br>
-<strong>Haoxuan Wang</strong>, Yuan Gao, Kai Zheng, Jie Zhang, Yang Du and Xin Huang
-</description></p></li>
-<li><p><datetime>2016年 12月</datetime> <head_><strong>Applying Docker Swarm Cluster into Software Defined Internet of Things</strong> </head_>
-<description>
-The 8th International Conference on Information Technology in Medicine and Education (ITME 2016, EI Indexed)<br>
-Yuan Gao, <strong>Haoxuan Wang</strong> and Xin Huang
-</description></p></li>
+<li><datetime>2016年 8月</datetime> <head_><strong>Bluetooth Based Software Defined Function in Internet of Things</strong> </head_></li>
+<li><datetime>2016年 12月</datetime> <head_><strong>Applying Docker Swarm Cluster into Software Defined Internet of Things</strong> </head_>
+<br></li>
 </ul>
 
 </body>
