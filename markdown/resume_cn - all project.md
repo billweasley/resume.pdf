@@ -28,9 +28,9 @@
 
 项目
 ---
-- <datetime>2019.06 - 2019.09</datetime> <head_>**项目实习 (研究生学位论文) @ Astroscreen** </head_>
+- <datetime>2019.06 - 2019.09</datetime> <head_>**项目实习 (研究生学问论文) @ Astroscreen** </head_>
 <description><small>
-社交网络语言的来源识别（推特和Gab）
+设计网络语言的来源识别（推特和Gab）
 完成了一个爬虫从Gab.com爬取语言（帖子），使用正则表达式预处理数据，fine turning BERT 和 XLNet来分类文本来源，并将输出使用
 t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系数评价模型。
 <ul style="margin-left:9.8em"> <li>Python, Karas, Tensorflow, MulticoreTSNE, Matlabplot</li></ul></small>
@@ -75,7 +75,9 @@ t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系�
 - <datetime>2017.09 - 2018.05</datetime> <head_>**2维情况下对集群协议(Population Protocol)和网络构造协议(Network Constructor)的模拟，可视化和实验分析**</head_>  
 <a style="margin-left:9.8em"/><head_> *(https://github.com/billweasley/Bsc-dissertation)*</head_>
 <description><small>
-集群协议（Population protocol）是一个分布式计算理论模型。该模型包含一组不可区分的agent. Network constructor 和 Terminating grid network constructor 是对集群协议的扩展，不同之处在于其目标在于构建不同拓扑的网络而非计算函数。</small>
+集群协议（Population protocol）是一个分布式计算理论模型。该模型包含一组不可区分的agent. Network constructor 和 Terminating grid network constructor 是对集群协议的扩展，不同之处在于其目标在于构建不同拓扑的网络而非计算函数。
+
+  <ul style="margin-left:9.8em"> <li> TornadoFX (JavaFX for Kotlin) + Kotlin + Gradle + GraphStream</li></ul></small>
 </description>
 
 - <datetime>2017.04 - 2017.05</datetime> <head_>**bookswop.me** *(https://github.com/billweasley/Distributed_library_Release)* </head_>
@@ -83,8 +85,20 @@ t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系�
 针对于英国大学学生和教师的图书交换平台。此为大三小组项目（小组9人）。
 <ul style="margin-left:9.8em">
   <li> Play! framework 2 (以Java为主) + MySQL＋ Nginx + 亚马逊 AWS </li>
+  <li> 我的职责:
+		<ul>
+		 <li> 团队负责人;</li>
+		 <li> 全部服务器后端的设计和实现，包括：</li>
+		 <ul>
+			<li> 一个有时间限制的基于token的单点登陆系统;</li>
+			<li> 服务器 RESTful API 设计和实现;</li>
+			<li> 基于地理位置的搜索（搜索使用Google Book API）;</li>
+			<li> 强安全机制( HTTPs (TLS v1.2) + AES + bCrypt).</li></ul>
+		<li> 数据库设计和实现;</li>
+		<li> 亚马逊 AWS 服务器实例的设置和维护.</li></ul></li>
 </ul></small>
 </description>
+
 
 - <datetime>2016.08 - 2016.09</datetime> <head_>**西浦ICE学习平台爬虫** *(http://shellcottage.me/firstSpider)*</head_>
 <description><small>
@@ -99,3 +113,8 @@ t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系�
 
 - <datetime>2015年 7月</datetime> <head_>**西浦学业成就奖（升学奖学金）** </head_>
 
+论文发表
+-------
+- <datetime>2016年 8月</datetime> <head_>**Bluetooth Based Software Defined Function in Internet of Things** </head_>
+- <datetime>2016年 12月</datetime> <head_>**Applying Docker Swarm Cluster into Software Defined Internet of Things** </head_>
+<br>
