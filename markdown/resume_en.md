@@ -1,22 +1,25 @@
 # <to_left>Haoxuan (Horace) Wang</to_left>  <description_nleft><to_right>[ +44 (0)7774857427](tel://00447774857427)</to_right><br> <to_right>[billweasley20092@gmail.com](billweasley20092@gmail.com) </to_right><br><to_right><b>Github: </b> [https://github.com/billweasley](https://github.com/billweasley)</to_right><br><to_right><b>Linkedin: </b> [https://www.linkedin.com/in/horace-haoxuan-wang](https://www.linkedin.com/in/horace-haoxuan-wang)</to_right></description_nleft>    
 Education
 --------
-- <datetime>2018 - 2019 (Expected)</datetime> <head_>**University College London**</head_>, Msc Web Science and Big Data Analytics
+- <datetime>2018 - 2019</datetime> <head_>**University College London**</head_>, MSc Web Science and Big Data Analytics, Distinction
     <description><small>Core subjects: Probability Graphical Models; Introduction to Deep Learning; Complex Network; Affective Computing; Statistical NLP; Information Retrieval; Multi-agent AI, Applied Machine Learning</small></description>
 
-- <datetime>2016 - 2018</datetime> <head_>**University of Liverpool**</head_>, Bsc Internet Computing, 1st Class with an average of 80.75 %
+- <datetime>2016 - 2018</datetime> <head_>**University of Liverpool**</head_>, BSc Internet Computing, First class
     <description><small>Core subjects: Software Engineering; Database Concepts; Internet Principles (Introduce to OSI layers); Object-Oriented Programming; Distributed Systems Concepts; Software Development Tools (Mainly about testing); Principles of C && Memory Management; iOS Programming (Swift); Knowledge Representation & Reasoning; E-commerce (Auction and Security [RSA, Diffie–Hellman key exchange, Elliptic Curve Encryption]);
   </small></description>
 
-- <datetime>2014 - 2016</datetime> <head_>**Xi'an Jiaotong-Liverpool University**</head_>, Bsc Information and Computing Science
+- <datetime>2014 - 2016</datetime> <head_>**Xi'an Jiaotong-Liverpool University**</head_>, BSc Information and Computing Science
   <description>2+2 pathway routine (first 2 years in Suzhou, China and final 2 years in Liverpool, UK), dual degree.</description>
   <description><small>Core subjects: Computer Systems; Introduction to Databases; Introduction to Programming in Java; Algorithmic Foundations and Problem Solving; Data Structures; Operating Systems Concepts; Human-Centric Computing; Calculus; Introduce to Discrete Mathematics  
   </small></description>
   
-Work Experiences
+Work Experience
 --------
 - <datetime>2019.08 - Now</datetime> <head_>**Barclays PLC UK**</head_> Technology Graduate 
-<description><small>1st Rotation: Barclaycard Backend Shared Service Web API Development</small></description>
+<description><small>1st Rotation: Barclaycard Backend Shared Service Web API Development.   
+Tech Stack: Jenkins, Jira, Confluence, BitBucket, OpenShift, GridGain, Maven, Mockito, Spring Boot, AWS  
+Also take some NLP projects.  
+</small></description>
 
 Projects
 --------

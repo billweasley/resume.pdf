@@ -3,18 +3,18 @@
 
 教育背景
 --------  
-- <datetime>2018 - 2019 (预期)</datetime> <head_>**伦敦大学学院**</head_>, 网络科学和大数据分析 （硕士）
+- <datetime>2018 - 2019</datetime> <head_>**伦敦大学学院**</head_>, 网络科学和大数据分析 （硕士），Distinction
     <description><small>核心课程: 概率图模型; 复杂网络; 情感计算; NLP; 信息检索; 多智能体AI; 应用机器学习; 深度学习导论</small></description>
 
 
-- <datetime>2016 - 2018</datetime> <head_>**英国利物浦大学**</head_>, 互联网计算 （理学学士），一等荣誉学士学位 (80.75 % ≈ GPA 3.8 / 4.0)
+- <datetime>2016 - 2018</datetime> <head_>**英国利物浦大学**</head_>, 互联网计算，一等荣誉学士
     <description>
     <small>
     核心课程: 软件工程;  数据库开发; 网络原理（OSI导论）; 面向对象编程; 分布式系统原理; 软件开发工具（主要关于测试）;  C语言和内存管理; iOS编程 (Swift); 知识表达和推理 (Modal Logic 和 Descriptive Logic); 多代理系统 (MARs); E-commerce (拍卖机制, RSA, DH密钥交换, 椭圆曲线加密)  
     </small>
   </description>
 
-- <datetime>2014 - 2016</datetime> <head_>**西交利物浦大学**</head_>, 信息与计算科学 （理学学士）
+- <datetime>2014 - 2016</datetime> <head_>**西交利物浦大学**</head_>, 信息与计算科学
   <description>
   <small>
     核心课程: 计算机系统; 数据库导论; Java编程导论; 算法基础和问题求解; 数据结构; 操作系统概念; 微积分;  离散数学导论
@@ -24,7 +24,9 @@
 工作经历
 --------
 - <datetime>2019.08 - Now</datetime> <head_>**英国巴克莱银行**</head_> 技术管培生 
-<description><small>第一次轮岗: 巴克莱卡后端共享服务Web API开发</small></description>  
+<description><small>第一次轮岗: 巴克莱卡后端共享服务Web API开发。 技术栈： Jenkins, Confluence, Gridgain, BitBucket, OpenShift, Maven, Mockito, Spring Boot, AWS。
+同时也兼做一些NLP项目。
+</small></description>  
 
 项目
 ---
