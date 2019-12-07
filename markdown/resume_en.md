@@ -28,7 +28,7 @@ Projects
 Social media posting language source identification (tweets and gabs) project.
 Finished a crawler for collecting language (posts) data from Gab.com, pre-processed data using Regular Expression, built models for classifying the source of these data by fine-turning BERT and XLNet,
 visualised results using t-SNE, did "leave-one-hashtag-out" cross-validation and evaluated models using some common matrics (Accuracy, F1 score, Confusion Matrix, Matthews Correlation Coefficient).
-<ul style="margin-left:9.8em"> <li>Python, Karas, Tensorflow, MulticoreTSNE, Matlabplot</li></ul></small>
+<ul style="margin-left:9.8em"> <li>Python, Keras, Tensorflow, MulticoreTSNE, Matlabplot</li></ul></small>
 </small>
 </description>
 
@@ -58,7 +58,7 @@ I finished this on own on a weekend. This is a draft version of it (we then remo
 Pedicting whether user would click the online AD (advertisement) on a AD real-time DSP bidding history dataset. The prediction results then were inputted to a bidding strategy function to predict a bid price. The total pay price is bounded by a constant total number. The dataset is unbalanced with only about 3000 positive samples (clicks) among more than 300000 bidding records. We tried many different
 different models (XGBoosting, Shallow NN, Logistic Regression) and some bidding stratgies. We also applied downsampling and re-calibration techniques in the project. We did a competition in a leaderboard with other students (30 groups) and ranked a 3rd place
 (with 185 clicks and the first 2 are with 186 clicks). 
-  <ul style="margin-left:9.8em"> <li>Python, Karas, XGBoost, Numpy, Pandas, Matlabplot</li></ul></small>
+  <ul style="margin-left:9.8em"> <li>Python, Keras, XGBoost, Numpy, Pandas, Matlabplot</li></ul></small>
 </description>
 
 - <datetime>2018.12 - 2019.01</datetime> <head_>**Is a uploader with more uploaded videos also more popular? A network based analysis on bilibili** </head_>

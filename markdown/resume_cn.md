@@ -35,7 +35,7 @@
 社交网络语言的来源识别（推特和Gab）
 完成了一个爬虫从Gab.com爬取语言（帖子），使用正则表达式预处理数据，fine turning BERT 和 XLNet来分类文本来源，并将输出使用
 t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系数评价模型。
-<ul style="margin-left:9.8em"> <li>Python, Karas, Tensorflow, MulticoreTSNE, Matlabplot</li></ul></small>
+<ul style="margin-left:9.8em"> <li>Python, Keras, Tensorflow, MulticoreTSNE, Matlabplot</li></ul></small>
 </small>
 </description>
 
@@ -48,7 +48,7 @@ t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系�
 
 - <datetime>2019.02 - 2019.03</datetime> <head_>**Integrating BERT and Embeddings into CommonsenseQA Chanllenge** </head_>
 <description><small>
-我们在CommonsenseQA 1.0数据集（3选项）上fine-turn了Google BERT并尝试整合了Conceptnet Numberbatch and ELMo 词嵌入来尝试提高模型性能。这个数据集包含一组需要人类常识来回答的多选题。  
+我们在CommonsenseQA 1.0数据集（3选项）上fine-turning了Google BERT并尝试整合了Conceptnet Numberbatch and ELMo 词嵌入来尝试提高模型性能。这个数据集包含一组需要人类常识来回答的多选题。  
 使用BERT+ELMo的组合我们在验证集上取得了68.79%的准确率（BERT: 67.47%; BERT + Numberbatch: 67.68%)。多次实验取最佳结果
   <ul style="margin-left:9.8em"> <li>Python, Keras</li></ul></small>
 </description>
@@ -64,7 +64,7 @@ t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系�
 <description><small>
 在一个实时广告需求方平台拍卖的历史数据库中预测是否用户想要点击在线广告。预测结果作为一个拍卖竞价函数的输入去预测出价价格。同时总出价会有一个最大限制。数据集是非平衡数据集（超过300000条拍卖纪录中约有3000个正样本（点击数））。我们尝试了许多不同的模型（XGBoosting, 浅层nn, 逻辑回归）和一些竞价函数。我们也在这个项目应用了下采样和重矫正技巧。我们与其它学生在leaderboard进行了比赛（共30组学生），取得了第3名。  
 （我们取得了185个点击，前两名均取得了186个点击）。
-  <ul style="margin-left:9.8em"> <li>Python, Karas, XGBoost, Numpy, Pandas, Matlabplot</li></ul></small>
+  <ul style="margin-left:9.8em"> <li>Python, Keras, XGBoost, Numpy, Pandas, Matlabplot</li></ul></small>
 </description>
 
 - <datetime>2018.12 - 2019.01</datetime> <head_>**上传越多的up主越受欢迎吗？一个对bilibili基于网络的分析** </head_>
