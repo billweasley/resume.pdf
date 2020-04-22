@@ -13,24 +13,12 @@ Credit to: [hit9/resume](https://github.com/hit9/resume.pdf)
 
 暂无
 
-我如何做一份类似的简历？（重要，安装下面的库请参见Python 3版本的[md2pdf](https://github.com/billweasley/resume.pdf)）
+我如何做一份类似的简历？（重要，安装下面的库请参见本人修改后版本的[md2pdf](https://github.com/billweasley/md2pdf.pdf)）的readme.
 -----------------------
 
-1. 安装`wkhtmltopdf` (版本越高越好):
-   ```bash
-   # Ubuntu
-   sudo apt-get install wkhtmltopdf
+1. 安装`wkhtmltopdf`
 
-   # on OSX
-   brew tap homebrew/boneyard
-   brew install wkhtmltopdf
-   ```
-
-2. 安装`md2pdf`:
-
-   ```bash
-   pip install git+git://github.com/billweasley/md2pdf.git@master
-   ```
+2. 安装`md2pdf`
 
 3. 自行编写`markdown/resume.md`, 并自行修改样式`css/style.css`.
 
