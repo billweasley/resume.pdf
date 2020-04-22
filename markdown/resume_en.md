@@ -15,10 +15,12 @@ Education
   
 Work Experience
 --------
-- <datetime>2019.08 - Now</datetime> <head_>**Barclays PLC UK**</head_> Technology Graduate 
-<description><small>1st Rotation: Barclaycard Backend Shared Service Web API Development.   
+- <datetime>2019.08 - Now</datetime> <head_>**Barclays PLC UK**</head_>, Technology Graduate 
+<description>
+<small>
+1st Rotation: Barclaycard Backend Shared Service Web API Development, and also troubleshooting.
 Tech Stack: Jenkins, Jira, Confluence, BitBucket, OpenShift, GridGain, Maven, Mockito, Spring Boot, AWS  
-Also take some NLP projects.  
+Also take some NLP projects like address named entity recognition.
 </small></description>
 
 Projects

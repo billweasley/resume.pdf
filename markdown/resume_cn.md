@@ -23,10 +23,14 @@
 
 工作经历
 --------
-- <datetime>2019.08 - Now</datetime> <head_>**英国巴克莱银行**</head_> 技术管培生 
-<description><small>第一次轮岗: 巴克莱卡后端共享服务Web API开发。 技术栈： Jenkins, Confluence, Gridgain, BitBucket, OpenShift, Maven, Mockito, Spring Boot, AWS。
-同时也兼做一些NLP项目。
-</small></description>  
+- <datetime>2019.08 - Now</datetime> <head_>**英国巴克莱银行**</head_>， 技术管培生 
+<description>
+<small>
+第一次轮岗: 巴克莱卡后端共享服务Web API开发; Troubleshooting。
+技术栈： Jenkins, Confluence, Gridgain, BitBucket, OpenShift, Maven, Mockito, Spring Boot, AWS。
+同时也兼做一些NLP项目，比如地址实体识别。
+</small>
+</description>  
 
 项目
 ---
