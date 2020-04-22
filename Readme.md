@@ -13,7 +13,7 @@ Credit to: [hit9/resume](https://github.com/hit9/resume.pdf)
 
 暂无
 
-我如何做一份类似的简历？（重要，安装下面的库请参见本人修改后版本的[md2pdf](https://github.com/billweasley/md2pdf.pdf)）的readme.
+我如何做一份类似的简历？（重要，安装下面的库请参见本人修改后版本的[md2pdf](https://github.com/billweasley/md2pdf)）的readme.
 -----------------------
 
 1. 安装`wkhtmltopdf`
