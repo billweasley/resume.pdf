@@ -2,7 +2,7 @@
 
 Work Experience
 --------
-- <datetime>2020.08 -  </datetime> <head_><head_title>Barclays UK</head_title>, Graduate Data Scientist, Data Scientist Team (2nd rotation)</head_>
+- <datetime>2020.08 -  </datetime> <head_><head_title>Barclays UK</head_title>, Graduate Data Scientist, Data Science Team (2nd rotation)</head_>
 
 - <datetime>2019.08 - 2020.07</datetime> <head_><head_title>Barclays UK</head_title>, Graduate Backend Developer, Card Platform Team (1st rotation)</head_> 
 <description><small>
