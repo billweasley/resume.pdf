@@ -7,7 +7,7 @@ Work Experience
 Company Address Matching, Entity Linking and knowledge graph building.
 </small></description>
 
-- <datetime>2019.08 - 2020.09</datetime><head_><head_title>Kwai Inc (Kuaishou)</head_title>, Natural Language Processing Engineer</head_>
+- <datetime>2020.08 - 2020.09</datetime><head_><head_title>Kwai Inc (Kuaishou)</head_title>, Natural Language Processing Engineer</head_>
 <description><small>
 With more than 300 million daily active users (DAU), Kwai is one of the largest short video sharing and live streaming social platforms in mainland China and also in the world.    
 Tech stack: Spring, Ceph, Dragonfly (A Opensource P2P file distributed system From Alibaba), Tensorflow, Faiss, Hive SQL, Docker, Gitlab
