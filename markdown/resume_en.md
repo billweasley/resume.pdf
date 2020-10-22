@@ -2,11 +2,26 @@
 
 Work Experience
 --------
-- <datetime>2020.08 -  </datetime> <head_><head_title>Barclays UK</head_title>, Graduate Data Scientist, Data Science Team (2nd rotation)</head_>
-
-- <datetime>2019.08 - 2020.07</datetime> <head_><head_title>Barclays UK</head_title>, Graduate Backend Developer, Card Platform Team (1st rotation)</head_> 
+- <datetime>2020.09 -  </datetime> <head_><head_title>Barclays</head_title>, Data Scientist </head_>
 <description><small>
-Tech stack: Jenkins, Jira, Confluence, BitBucket, Openshift, Docker, GridGain, Maven, Gradle, Wiremock, Mockito, Spring Boot, AWS, SonarQube, Karate, AppDynamics  
+Company Address Matching, Entity Linking and knowledge graph building.
+</small></description>
+
+- <datetime>2019.08 - 2020.09</datetime><head_><head_title>Kwai Inc (Kuaishou)</head_title>, Natural Language Processing Engineer</head_>
+<description><small>
+With more than 300 million daily active users (DAU), Kwai is one of the largest short video sharing and live streaming social platforms in mainland China and also in the world.    
+Tech stack: Spring, Ceph, Dragonfly (A Opensource P2P file distributed system From Alibaba), Tensorflow, Faiss, Hive SQL, Docker, Gitlab
+<ul>
+<li>Model Migrations for an newly built internal model management system</li>
+<li>Maintain an internal inference system, build upon Spring</li>
+<li>Retaining a transformer-based user language model using newly incoming data (~ millions, fetched by Hive SQL) to mitigate data shift issue</li>
+</ul>  
+Leave for a better work-life balance, and a future plan to travel around the Europe.
+</small></description>
+
+- <datetime>2019.08 - 2020.07</datetime> <head_><head_title>Barclays</head_title>, Backend Developer </head_> 
+<description><small>
+Tech stack: Jenkins, Jira, Confluence, BitBucket, Openshift (Kubernetes), Docker, GridGain, Maven, Gradle, Wiremock, Mockito, Spring Boot, AWS, SonarQube, Karate, AppDynamics
 <ul>
 <li>End-to-end function development, testing (unit, functional, performance), deployment (CD)  </li>
 <li>Add cache layer to the existing APIs to reduce the latency for repetitive data access  </li>
@@ -80,17 +95,6 @@ Tech stack: Python, Keras, XGBoost, Numpy, Pandas, Matlabplot
 </techstack>
 <description><small>
 Predicting whether a user would click the online AD (advertisement) on an AD real-time DSP bidding history dataset. The prediction results then were inputted to a bidding strategy function to predict a bid price. The total pay price is bounded by a constant total number. The dataset is unbalanced with only about 3000 positive samples (clicks) among more than 300000 bidding records. We tried many different models (XGBoosting, Shallow NN, Logistic Regression) and some bidding strategies. We also applied downsampling and re-calibration techniques in the project. We did a competition in a leaderboard with other students (30 groups) and ranked in the 3rd place (with 185 clicks and the first 2 are with 186 clicks). </small>
-</description>
-
-- <datetime>2018.12 - 2019.01</datetime> <head_><head_title>Is a uploader with more uploaded videos also more popular? A network based analysis on bilibili</head_title> </head_>
-<techstack>
-<small>
-Tech stack: Python, networkx, graph-tool, MySQL  
-</small>
-</techstack>
-<description><small>
-Bilibili is one of the largest Chinese video-sharing websites.  The project aims to examine some properties (degree distribution and assortative coefficient) of the user (uploader) following relation network and then attempts to check if they are related
-between the number of archives (that reflecting how the user active is) and the in-coming degree of the nodes (that reflecting how popular the user is) through visualisation of the network. A crawler was written in the project to acquire data from Bilibili's RESTful API.</small>
 </description>
 
 - <datetime>2017.09 - 2018.05</datetime> <head_><head_title>Simulation, Visualization and Experimental Analysis for Population Protocols and Network Constructor in 2-Dimension</head_title></head_>
