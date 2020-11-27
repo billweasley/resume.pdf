@@ -2,24 +2,27 @@
 
 Work Experience
 --------
-- <datetime>2020.09 -  </datetime> <head_><head_title>Barclays</head_title>, Data Scientist </head_>
+- <datetime>2020.09 - Current </datetime> <head_><head_title> Data Scientist </head_title> @ Barclays </head_>
 <description><small>
-Company Address Matching, Entity Linking and knowledge graph building.
+Tech stack: Spark / PySpark (on Elastic Data Platform), Amazon Deep Java Library (DJI), Tensorflow / Keras, BitBucket, Neo4J, Pandas, Jupyter Notebook, Pretrained Transformers / RNNs / Likelihood Ratio  
+<ul>
+<li>Apply machine learning and deep learning methods to integrate internal and external data to build an enriched company knowledge graph from scratch.
+</li>
+</ul>
 </small></description>
 
-- <datetime>2020.08 - 2020.09</datetime><head_><head_title>Kwai Inc (Kuaishou)</head_title>, Natural Language Processing Engineer</head_>
+- <datetime>2020.08 - 2020.09</datetime><head_><head_title>Natural Language Processing Engineer</head_title> @ Kwai Inc (Kuaishou) </head_>
 <description><small>
-With more than 300 million daily active users (DAU), Kwai is one of the largest short video sharing and live streaming social platforms in mainland China and also in the world.    
-Tech stack: Spring, Ceph, Dragonfly (A Opensource P2P file distributed system From Alibaba), Tensorflow, Faiss, Hive SQL, Docker, Gitlab
+Tech stack: Spring, Ceph, Dragonfly (A Opensource P2P file distributed system From Alibaba), Tensorflow, Faiss, Docker, Gitlab
 <ul>
 <li>Model Migrations for an newly built internal model management system</li>
 <li>Maintain an internal inference system, build upon Spring</li>
 <li>Retaining a transformer-based user language model using newly incoming data (~ millions, fetched by Hive SQL) to mitigate data shift issue</li>
 </ul>  
-Leave for a better work-life balance, and a future plan to travel around the Europe.
+With more than 300 million daily active users (DAU), Kwai is one of the largest short video sharing and live streaming social platforms in mainland China and also in the world. It was a great experience. My leave was for a better work-life balance, and a future plan to travel around the Europe.
 </small></description>
 
-- <datetime>2019.08 - 2020.07</datetime> <head_><head_title>Barclays</head_title>, Backend Developer </head_> 
+- <datetime>2019.08 - 2020.07</datetime> <head_><head_title>Backend Developer </head_title> @ Barclays </head_> 
 <description><small>
 Tech stack: Jenkins, Jira, Confluence, BitBucket, Openshift (Kubernetes), Docker, GridGain, Maven, Gradle, Wiremock, Mockito, Spring Boot, AWS, SonarQube, Karate, AppDynamics
 <ul>
@@ -38,7 +41,7 @@ Education
     <description><small>Core subjects: Probability Graphical Models; Introduction to Deep Learning; Complex Network; Affective Computing; Statistical NLP; Information Retrieval; Multi-agent AI, Applied Machine Learning</small></description>
 
 - <datetime>2016 - 2018</datetime> <head_><head_title>University of Liverpool</head_title>, BSc Internet Computing, First class</head_>
-    <description><small>Core subjects: Software Engineering; Database Concepts; Internet Principles (Introduce to OSI layers); Object-Oriented Programming; Distributed Systems Concepts; Software Development Tools (Mainly about testing); Principles of C && Memory Management; iOS Programming (Swift); Knowledge Representation & Reasoning; E-commerce (Auction and Security [RSA, Diffie–Hellman key exchange, Elliptic Curve Encryption]);
+    <description><small>Core subjects: Software Engineering; Database Concepts; Internet Principles (Introduce to OSI layers); Object-Oriented Programming; Distributed Systems Concepts; Software Development Tools (Mainly about testing); Principles of C && Memory Management; iOS Programming (Swift); Knowledge Representation & Reasoning; E-commerce (Auction and Security);
   </small></description>
 
 - <datetime>2014 - 2016</datetime> <head_><head_title>Xi'an Jiaotong-Liverpool University</head_title>, BSc Information and Computing Science</head_>
@@ -76,16 +79,6 @@ We achieved 68.79% of accuracy on validation set using BERT + ELMo (soly BERT : 
 </small>
 </description>
 
-- <datetime>2019.02 - 2019.02</datetime> <head_><head_title>"Recogising food-stimalated emotions" experimental labelling platform</head_title> </head_>
-<techstack>
-<small>
-Tech stack: Bootstrap, JQuery, Recordrtc.js, Java, Play! framework 2, PostgreSQL, Cloud Foundry
-</small>
-</techstack>
-<description><small>
-A simple web app that we used to collect experimental data (food taste affection).  An online demo could be visited at https://affective-computing-data-collection-dist.cfapps.io/sessions （Offine now, because out of charge）.
-I finished this on my own on a weekend. This is a draft version of it (we then removed the personal info and produced a local version of it).</small>
-</description>
 
 - <datetime>2019.02 - 2019.03</datetime> <head_><head_title>Maximise number of clicks through AD CTR prediction and bidding functions selection</head_title> </head_>
 <techstack>
@@ -95,14 +88,4 @@ Tech stack: Python, Keras, XGBoost, Numpy, Pandas, Matlabplot
 </techstack>
 <description><small>
 Predicting whether a user would click the online AD (advertisement) on an AD real-time DSP bidding history dataset. The prediction results then were inputted to a bidding strategy function to predict a bid price. The total pay price is bounded by a constant total number. The dataset is unbalanced with only about 3000 positive samples (clicks) among more than 300000 bidding records. We tried many different models (XGBoosting, Shallow NN, Logistic Regression) and some bidding strategies. We also applied downsampling and re-calibration techniques in the project. We did a competition in a leaderboard with other students (30 groups) and ranked in the 3rd place (with 185 clicks and the first 2 are with 186 clicks). </small>
-</description>
-
-- <datetime>2017.09 - 2018.05</datetime> <head_><head_title>Simulation, Visualization and Experimental Analysis for Population Protocols and Network Constructor in 2-Dimension</head_title></head_>
-<techstack>
-<small>
-Tech stack: Kotlin, GraphStream 
-</small>
-</techstack>
-<description><small>
-Population protocol is a theoretical model for distributed computation. The model contains a collection of indistinguishable agents.  The network constructor and the terminating grid network constructor are some models extending population protocol but with a different aim to construct networks in different topologies.  </small>
 </description>
