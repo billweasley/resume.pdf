@@ -4,9 +4,14 @@ Work Experience
 --------
 - <datetime>2020.09 - Current </datetime> <head_><head_title> Data Scientist </head_title> @ Barclays </head_>
 <description><small>
-Tech stack: Spark / PySpark (on Elastic Data Platform), Amazon Deep Java Library (DJI), Tensorflow / Keras, BitBucket, Neo4J, Pandas, Jupyter Notebook, Pretrained Transformers / RNNs / Likelihood Ratio  
+Tech stack: Spark / PySpark (on Elastic Data Platform), Amazon Deep Java Library (DJL), Tensorflow / Keras, BitBucket, Neo4J, Pandas, Jupyter Notebook, Pretrained Transformers / RNNs / Likelihood Ratio  
 <ul>
-<li>Apply machine learning and deep learning methods to integrate internal and external data to build an enriched company knowledge graph from scratch.
+<li>
+ Company address matching and entity matching without internal GPU and labelled data available.   
+ Construct some small datasets only with external data and then fine-turning BERT models with these constructed datasets in an iterative way. Finish the inference on 1.5 million internal samples with this model on a CPU cluster, using a DJL based pipeline that built from scratch by my own. It achieved a very satisfying result.   
+</li>
+<li> 
+ (In progression) Build up transactional graph from scatch.
 </li>
 </ul>
 </small></description>
