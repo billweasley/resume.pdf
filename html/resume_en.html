@@ -149,11 +149,14 @@ footnote {
 Tech stack: Spark / PySpark (on Elastic Data Platform), Amazon Deep Java Library (DJL), Tensorflow / Keras, BitBucket, Neo4J, Pandas, Jupyter Notebook, Pretrained Transformers / RNNs / Likelihood Ratio<br>
 <ul>
 <li>
-Company address matching and entity matching without internal GPU and labelled data available.<br>
-Construct some small datasets only with external data and then fine-turning BERT models with these constructed datasets in an iterative way. Finish the inference on 1.5 million internal samples with this model on a CPU cluster, using a DJL based pipeline that built from scratch by my own. It achieved a very satisfying result.<br>
+Company address matching and entity matching without internal GPU and labeled data available. Solve using an active learning method. 
+Start from constructing some small datasets only with external data and training an XGBoost tree, then label samples in the boundary and fine-turning BERT models in an iterative way. Finish the inference on 1.5 million internal samples with this model on a CPU cluster, using a DJL based pipeline that built from scratch on my own. It achieved a very satisfying result.<br>
 </li>
 <li> 
-(In progression) Build up transactional graph from scatch.
+Build up a transactional graph, with a billion level of dataset. Apply network analysis on targeted clients to find insights for them, and train the account embeddings using DGL (Deep Graph Library), Keras on Tensorflow, and graph attention network (GAT) for a small part of nodes in the large graph (This work in progression).
+</li>
+<li>
+Maintain the Spark cluster for the team, and build up pipelines for distributed inference by combining DJL / PySpark UDF with models.
 </li>
 </ul>
 </small></description></p></li>
@@ -165,7 +168,7 @@ Tech stack: Spring, Ceph, Dragonfly (A Opensource P2P file distributed system Fr
 <li>Maintain an internal inference system, build upon Spring</li>
 <li>Retaining a transformer-based user language model using newly incoming data (~ millions, fetched by Hive SQL) to mitigate data shift issue</li>
 </ul><br>
-With more than 300 million daily active users (DAU), Kwai is one of the largest short video sharing and live streaming social platforms in mainland China and also in the world. It was a great experience. My leave was for a better work-life balance, and a future plan to travel around the Europe.
+With more than 300 million daily active users (DAU), Kwai is one of the largest short video sharing and live streaming social platforms in mainland China and also the world. It was a great experience. My leave was for a better work-life balance, and a plan to travel around Europe.
 </small></description></p></li>
 <li><p><datetime>2019.08 - 2020.07</datetime> <head_><head_title>Backend Developer </head_title> @ Barclays </head_> 
 <description><small>
@@ -186,12 +189,9 @@ Tech stack: Jenkins, Jira, Confluence, BitBucket, Openshift (Kubernetes), Docker
 <ul>
 <li><p><datetime>2018 - 2019</datetime> <head_><head_title>University College London</head_title>, MSc Web Science and Big Data Analytics, Distinction</head_>
 <description><small>Core subjects: Probability Graphical Models; Introduction to Deep Learning; Complex Network; Affective Computing; Statistical NLP; Information Retrieval; Multi-agent AI, Applied Machine Learning</small></description></p></li>
-<li><p><datetime>2016 - 2018</datetime> <head_><head_title>University of Liverpool</head_title>, BSc Internet Computing, First class</head_>
-<description><small>Core subjects: Software Engineering; Database Concepts; Internet Principles (Introduce to OSI layers); Object-Oriented Programming; Distributed Systems Concepts; Software Development Tools (Mainly about testing); Principles of C &amp;&amp; Memory Management; iOS Programming (Swift); Knowledge Representation &amp; Reasoning; E-commerce (Auction and Security);
-</small></description></p></li>
+<li><p><datetime>2016 - 2018</datetime> <head_><head_title>University of Liverpool</head_title>, BSc Internet Computing, First class</head_></p></li>
 <li><p><datetime>2014 - 2016</datetime> <head_><head_title>Xi&#39;an Jiaotong-Liverpool University</head_title>, BSc Information and Computing Science</head_>
 <description><small>2+2 pathway routine (first 2 years in Suzhou, China and final 2 years in Liverpool, UK), dual degree.</small></description>
-<description><small>Core subjects: Computer Systems; Introduction to Databases; Introduction to Programming in Java; Algorithmic Foundations and Problem Solving; Data Structures; Operating Systems Concepts; Human-Centric Computing; Calculus; Introduce to Discrete Mathematics<br>
 </small></description></p></li>
 </ul>
 
@@ -230,7 +230,7 @@ Tech stack: Python, Keras, XGBoost, Numpy, Pandas, Matlabplot<br>
 </small>
 </techstack>
 <description><small>
-Predicting whether a user would click the online AD (advertisement) on an AD real-time DSP bidding history dataset. The prediction results then were inputted to a bidding strategy function to predict a bid price. The total pay price is bounded by a constant total number. The dataset is unbalanced with only about 3000 positive samples (clicks) among more than 300000 bidding records. We tried many different models (XGBoosting, Shallow NN, Logistic Regression) and some bidding strategies. We also applied downsampling and re-calibration techniques in the project. We did a competition in a leaderboard with other students (30 groups) and ranked in the 3rd place (with 185 clicks and the first 2 are with 186 clicks). </small>
+Predict whether a user would click the online AD (advertisement) on an AD real-time DSP bidding history dataset. The prediction results then were inputted to a bidding strategy function to predict a bid price. The total pay price is bounded by a constant total number. The dataset is unbalanced with only about 3000 positive samples (clicks) among more than 300000 bidding records. We tried many different models (XGBoosting, Shallow NN, Logistic Regression) and some bidding strategies. We also applied downsampling and re-calibration techniques in the project. We did a competition in a leaderboard with other students (30 groups) and ranked in the 3rd place (with 185 clicks and the first 2 are with 186 clicks). </small>
 </description></p></li>
 </ul>
 
