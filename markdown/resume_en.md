@@ -16,6 +16,9 @@ Build up a transactional graph, with a billion level of dataset. Apply network a
 <li>
 Maintain the Spark cluster for the team, and build up pipelines for distributed inference by combining DJL / PySpark UDF with models.
 </li>
+<li>
+Participated in a fully immerged 6-weeks cloud DevOps training, which involves the deployment of a working pipeline including GitHub, DockerHub, Jenkins and AWS EKS (Kubernates) cluster, using Terraform and Ansible.
+</li>
 </ul>
 </small></description>
 
