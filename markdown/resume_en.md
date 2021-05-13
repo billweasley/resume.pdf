@@ -11,7 +11,7 @@ Tech stack: Spark / PySpark (on Elastic Data Platform), Amazon Deep Java Library
  Start from constructing some small datasets only with external data and training an XGBoost tree, then label samples in the boundary and fine-turning BERT models in an iterative way. Finish the inference on 1.5 million internal samples with this model on a CPU cluster, using a DJL based pipeline that built from scratch on my own. It achieved a very satisfying result.   
 </li>
 <li> 
-Build up a transactional graph, with a billion level of dataset. Apply network analysis on targeted clients to find insights for them, and train the account embeddings using DGL (Deep Graph Library), Keras on Tensorflow, and graph attention network (GAT) for a small part of nodes in the large graph (This work in progression).
+Build up a transactional graph, with a billion level of dataset. Apply network analysis on targeted clients to find insights for them.
 </li>
 <li>
 Maintain the Spark cluster for the team, and build up pipelines for distributed inference by combining DJL / PySpark UDF with models.
