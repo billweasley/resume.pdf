@@ -2,7 +2,7 @@
 
 工作经历
 -------
-- <datetime>2020.10 -  </datetime> <head_><head_title>英国巴克莱银行</head_title>, 数据科学家, 数据科学团队 </head_>
+- <datetime>2020.10 - 今 </datetime> <head_><head_title>英国巴克莱银行</head_title>, 数据科学家, 数据科学团队 </head_>
 <description><small>
 <ul>
 <li>2020.10 - 2021.02 企业地址匹配原型构建。使用companies house， gleif等数据构建外部数据集，使用外部数据微调BERT。使用Pandas + PySpark构建了内外部融合数据集（75万对正向地址对），然后使用Spark + Deep Java Library从0构建推理job完成对内部数据进行地址匹配推理。</li>
