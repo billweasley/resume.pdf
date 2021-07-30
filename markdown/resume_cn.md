@@ -101,10 +101,11 @@ t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系�
 集群协议（Population protocol）是一个分布式计算理论模型。该模型包含一组不可区分的agent. Network constructor 和 Terminating grid network constructor 是对集群协议的扩展，不同之处在于其目标在于构建不同拓扑的网络而非计算函数。</small>
 </description>
 
-奖励和荣誉
+技术分享
 --------
-
-- <datetime>2015年 10月</datetime> <head_><head_title>国家励志奖学金</head_title> </head_>
-
-- <datetime>2015年 7月</datetime> <head_><head_title>西浦学业成就奖（升学奖学金）</head_title> </head_>
+- <head_><head_title>"Accelerating Deep Learning on the JVM with Apache Spark and NVIDIA GPUs" </head_title> </head_>
+<description><small>
+作者: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  链接: https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng
+</small>
+</description>
 

@@ -56,7 +56,7 @@ Education
 - <datetime>2014 - 2016</datetime> <head_><head_title>Xi'an Jiaotong-Liverpool University</head_title>, BSc Information and Computing Science</head_>
   <description><small>2+2 pathway routine (first 2 years in Suzhou, China and final 2 years in Liverpool, UK), dual degree.</small></description>
   </small></description>
-  
+
 Projects
 --------
 - <datetime>2019.06 - 2019.09</datetime> <head_><head_title>Project Internship (Master Degree Thesis) @ Astroscreen</head_title> </head_>
@@ -87,7 +87,6 @@ We achieved 68.79% of accuracy on validation set using BERT + ELMo (soly BERT : 
 </small>
 </description>
 
-
 - <datetime>2019.02 - 2019.03</datetime> <head_><head_title>Maximise number of clicks through AD CTR prediction and bidding functions selection</head_title> </head_>
 <techstack>
 <small>
@@ -96,4 +95,12 @@ Tech stack: Python, Keras, XGBoost, Numpy, Pandas, Matlabplot
 </techstack>
 <description><small>
 Predict whether a user would click the online AD (advertisement) on an AD real-time DSP bidding history dataset. The prediction results then were inputted to a bidding strategy function to predict a bid price. The total pay price is bounded by a constant total number. The dataset is unbalanced with only about 3000 positive samples (clicks) among more than 300000 bidding records. We tried many different models (XGBoosting, Shallow NN, Logistic Regression) and some bidding strategies. We also applied downsampling and re-calibration techniques in the project. We did a competition in a leaderboard with other students (30 groups) and ranked in the 3rd place (with 185 clicks and the first 2 are with 186 clicks). </small>
+</description>
+
+Technical Article
+--------
+- <head_><head_title>"Accelerating Deep Learning on the JVM with Apache Spark and NVIDIA GPUs" </head_title> </head_>
+<description><small>
+Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  Link: https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng
+</small>
 </description>
