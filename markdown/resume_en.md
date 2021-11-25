@@ -1,4 +1,4 @@
-# <to_left>Hao-xuan (Horace) Wang</to_left>  <description_nleft><to_right>[ +44 (0)7774857427](tel://00447774857427)</to_right><br> <to_right>[billweasley20092@gmail.com](billweasley20092@gmail.com) </to_right><br><to_right><b>Github: </b> [https://github.com/billweasley](https://github.com/billweasley)</to_right><br><to_right><b>Linkedin: </b> [https://www.linkedin.com/in/horace-haoxuan-wang](https://www.linkedin.com/in/horace-haoxuan-wang)</to_right><to_right><b>Personal Website: </b> [shellcottage.me](shellcottage.me)</to_right></description_nleft>    
+# <to_left>Hao-xuan (Horace) Wang</to_left>  <description_nleft><to_right>[ +44 (0)7774857427](tel://00447774857427)</to_right><br> <to_right>[billweasley20092@gmail.com](billweasley20092@gmail.com) </to_right><br><to_right><b>Github: </b> [https://github.com/billweasley](https://github.com/billweasley)</to_right><br><to_right><b>Linkedin: </b> [https://www.linkedin.com/in/horace-haoxuan-wang](https://www.linkedin.com/in/horace-haoxuan-wang)</to_right><br><to_right><b>Personal Website: </b> [http://shellcottage.me](http://shellcottage.me)</to_right></description_nleft>    
 
 Work Experience
 --------
@@ -66,7 +66,7 @@ It was a gift for one of my important friends for a friendship anniversary. I co
 - <datetime>2021.08 - 2021.09</datetime> <head_><head_title>Implementation of Conflict-Free Replicated Data Type (CRDT) - set and graph</head_title> </head_>
 <description>
 <small>
-An project from one of my prevous take-home exercises finished in 1 week. It was a self-contained,fully-funcional and properly-tested implementation of Last Write Win (LWW) Graph and Set in Python, which is one type of CRDT. CRDTs can be replicated across systems, they can be updated independently and concurrently without coordination between the replicas, and it is always mathematically possible to resolve inconsistencies that might result. Github: https://github.com/billweasley/Last-write-win-CRDT-graph
+A project from one of my prevous take-home interview exercises, finished in a week. It is a self-contained,fully-funcional and properly-tested implementation of Last Write Win (LWW) Graph and Set in Python, which is one type of CRDT. CRDTs can be replicated across systems, they can be updated independently and concurrently without coordination between the replicas, and it is always mathematically possible to resolve inconsistencies that might result. Github: https://github.com/billweasley/Last-write-win-CRDT-graph
 </small>
 </description>
 
