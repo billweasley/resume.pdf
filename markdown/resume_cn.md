@@ -2,7 +2,12 @@
 
 工作经历
 -------
-- <datetime>2020.10 - 今 </datetime> <head_><head_title>英国巴克莱银行</head_title>, 数据科学家, 数据科学团队 </head_>
+- <datetime>2020.10 - 2021.12 </datetime> <head_><head_title>Garena | Sea Group</head_title> 机器学习工程师 </head_>
+<description><small>
+远程入职一周，发现实际工作内容和招聘时的工作描述不太一致，这个岗位是给Booyah!直播构建推荐后台，可能叫后台开发更合适一点。
+</small></description>
+
+- <datetime>2020.10 - 2021.12 </datetime> <head_><head_title>英国巴克莱银行</head_title>, 数据科学家, 数据科学团队 </head_>
 <description><small>
 <ul>
 <li>企业地址匹配原型构建。使用companies house， gleif等数据构建外部数据集，使用外部数据微调BERT。使用Pandas + PySpark构建了内外部融合数据集（75万对正向地址对），然后使用Spark + Deep Java Library从0构建推理job完成对内部数据进行地址匹配推理。</li>
@@ -12,20 +17,6 @@
 <li>参加了一个6周的云上DevOps培训，包括完整构建一个使用GitHub, DockerHub, Jenkins和AWS EKS集群完整的部署流程。构建过程使用Terraform创建基础架构，并用Ansible执行自动化部署安装。</li>
 </ul></small>
 </description>
-
-- <datetime>2020.08 - 2020.09</datetime><head_><head_title>快手</head_title>自然语言处理工程师， 内容与风险管理</head_>
-<description><small>
-技术栈: Spring, Ceph, Dragonfly, Tensorflow, Faiss, Docker, Gitlab
-<ul>
-<li>为一个内部新构建的模型管理模型批量迁移模型</li>
-<li>维护内部推理系统（基于Spring）</li>
-<li>使用百万级别的数据对基于Transformer的用户简介风险模型进行重训练</li>
-</ul> 
-</small>
-</description>
-<description><small>
-在快手的短暂经历是非常非常开心的，认识了很多朋友也学到了很多知识。主动离开主要是因为原公司（巴克莱）提供了一个数据科学的机会，反复思考下做出的艰难决定。
-</small></description>
 
 - <datetime>2019.08 - 2020.07</datetime> <head_><head_title>英国巴克莱银行</head_title>, 毕业生后端开发, 卡平台团队 </head_> 
 <description><small>
@@ -39,6 +30,20 @@ Jenkins, Jira, Confluence, BitBucket, Openshift, Docker, GridGain, Maven, Gradle
 <li>参与了NLP项目（比如基于BERT的地址命名实体识别），同时跟进NLP领域的最新进展，特别是在迁移学习，模型压缩（低资源推断）和多模态融合方向 </li>
 <li>在新冠疫情期间远程工作的半年中，和团队一起仍然保持了较高的沟通和交付效率</li>
 </ul>
+</small></description>
+
+- <datetime>2020.08 - 2020.09</datetime><head_><head_title>快手</head_title>自然语言处理工程师， 内容与风险管理</head_>
+<description><small>
+技术栈: Spring, Ceph, Dragonfly, Tensorflow, Faiss, Docker, Gitlab
+<ul>
+<li>为一个内部新构建的模型管理模型批量迁移模型</li>
+<li>维护内部推理系统（基于Spring）</li>
+<li>使用百万级别的数据对基于Transformer的用户简介风险模型进行重训练</li>
+</ul> 
+</small>
+</description>
+<description><small>
+是在Barclays休假的时候入职的，当时面临职业选择，快手给了我一个offer然后Barclays也同样给了换岗的机会。在快手的短暂经历是非常非常开心的，认识了很多朋友也学到了很多知识。主动离开主要是因为原公司（巴克莱）提供了一个数据科学的机会，反复思考下做出的艰难决定。
 </small></description>
 
 教育背景

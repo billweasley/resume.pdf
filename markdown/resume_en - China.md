@@ -1,10 +1,10 @@
-# <to_left>Hao-xuan (Horace) Wang</to_left>  <description_nleft><to_right>[ +44 (0)7774857427](tel://00447774857427)</to_right><br> <to_right>[billweasley20092@gmail.com](billweasley20092@gmail.com) </to_right><br><to_right><b>Github: </b> [https://github.com/billweasley](https://github.com/billweasley)</to_right><br><to_right><b>Linkedin: </b> [https://www.linkedin.com/in/horace-haoxuan-wang](https://www.linkedin.com/in/horace-haoxuan-wang)</to_right><br><to_right><b>Personal Website: </b> [http://shellcottage.me](http://shellcottage.me)</to_right></description_nleft>    
+# <to_left>Haoxuan (Horace) Wang</to_left>  <description_nleft><to_right>[ +86 18622468042](tel://008618622468042)</to_right><br> <to_right>[billweasley20092@gmail.com](billweasley20092@gmail.com) </to_right><br><to_right><b>Github: </b> [https://github.com/billweasley](https://github.com/billweasley)</to_right><br><to_right><b>Linkedin: </b> [https://www.linkedin.com/in/horace-haoxuan-wang](https://www.linkedin.com/in/horace-haoxuan-wang)</to_right><br><to_right><b>Personal Website: </b> [http://shellcottage.me](http://shellcottage.me)</to_right></description_nleft>    
 
 Work Experience
 --------
 - <datetime>2022.01 - Now </datetime> <head_><head_title> Machine Learning Enginner (offer holder)</head_title> @ Garena | Sea Group </head_>
 <description><small>
-Just join the company and work remotely in a week. I find the daily rountine of this role is a little bit inconsistent with its job description. It builds the backend part using Golang for Booyah! recommandation system, and it should be referred as "backend engineer" : )
+ Just join the company and work remotely in a week. I find the daily rountine of this role is a little bit inconsistent with its job description. It builds the backend part using Golang for Booyah! recommandation system, and it should be referred as "backend engineer" : )
 </small></description>
 
 - <datetime>2020.09 - 2021.12 </datetime> <head_><head_title> Data Scientist </head_title> @ Barclays </head_>
@@ -12,13 +12,13 @@ Just join the company and work remotely in a week. I find the daily rountine of 
 Tech stack: Spark / PySpark (on Elastic Data Platform), Amazon Deep Java Library (DJL), Tensorflow / Keras, BitBucket, Pandas, Jupyter, Pretrained Transformers / Transformers / Likelihood Ratio  
 <ul>
 <li>
-Company address matching and entity matching without internal GPU and labeled data available. Solved using an active learning method.  Start from constructing some small datasets only with external data and training an XGBoost tree, then label samples in the boundary and fine-turn BERT models in an iterative way. Finish the inference on 6 million internal pair-wised samples with this model on a CPU cluster, using a DJL based pipeline built from scratch on my own. It achieved a very satisfying result of 94% F1 score on a noisy testing dataset. The model does inference offline on our Spark cluster in a distributed way. For 6 million pair-wised samples, its running time is under 1 hour (on a cluster with 80 CPUs).
+Company address matching and entity matching without internal GPU and labeled data available. Solved using an active learning method. Start from constructing some small datasets only with external data and training an XGBoost tree, then label samples in the boundary and fine-turn BERT models in an iterative way. Finish the inference on 6 million internal pair-wised samples with this model on a CPU cluster, using a DJL based pipeline built from scratch on my own. It achieved a very satisfying result of 94% F1 score on a noisy testing dataset. The model does inference offline on our Spark cluster in a distributed way. For 6 million pair-wised samples, its running time is under 1 hour (on a cluster with 80 CPUs).
 </li>
 <li>
 Predict the aggregated user's transaction activity (volume and value), using hisrorical mean and Informer model, a variant of Transformer for timeseries modeling; and then construct conterfactal, to provide an evaluation to how much finance loss of this bank suffers from a system downtime, and to find out the critical time period for the system reliability.
 </li>
 <li>
-Maintain the Spark cluster for the team, and build up pipelines for distributed inference by combining DJL / PySpark UDF with models.  Coopreated with one of my colleagues, we created a team-wised package to start a Spark session within 4 lines of codes, which signficantly reduces the overhead of using Spark for colleagues who are not with a distributed computing background.
+Maintain the Spark cluster for the team, and build up pipelines for distributed inference by combining DJL / PySpark UDF with models. Cooperated with one of my colleagues, we created a team-wised package to start a Spark session within 4 lines of codes, which significantly reduces the overhead of using Spark for colleagues who are not with a distributed computing background.
 </li>
 <li>
 Participated in a fully immersed 6-weeks cloud DevOps training, which involves the deployment of a working pipeline including GitHub, DockerHub, Jenkins, and AWS EKS (Kubernetes) cluster, using Terraform and Ansible.
@@ -26,7 +26,7 @@ Participated in a fully immersed 6-weeks cloud DevOps training, which involves t
 </ul>
 </small></description>
 
-- <datetime>2019.08 - 2020.09</datetime> <head_><head_title>Java Backend Developer </head_title> @ Barclays </head_> 
+- <datetime>2019.08 - 2020.07</datetime> <head_><head_title>Java Backend Developer </head_title> @ Barclays </head_> 
 <description><small>
 Tech stack: Jenkins, Jira, Confluence, BitBucket, Openshift (Kubernetes), Docker, GridGain, Maven, Gradle, Wiremock, Mockito, Spring Boot, SonarQube, Karate, AppDynamics
 <ul>
@@ -35,6 +35,15 @@ Tech stack: Jenkins, Jira, Confluence, BitBucket, Openshift (Kubernetes), Docker
 <li>Migrate legacy codes to internal Spring Boot templates, with refactors to enhance code readability and performance  </li>
 <li>Build up handy internal tools (e.g. git hooks) and scripts (python / bash) from scratch to automate software development processes</li>
 </ul>
+</small></description>
+
+- <datetime>2020.08 - 2020.09</datetime><head_><head_title>Natural Language Processing Engineer</head_title> @ Kwai Inc (Kuaishou) </head_>
+<description><small>
+<ul>
+<li>Model Migrations for an newly built internal model management system</li>
+<li>Retaining a transformer-based user language model using newly incoming data (~ millions, fetched by Hive SQL) to mitigate data shift issue</li>
+</ul>  
+The work happens while my time-off in Barclays - I was in a career choice at that time point where Kwai gave me this campus offer, and  Barclays offers me a role of change at the same time. It was a great experience. My leave was for a better work-life balance. 
 </small></description>
 
 Education
@@ -60,7 +69,7 @@ It was a gift for one of my important friends for a friendship anniversary. I co
 - <datetime>2021.08 - 2021.09</datetime> <head_><head_title>Implementation of Conflict-Free Replicated Data Type (CRDT) - set and graph</head_title> </head_>
 <description>
 <small>
-A project from one of my prevous take-home interview exercises, finished in a week. It is a self-contained,fully-funcional and properly-tested implementation of Last Write Win (LWW) Graph and Set in Python, which is one type of CRDT. CRDTs can be replicated across systems, they can be updated independently and concurrently without coordination between the replicas, and it is always mathematically possible to resolve inconsistencies that might result. Github: https://github.com/billweasley/Last-write-win-CRDT-graph
+A project from one of my previous take-home interview exercises, finished in a week. It is a self-contained,fully-funcional and properly-tested implementation of Last Write Win (LWW) Graph and Set in Python, which is one type of CRDT. CRDTs can be replicated across systems, they can be updated independently and concurrently without coordination between the replicas, and it is always mathematically possible to resolve inconsistencies that might result. Github: https://github.com/billweasley/Last-write-win-CRDT-graph
 </small>
 </description>
 
