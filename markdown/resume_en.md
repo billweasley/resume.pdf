@@ -2,9 +2,19 @@
 
 Work Experience
 --------
-- <datetime>2022.01 - Now </datetime> <head_><head_title> Machine Learning Enginner (offer holder)</head_title> @ Garena | Sea Group </head_>
+- <datetime>2022.03 - Now </datetime> <head_><head_title> Software Engineer, ASR and Language Tech </head_title> @ Zoom </head_>
 <description><small>
-Just join the company and work remotely in a week. I find the daily rountine of this role is a little bit inconsistent with its job description. It builds the backend part using Golang for Booyah! recommandation system, and it should be referred as "backend engineer" : )
+<ul>
+<li>
+Develop, test and productise ASR offline transcription service, and turn the system parameters to minimise its inference duration (i.e. real time factor, RTF)
+</li>
+<li>
+Develop computational operators of Pytorch for ASR (automatic speech recognition) models, using CUDA/OneDNN, for speeding up the inference and minimising the cost of the existing inference system
+</li>
+<li>
+Trail and experiment those emerging end-to-end ASR + machine translation models, to explore the possibility of landing SLT (speak language translation) models in Zoom products
+</li>
+</ul>
 </small></description>
 
 - <datetime>2020.09 - 2021.12 </datetime> <head_><head_title> Data Scientist </head_title> @ Barclays </head_>
@@ -12,13 +22,13 @@ Just join the company and work remotely in a week. I find the daily rountine of 
 Tech stack: Spark / PySpark (on Elastic Data Platform), Amazon Deep Java Library (DJL), Tensorflow / Keras, BitBucket, Pandas, Jupyter, Pretrained Transformers / Transformers / Likelihood Ratio  
 <ul>
 <li>
-Company address matching and entity matching without internal GPU and labeled data available. Solved using an active learning method.  Start from constructing some small datasets only with external data and training an XGBoost tree, then label samples in the boundary and fine-turn BERT models in an iterative way. Finish the inference on 6 million internal pair-wised samples with this model on a CPU cluster, using a DJL based pipeline built from scratch on my own. It achieved a very satisfying result of 94% F1 score on a noisy testing dataset. The model does inference offline on our Spark cluster in a distributed way. For 6 million pair-wised samples, its running time is under 1 hour (on a cluster with 80 CPUs).
+Company address matching and entity matching without internal GPU and labeled data available. Solve using an active learning method. Start from constructing some small datasets only with external data and training an XGBoost tree, then label samples in the boundary and fine-turn BERT models in an iterative way. Finish the inference on 6 million internal pair-wised samples with this model on a CPU cluster, using a DJL based pipeline built from scratch on my own. It achieved a very satisfying result of 94% F1 score on a noisy testing dataset. The model does inference offline on our Spark cluster in a distributed way. For 6 million pair-wised samples, the running time is under 1 hour (on a cluster with 80 CPUs).
 </li>
 <li>
-Predict the aggregated user's transaction activity (volume and value), using hisrorical mean and Informer model, a variant of Transformer for timeseries modeling; and then construct conterfactal, to provide an evaluation to how much finance loss of this bank suffers from a system downtime, and to find out the critical time period for the system reliability.
+Predict the aggregated user's transaction activity (volume and value) using the historical mean and Informer model, a variant of Transformer for time-series modeling. Following that, a counterfactual was constructed to provide an evaluation of how much finance loss that the bank suffers from system downtime and to find out the critical period for the system reliability.
 </li>
 <li>
-Maintain the Spark cluster for the team, and build up pipelines for distributed inference by combining DJL / PySpark UDF with models.  Coopreated with one of my colleagues, we created a team-wised package to start a Spark session within 4 lines of codes, which signficantly reduces the overhead of using Spark for colleagues who are not with a distributed computing background.
+Maintain the Spark cluster for the team, and build up pipelines for distributed inference by combining DJL / PySpark UDF with models.Collaborated with one of my colleagues, we created a team-wised package to start a Spark session within 4 lines of codes, which significantly reduces the overhead of using Spark for colleagues who are not with a distributed computing background.
 </li>
 <li>
 Participated in a fully immersed 6-weeks cloud DevOps training, which involves the deployment of a working pipeline including GitHub, DockerHub, Jenkins, and AWS EKS (Kubernetes) cluster, using Terraform and Ansible.
@@ -53,14 +63,14 @@ Selected Projects
 - <datetime>2021.09 - 2021.10</datetime> <head_><head_title>Wechat chat history analysis</head_title> </head_>
 <description>
 <small>
-It was a gift for one of my important friends for a friendship anniversary. I collected all of our chat history (in Chinese). Take an analysis for the following aspects: the emotion appeared in our single chat sentences (80% accuracy for fine-turning a Chinese version Roberta model for a 6-classes dataset including happy, natural, angry, fearful, anxious, exciting), word cloud generation, Wechat emoji counting, and hourly chat statistics. The final delivery is a mobile html5 page constructed using a library wechat-h5-boilerplate. This was an end-to-end project from data collection (WeChat does not provide any public way of exporting chat history).
+It was a gift for one of my important friends for a friendship anniversary. I collected all of our chat history (in Chinese). Take an analysis of the following aspects: the emotion appeared in our single chat sentences (80% accuracy for fine-turning a Chinese version Roberta model for a 6-classes dataset including happy, natural, angry, fearful, anxious, exciting), word cloud generation, Wechat emoji counting, and hourly chat statistics. The final delivery is a mobile html5 page constructed using a library wechat-h5-boilerplate. This was an end-to-end project from data collection (WeChat does not provide any public way of exporting chat history).
 </small>
 </description>
 
 - <datetime>2021.08 - 2021.09</datetime> <head_><head_title>Implementation of Conflict-Free Replicated Data Type (CRDT) - set and graph</head_title> </head_>
 <description>
 <small>
-A project from one of my prevous take-home interview exercises, finished in a week. It is a self-contained,fully-funcional and properly-tested implementation of Last Write Win (LWW) Graph and Set in Python, which is one type of CRDT. CRDTs can be replicated across systems, they can be updated independently and concurrently without coordination between the replicas, and it is always mathematically possible to resolve inconsistencies that might result. Github: https://github.com/billweasley/Last-write-win-CRDT-graph
+A project from one of my previous take-home interview exercises finished in a week. It is a self-contained,fully-functional and properly-tested implementation of Last Write Win (LWW) Graph and Set in Python, which is one type of CRDT. CRDTs can be replicated across systems, they can be updated independently and concurrently without coordination between the replicas, and it is always mathematically possible to resolve inconsistencies that might result. Github: https://github.com/billweasley/Last-write-win-CRDT-graph
 </small>
 </description>
 
@@ -75,7 +85,7 @@ visualized results using t-SNE, did "leave-one-hashtag-out" cross-validation, an
 
 - <datetime>2019.02 - 2019.03</datetime> <head_><head_title>Integrating BERT and Embeddings into CommonsenseQA Chanllenge</head_title> </head_>
 <description><small>
-We fine-turned Google BERT to CommonsenseQA challenge 1.0 (with 3 options of each question) and then integrated Conceptnet Numberbatch and ELMo embeddings attempting to improve the model performance. The challenge involves a set of MCQ questions requiring human commonsense knowledge.
+We fine-turned Google BERT to CommonsenseQA challenge 1.0 (with 3 options for each question) and then integrated Conceptnet Numberbatch and ELMo embeddings attempting to improve the model performance. The challenge involves a set of MCQ questions requiring human commonsense knowledge.
 We achieved 68.79% of accuracy on validation set using BERT + ELMo (soly BERT : 67.47%; BERT + Numberbatch: 67.68%).
 </small>
 </description>

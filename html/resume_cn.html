@@ -144,24 +144,21 @@ footnote {
 <h2>工作经历</h2>
 
 <ul>
-<li><p><datetime>2020.10 - 2021.12 </datetime> <head_><head_title>Garena | Sea Group</head_title> 机器学习工程师 </head_>
+<li><p><datetime>2022.01 - 现在 </datetime> <head_><head_title>Garena | Sea Group</head_title> 机器学习工程师 </head_>
 <description><small>
 远程入职一周，发现实际工作内容和招聘时的工作描述不太一致，这个岗位是给Booyah!直播构建推荐后台，可能叫后台开发更合适一点。
 </small></description></p></li>
 <li><p><datetime>2020.10 - 2021.12 </datetime> <head_><head_title>英国巴克莱银行</head_title>, 数据科学家, 数据科学团队 </head_>
 <description><small>
 <ul>
-<li>企业地址匹配原型构建。使用companies house， gleif等数据构建外部数据集，使用外部数据微调BERT。使用Pandas + PySpark构建了内外部融合数据集（75万对正向地址对），然后使用Spark + Deep Java Library从0构建推理job完成对内部数据进行地址匹配推理。</li>
-<li>交易数据图原型构建， 使用网络分析对节点的交易情况和供应链进行分析和可视化。</li>
-<li>用户活动分析，尝试分析系统故障对用户的影响。 </li>
-<li>在团队内维护Spark集群， 使用Deep Java Library 和 PySpark UDF帮助团队构建分布式推理流程。</li>
+<li>在无GPU和标签数据的情况下，进行企业地址和实体匹配。使用主动学习方法，从基于外部数据构建一个小数据集开始，训练一个XGBoost树模型，然后标注一些边界样本，并且迭代微调BERT tiny模型。 从0开始，在内部CPU集群上借助Deep Java Library 和Spark完成了pipeline, 并对600万内部地址对完成推理。在3万对的内部有噪音验证集上，该模型取得了94%的 F1 score (对比之前的CNN+BiLSTM模型为89%且泛化性能很差). 模型离线定时运行，600万对内部地址的运行时间大概在1个小时以内（集群有80块CPU)。 </li>
+<li>使用历史平均值和Informer模型预测聚合后用户的交易数据（交易量和交易数值）。Informer模型是一个基于Attention机制为长序列优化的模型。取得预测值以后构建反事实，然后基于反事实去计算银行每次系统故障会产生多少损失并分析系统关键时间。</li>
+<li>在团队内维护Spark集群， 使用Deep Java Library 和 PySpark UDF帮助团队构建分布式推理流程。和同事合作，我们写出了一个包可以在4行代码内启动一个Spark Session, 帮助没有分布式经验的同事使用容易的使用这一工具。</li>
 <li>参加了一个6周的云上DevOps培训，包括完整构建一个使用GitHub, DockerHub, Jenkins和AWS EKS集群完整的部署流程。构建过程使用Terraform创建基础架构，并用Ansible执行自动化部署安装。</li>
 </ul></small>
 </description></p></li>
 <li><p><datetime>2019.08 - 2020.07</datetime> <head_><head_title>英国巴克莱银行</head_title>, 毕业生后端开发, 卡平台团队 </head_> 
 <description><small>
-技术栈:
-Jenkins, Jira, Confluence, BitBucket, Openshift, Docker, GridGain, Maven, Gradle, Wiremock, Mockito, Spring Boot, AWS, SonarQube, Karate, AppDynamics<br>
 <ul>
 <li>端到端功能开发，测试（单元，功能，性能），部署（CD）  </li>
 <li>为API添加缓存层，以减少重复数据获取的延迟 </li>
@@ -194,7 +191,7 @@ Jenkins, Jira, Confluence, BitBucket, Openshift, Docker, GridGain, Maven, Gradle
 <li><p><datetime>2016 - 2018</datetime> <head_><head_title>英国利物浦大学</head_title>, 互联网计算，一等荣誉学士</head_>
 <description>
 <small>
-核心课程: 软件工程;  数据库开发; 网络原理（OSI导论）; 面向对象编程; 分布式系统原理; 软件开发工具（主要关于测试）;  C语言和内存管理; iOS编程 (Swift); 知识表达和推理 (Modal Logic 和 Descriptive Logic); 多代理系统 (MARs); E-commerce (拍卖机制, RSA, DH密钥交换, 椭圆曲线加密)<br>
+核心课程: 软件工程;  数据库开发; 网络原理（OSI导论）; 面向对象编程; 分布式系统原理; 软件开发工具（主要关于测试）;  C语言和内存管理; 知识表达和推理 (Modal Logic 和 Descriptive Logic); 多代理系统 (MARs); E-commerce (拍卖机制, RSA, DH密钥交换, 椭圆曲线加密)<br>
 </small>
 </description></p></li>
 <li><p><datetime>2014 - 2016</datetime> <head_><head_title>西交利物浦大学</head_title>, 信息与计算科学</head_>
@@ -208,6 +205,12 @@ Jenkins, Jira, Confluence, BitBucket, Openshift, Docker, GridGain, Maven, Gradle
 <h2>项目</h2>
 
 <ul>
+<li><p><datetime>2021.09 - 2021.10</datetime> <head_><head_title>微信历史记录分析</head_title> </head_>
+<description>
+<small>
+是给某个朋友的相识周年的礼物，是一个端到端的项目。我收集了我们所有的聊天记录（微信不提供公开方式导出数据），并对如下方面进行了分析：单句情感分析（在一个标签分布均匀的6类微博情感数据集(开心，中性，生气，害怕，焦虑，兴奋)上fine-turning了一个Roberta, 取得了80%的accuracy [因为是个人项目且标签均匀只简单看了下accuracy]), 词云生成, 微信emoji统计, 和聊天实际统计. 最终产出是一个用 wechat-h5-boilerplate写出的包含所有信息的html5展示页. 
+</small>
+</description></p></li>
 <li><p><datetime>2019.06 - 2019.09</datetime> <head_><head_title>项目实习 (研究生学位论文) @ Astroscreen</head_title> </head_>
 <techstack><small>技术栈: Python, Keras, Tensorflow, MulticoreTSNE, Matlabplot</small></techstack>
 <description><small>
@@ -226,11 +229,6 @@ t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系�
 <description><small>
 我们在CommonsenseQA 1.0数据集（3选项）上fine-turning了Google BERT并尝试整合了Conceptnet Numberbatch and ELMo 词嵌入来尝试提高模型性能。这个数据集包含一组需要人类常识来回答的多选题。<br>
 使用BERT+ELMo的组合我们在验证集上取得了68.79%的准确率（BERT: 67.47%; BERT + Numberbatch: 67.68%)。多次实验取最佳结果</small></description></p></li>
-<li><p><datetime>2019.02 - 2019.03</datetime> <head_><head_title>通过CTR预测和拍卖函数选择以最大化广告点击数</head_title> </head_>
-<description><small>
-在一个实时广告需求方平台拍卖的历史数据库中预测是否用户想要点击在线广告。预测结果作为一个拍卖竞价函数的输入去预测出价价格。同时总出价会有一个最大限制。数据集是非平衡数据集（超过300000条拍卖纪录中约有3000个正样本（点击数））。我们尝试了许多不同的模型（XGBoosting, 浅层nn, 逻辑回归）和一些竞价函数。我们也在这个项目应用了下采样和重矫正技巧。我们与其它学生在leaderboard进行了比赛（共30组学生），取得了第3名。<br>
-（我们取得了185个点击，前两名均取得了186个点击）。</small>
-</description></p></li>
 <li><p><datetime>2018.12 - 2019.01</datetime> <head_><head_title>上传越多的up主越受欢迎吗？一个对bilibili基于网络的分析</head_title> </head_>
 <techstack><small>技术栈: Python, networkx, graph-tool, MySQL</small></techstack>
 <description><small>
