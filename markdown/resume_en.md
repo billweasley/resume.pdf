@@ -2,18 +2,16 @@
 
 Work Experience
 --------
-- <datetime>2022.03 - Now </datetime> <head_><head_title> Software Engineer, ASR and Language Tech </head_title> @ Zoom </head_>
+- <datetime>2022.03 - Now </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_>
 <description><small>
+Tech stack: Torch/Pytorch, ONNX, Tensorrt, Kubernates, Pynn/Kaldi  
 <ul>
-<li>
-Develop, test and productise ASR offline transcription service, and turn the system parameters to minimise its inference duration (i.e. real time factor, RTF)
-</li>
-<li>
-Develop computational operators of Pytorch for ASR (automatic speech recognition) models, using CUDA/OneDNN, for speeding up the inference and minimising the cost of the existing inference system
-</li>
-<li>
-Trail and experiment those emerging end-to-end ASR + machine translation models, to explore the possibility of landing SLT (speak language translation) models in Zoom products
-</li>
+<li>Evaluate and turn the ASR (automatic speech recognition) system parameters to minimize its inference latency (i.e. real time factor, RTF) and maximize its throughput.</li>
+<li>Implement, test, maintain and review the critical features in inference side for offline ASR. This mainly includes the asr decoding codes, attention based word level timestamp generation and post-processing/punctuation codes.</li>
+<li>Train and experiment on the transcription model.</li>
+<li>Watch closely on online bugs reported from customers, and fix them either from code, or from data quality side.</li>
+<li>Working closely with Intel and Nvidia, explore the ways of transforming current system using ONNX, Intel extension for Pytorch and TensorRT for speeding up the inference and minimizing the cost of the existing inference system.</li>
+<li> Work with web team, infra team and downstream services, design internal changes for offline ASR system for better fulfilling the transcription requirements from other teams. </li>
 </ul>
 </small></description>
 
@@ -29,9 +27,6 @@ Predict the aggregated user's transaction activity (volume and value) using the 
 </li>
 <li>
 Maintain the Spark cluster for the team, and build up pipelines for distributed inference by combining DJL / PySpark UDF with models.Collaborated with one of my colleagues, we created a team-wised package to start a Spark session within 4 lines of codes, which significantly reduces the overhead of using Spark for colleagues who are not with a distributed computing background.
-</li>
-<li>
-Participated in a fully immersed 6-weeks cloud DevOps training, which involves the deployment of a working pipeline including GitHub, DockerHub, Jenkins, and AWS EKS (Kubernetes) cluster, using Terraform and Ansible.
 </li>
 </ul>
 </small></description>
@@ -49,15 +44,13 @@ Tech stack: Jenkins, Jira, Confluence, BitBucket, Openshift (Kubernetes), Docker
 
 Education
 --------
-- <datetime>2018 - 2019</datetime> <head_><head_title>University College London</head_title>, MSc Web Science and Big Data Analytics, Distinction</head_>
-    <description><small>Probability Graphical Models;Deep Learning; Complex Network; Affective Computing; Statistical NLP; Information Retrieval</small></description>
-
-- <datetime>2016 - 2018</datetime> <head_><head_title>University of Liverpool</head_title>, BSc Internet Computing, First class</head_>
-
-- <datetime>2014 - 2016</datetime> <head_><head_title>Xi'an Jiaotong-Liverpool University</head_title>, BSc Information and Computing Science</head_>
-  <description><small>2+2 pathway routine (first 2 years in Suzhou, China and final 2 years in Liverpool, UK), dual degree.</small></description>
-  </small></description>
-
+<ul style="list-style-type: none;">
+<li><head_><datetime>2018 - 2019</datetime> MSc Web Science and Big Data Analytics  @&nbsp;<b>University College London, </b>&nbsp;Distinction</head_></li>
+<li><head_><datetime>2016 - 2018</datetime> BSc Internet Computing @&nbsp;<b>University of Liverpool, </b>&nbsp; First class</head_></li>
+<li><head_><datetime>2014 - 2016</datetime> BSc Information and Computing Science @&nbsp;<b>Xi'an Jiaotong-Liverpool University </b>&nbsp;</head_>
+    <li><description><small>2+2 pathway routine (first 2 years in Suzhou, China and final 2 years in Liverpool, UK), dual degree.</small></description></li>
+</li>
+</ul>
 Selected Projects
 --------
 - <datetime>2021.09 - 2021.10</datetime> <head_><head_title>Wechat chat history analysis</head_title> </head_>
