@@ -6,12 +6,12 @@ Work Experience
 <description><small>
 Tech stack: Torch/Pytorch, ONNX, Tensorrt, Kubernates, Pynn/Kaldi  
 <ul>
-<li>Evaluate and turn the ASR (automatic speech recognition) system parameters to minimize its inference latency (i.e. real time factor, RTF) and maximize its throughput.</li>
-<li>Implement, test, maintain and review the critical features in inference side for offline ASR. This mainly includes the asr decoding codes, attention based word level timestamp generation and post-processing/punctuation codes.</li>
-<li>Train and experiment on the transcription model.</li>
-<li>Watch closely on online bugs reported from customers, and fix them either from code, or from data quality side.</li>
-<li>Working closely with Intel and Nvidia, explore the ways of transforming current system using ONNX, Intel extension for Pytorch and TensorRT for speeding up the inference and minimizing the cost of the existing inference system.</li>
-<li> Work with web team, infra team and downstream services, design internal changes for offline ASR system for better fulfilling the transcription requirements from other teams. </li>
+<li> Evaluate the performance of the offline speech recognition system, and find the most suitable parameters (such as OMP_NUM_THREADS, batch size, and parallel level) to reduce the delay of inference (i.e. real-time factor), or improve the throughput of the system.</li>
+<li> Implement, test, maintain, and evaluate key features of the inference system for offline asr, including decoding, attention-based timestamp generation, and post-processing/punctuation code.</li>
+<li> Implement and train speech recognition and punctuation models, currently working on Danish language.</li>
+<li> Watch closely on online bugs reported from customers, and fix them either from code, or from data quality side.</li>
+<li> Cooperate with hardware manufacturers (such as Nvidia) to evaluate the inference performance of proprietary inference systems in order to reduce the resource costs of inference.</li>
+<li> Cooperate with the downstream web and infrastructure team to simplify the transcription system architecture and deployment to support 19+ single-language models for 3+ different downstream services in 10+ different regions around the world. </li>
 </ul>
 </small></description>
 
@@ -90,3 +90,4 @@ Technical Article
 Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  Link: https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng
 </small>
 </description>
+
