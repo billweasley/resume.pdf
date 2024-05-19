@@ -9,7 +9,7 @@ Tech stack: Torch/Pytorch, ONNX, Kubernates, Pynn/Kaldi
 <li> Implement and train speech recognition and text punctuation models, worked on Danish language from 0 to 1. Initial WER on test dataset was about <b>8%</b>, and phonic data argument reduces the WER further, which <b>outperforms the MS Team's result</b>. Initial casing and punctuation overall F1 is around <b>70%</b>. </li>
 <li> Implement, test, maintain, and evaluate key features of the inference system, including <b>decoding</b>, <b>timestamp generation</b>, and <b>post-processing</b> code. </li>
 <li> Implement whisper inference support and finish the evaluation independently. </li>
-<li> Implement the attention based time alignment over LAS model so providing a good word level timestamp for multilingual transcription for fulfilling business requirements. </li>
+<li> Implement the attention based time alignment over LAS model so providing a good word level timestamp for multilingual transcription for fulfilling business requirements. [A U.S. patent has been filed for this]</li>
 <li> Cooperate with the downstream web and infrastructure team to simplify the offline transcription system architecture and deployment to support <b>35+ single-language</b> models for <b>5+</b> different downstream services in <b>10+ different regions around the world</b>. </li>
 <li> Build a systmatic model management practice from scratch to support complex combination in response to the business and languages requirements. </li>
 <li> Evaluate the performance of the speech recognition system, and find the most suitable parameters to reduce real-time factor, or improve the throughput of the system. </li>
