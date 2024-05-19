@@ -151,13 +151,15 @@ small {
 <description><small>
 Tech stack: Torch/Pytorch, ONNX, Kubernates, Pynn/Kaldi<br>
 <ul>
-<li> Implement and train speech recognition and text punctuation models, currently working on Danish language from 0 to 1. Initial WER on test dataset was about <b>8%</b>, and phonic data argument reduces the WER further, which <b>outperforms the MS Team&#39;s result</b>. Initial casing and punctuation overall F1 is around <b>70%</b>. </li>
-<li> Implement, test, maintain, and evaluate key features of the inference system for offline asr system, including <b>decoding</b>, <b>attention-based timestamp generation</b>, and post-processing/punctuation code; this serves many businesses in Zoom including ZoomIQ, Zoom Meeting Recording, Zoom Phone and Zoom Contact Center. </li>
-<li> Cooperate with the downstream web and infrastructure team to simplify the offline transcription system architecture and deployment to support <b>19+ single-language</b> models for different downstream services in <b>10+ different regions around the world</b>. </li>
-<li> Evaluate the performance of the offline speech recognition system, and find the most suitable parameters to reduce real-time factor, or improve the throughput of the system. </li>
+<li> Implement and train speech recognition and text punctuation models, worked on Danish language from 0 to 1. Initial WER on test dataset was about <b>8%</b>, and phonic data argument reduces the WER further, which <b>outperforms the MS Team&#39;s result</b>. Initial casing and punctuation overall F1 is around <b>70%</b>. </li>
+<li> Implement, test, maintain, and evaluate key features of the inference system, including <b>decoding</b>, <b>timestamp generation</b>, and <b>post-processing</b> code. </li>
+<li> Implement Whisper inference support in inference code base. </li>
+<li> Implement the attention based time alignment over LAS model so providing a good word level timestamp for multilingual transcription for fulfilling business requirements. </li>
+<li> Cooperate with the downstream web and infrastructure team to simplify the offline transcription system architecture and deployment to support <b>35+ single-language</b> models for <b>5+</b> different downstream services in <b>10+ different regions around the world</b>. </li>
+<li> Evaluate the performance of the speech recognition system, and find the most suitable parameters to reduce real-time factor, or improve the throughput of the system. </li>
 <li> Watch closely on online bugs reported from customers, and fix them either from code, or from data quality side.</li>
 <li> Cooperate with hardware manufacturers (such as Nvidia) to evaluate the inference performance of proprietary inference systems in order to reduce the resource costs of inference. </li>
-<li> Some cutting-edge explorations that are being done and planned to be done: integrating LLM re-scoring transcription results, speech-to-text translation, etc. </li>
+<li> Some cutting-edge explorations that are being done and planned to be done: e.g. LLM re-score/generative error correction etc. </li>
 </ul>
 </small></description></p></li>
 <li><p><datetime>2020.09 - 2021.12 </datetime> <head_><head_title> Data Scientist </head_title> @ Barclays </head_>
