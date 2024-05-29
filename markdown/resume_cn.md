@@ -50,9 +50,9 @@ Tech stack: Openshift (Kubernetes), GridGain, Maven, Gradle, Wiremock, Mockito, 
 --------
 <ul style="list-style-type: none;">
 <li><head_><datetime>2018 - 2019</datetime> 硕士，网络科学与大数据分析  @&nbsp;<b>伦敦大学学院，</b>&nbsp;优异</head_></li>
-<li><head_><datetime>2016 - 2018</datetime> 学士，互联网计算  @&nbsp;<b>利物浦大学，</b>&nbsp; 一等荣誉</head_></li>
-<li><head_><datetime>2014 - 2016</datetime> 学士，信息与计算科学  @&nbsp;<b>西交利物浦大学 </b>&nbsp;</head_>
-<li><description><small><b>注:</b>2+2模式（前两年在中国苏州，后两年在英国利物浦），双学位。</small></description></li>
+<li><head_><datetime>2016 - 2018</datetime> 学士，互联网计算  @&nbsp;<b>利物浦大学*，</b>&nbsp; 一等荣誉</head_></li>
+<li><head_><datetime>2014 - 2016</datetime> 学士，信息与计算科学  @&nbsp;<b>西交利物浦大学* </b>&nbsp;</head_>
+<li><description><small><b>*注:</b>2+2模式（前两年在中国苏州，后两年在英国利物浦），双学位。</small></description></li>
 </li>
 </ul>
 
