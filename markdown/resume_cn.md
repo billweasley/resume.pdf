@@ -1,106 +1,80 @@
 # <to_left>王昊轩</to_left><description_nleft><to_right>[ +86 18622468042](tel://008618622468042)</to_right><br> <to_right>[billweasley20092@gmail.com](billweasley20092@gmail.com) </to_right><br><to_right><b>Github: </b> [https://github.com/billweasley](https://github.com/billweasley)</to_right><br><to_right><b>领英: </b> [https://www.linkedin.com/in/horace-haoxuan-wang](https://www.linkedin.com/in/horace-haoxuan-wang)</to_right></description_nleft>    
 
 工作经历
--------
-- <datetime>2022.01 - 现在 </datetime> <head_><head_title>Garena | Sea Group</head_title> 机器学习工程师 </head_>
+--------
+- <datetime>2022.03 - Now </datetime> <head_><head_title> 机器学习工程师，语音识别与语言技术 </head_title> @ Zoom </head_>
 <description><small>
-远程入职一周，发现实际工作内容和招聘时的工作描述不太一致，这个岗位是给Booyah!直播构建推荐后台，可能叫后台开发更合适一点。
-</small></description>
-
-- <datetime>2020.10 - 2021.12 </datetime> <head_><head_title>英国巴克莱银行</head_title>, 数据科学家, 数据科学团队 </head_>
-<description><small>
+Tech stack: Torch/Pytorch, ONNX, Kubernates, Huggingface
 <ul>
-<li>在无GPU和标签数据的情况下，进行企业地址和实体匹配。使用主动学习方法，从基于外部数据构建一个小数据集开始，训练一个XGBoost树模型，然后标注一些边界样本，并且迭代微调BERT tiny模型。 从0开始，在内部CPU集群上借助Deep Java Library 和Spark完成了pipeline, 并对600万内部地址对完成推理。在3万对的内部有噪音验证集上，该模型取得了94%的 F1 score (对比之前的CNN+BiLSTM模型为89%且泛化性能很差). 模型离线定时运行，600万对内部地址的运行时间大概在1个小时以内（集群有80块CPU)。 </li>
-<li>使用历史平均值和Informer模型预测聚合后用户的交易数据（交易量和交易数值）。Informer模型是一个基于Attention机制为长序列优化的模型。取得预测值以后构建反事实，然后基于反事实去计算银行每次系统故障会产生多少损失并分析系统关键时间。</li>
-<li>在团队内维护Spark集群， 使用Deep Java Library 和 PySpark UDF帮助团队构建分布式推理流程。和同事合作，我们写出了一个包可以在4行代码内启动一个Spark Session, 帮助没有分布式经验的同事使用容易的使用这一工具。</li>
-<li>参加了一个6周的云上DevOps培训，包括完整构建一个使用GitHub, DockerHub, Jenkins和AWS EKS集群完整的部署流程。构建过程使用Terraform创建基础架构，并用Ansible执行自动化部署安装。</li>
-</ul></small>
-</description>
-
-- <datetime>2019.08 - 2020.07</datetime> <head_><head_title>英国巴克莱银行</head_title>, 毕业生后端开发, 卡平台团队 </head_> 
-<description><small>
-<ul>
-<li>端到端功能开发，测试（单元，功能，性能），部署（CD）  </li>
-<li>为API添加缓存层，以减少重复数据获取的延迟 </li>
-<li>使用内部的Spring Boot模板迁移遗留代码，并对遗留代码进行重构以提高其可读性和性能  </li>
-<li>从头构建内部使用的工具 (比如 git hooks) 和 脚本 (python / bash) 来自动化软件开发工程，并减少潜在的人类错误</li>
-<li>参与了NLP项目（比如基于BERT的地址命名实体识别），同时跟进NLP领域的最新进展，特别是在迁移学习，模型压缩（低资源推断）和多模态融合方向 </li>
-<li>在新冠疫情期间远程工作的半年中，和团队一起仍然保持了较高的沟通和交付效率</li>
+<li> 实现并训练语音识别和文本标点模型，从零开始构建丹麦语模型。测试数据集上的初始词错误率（WER）约为<b>8%</b>，通过音素数据增强进一步降低了WER，<b>优于MS Teams的结果</b>。初始大小写和标点的整体F1约为<b>70%</b>。 </li>
+<li> 实现、测试、维护和评估推理系统的关键功能，包括<b>解码</b>、<b>多头注意力（MHA）时间戳生成</b>和<b>后处理</b>代码。 </li>
+<li> 独立完成<b>Whisper</b></n>推理支持的实现，优化和性能评估（WER, RTF/latency/throughput）, 使用内部in-house VAD（人声检测）模型和开源的WhisperX，相比官方实现取得了更高的吞吐，并在多数测试集上实现了更低的wer。 </li>
+<li> 在LAS/seq2seq模型上实现基于多头注意力的时间对齐，从而提供良好的单词级时间戳，以满足多语言转录的业务需求。[为此申请了一项美国专利] </li>
+<li> 与下游网络和基础设施团队合作，简化离线转录系统架构和部署，以支持<b>35+</b>种单语言模型在<b>10+</b>个不同区域的<b>5+</b>个不同下游服务中使用。 </li>
+<li> 从头开始建立系统化的模型管理实践，以应对复杂的业务和语言需求。 </li>
+<li> 评估语音识别系统的性能，寻找最合适的参数以减少实时因素或提高系统的吞吐量。 </li>
+<li> 密切关注客户报告的在线错误，并通过代码或数据质量方面的改进进行修复。 </li>
+<li> 与硬件制造商（如Nvidia）合作，评估专有推理系统的推理性能，以降低推理的资源成本。 </li>
+<li> 一些正在进行的前沿探索：例如LLM重评分/生成式错误修正等。 </li>
 </ul>
 </small></description>
 
-- <datetime>2020.08 - 2020.09</datetime><head_><head_title>快手</head_title>自然语言处理工程师， 内容与风险管理</head_>
+- <datetime>2020.09 - 2021.12 </datetime> <head_><head_title> 数据科学家 </head_title> @ Barclays </head_>
 <description><small>
-技术栈: Spring, Ceph, Dragonfly, Tensorflow, Faiss, Docker, Gitlab
+Tech stack: Spark / PySpark, Amazon Deep Java Library (DJL), Tensorflow / Keras, Pandas, Jupyter, 预训练Transformer / 似然比
 <ul>
-<li>为一个内部新构建的模型管理模型批量迁移模型</li>
-<li>维护内部推理系统（基于Spring）</li>
-<li>使用百万级别的数据对基于Transformer的用户简介风险模型进行重训练</li>
-</ul> 
-</small>
-</description>
+<li>
+公司地址匹配和实体匹配，没有内部GPU和可用的标签数据。使用主动学习方法解决。从构建一些小数据集开始，只使用外部数据并训练一个XGBoost树，然后在边界上标记样本并以迭代方式微调BERT模型。在CPU集群上使用我自己从头开始构建的基于DJL的管道完成了600万内部配对样本的推断。该模型在嘈杂的测试数据集上实现了<b>94%的F1得分（起初为89%）</b>。模型在我们的Spark集群上以分布式方式进行离线推断。对于600万配对样本，运行时间不到1小时（在拥有80个CPU的集群上）。
+</li>
+<li>
+使用历史平均值和Informer模型（Transformer的变体）预测聚合的用户交易活动（转账数和转账金额）。然后构建反事实评估，以评估系统停机对银行造成的财务损失，并找出系统可靠性的关键时期。
+</li>
+<li>
+维护团队的Spark集群，并通过结合DJL / PySpark UDF与模型建立分布式推理管道。与我的一位同事合作，我们创建了一个团队范围的包，只需4行代码即可启动Spark会话，这显著减少了非分布式计算背景的同事使用Spark的开销。
+</li>
+</ul>
+</small></description>
+
+- <datetime>2019.08 - 2020.09</datetime> <head_><head_title>Java 后端开发工程师 </head_title> @ Barclays </head_> 
 <description><small>
-是在Barclays休假的时候入职的，当时面临职业选择，快手给了我一个offer然后Barclays也同样给了换岗的机会。在快手的短暂经历是非常非常开心的，认识了很多朋友也学到了很多知识。主动离开主要是因为原公司（巴克莱）提供了一个数据科学的机会，反复思考下做出的艰难决定。
+Tech stack: Openshift (Kubernetes), GridGain, Maven, Gradle, Wiremock, Mockito, Spring Boot
+<ul>
+<li>端到端功能开发、测试（单元、功能、性能）、部署（CD）  </li>
+<li>为现有API添加缓存层，以减少重复数据访问的延迟  </li>
+<li>将遗留代码迁移到内部Spring Boot模板，并进行重构以提高代码可读性和性能  </li>
+<li>从头开始构建便捷的内部工具（如git hooks）和脚本（python / bash），以自动化软件开发过程</li>
+</ul>
 </small></description>
 
 教育背景
---------  
-- <datetime>2018 - 2019</datetime> <head_><head_title>伦敦大学学院</head_title>, 网络科学和大数据分析 （硕士），Distinction</head_>
-    <description><small>核心课程: 概率图模型; 复杂网络; 情感计算; NLP; 信息检索; 多智能体AI; 应用机器学习; 深度学习导论</small></description>
+--------
+<ul style="list-style-type: none;">
+<li><head_><datetime>2018 - 2019</datetime> 硕士，网络科学与大数据分析  @&nbsp;<b>伦敦大学学院，</b>&nbsp;优异</head_></li>
+<li><head_><datetime>2016 - 2018</datetime> 学士，互联网计算  @&nbsp;<b>利物浦大学，</b>&nbsp; 一等荣誉</head_></li>
+<li><head_><datetime>2014 - 2016</datetime> 学士，信息与计算科学  @&nbsp;<b>西交利物浦大学 </b>&nbsp;</head_>
+<li><description><small><b>注:</b>2+2模式（前两年在中国苏州，后两年在英国利物浦），双学位。</small></description></li>
+</li>
+</ul>
 
+早期项目
+--------
 
-- <datetime>2016 - 2018</datetime> <head_><head_title>英国利物浦大学</head_title>, 互联网计算，一等荣誉学士</head_>
-    <description>
-    <small>
-    核心课程: 软件工程;  数据库开发; 网络原理（OSI导论）; 面向对象编程; 分布式系统原理; 软件开发工具（主要关于测试）;  C语言和内存管理; 知识表达和推理 (Modal Logic 和 Descriptive Logic); 多代理系统 (MARs); E-commerce (拍卖机制, RSA, DH密钥交换, 椭圆曲线加密)  
-    </small>
-  </description>
-
-- <datetime>2014 - 2016</datetime> <head_><head_title>西交利物浦大学</head_title>, 信息与计算科学</head_>
-  <description>
-  <small>
-    核心课程: 计算机系统; 数据库导论; Java编程导论; 算法基础和问题求解; 数据结构; 操作系统概念; 微积分;  离散数学导论
-  </small>
-  </description>
-
-项目
----
-- <datetime>2021.09 - 2021.10</datetime> <head_><head_title>微信历史记录分析</head_title> </head_>
+- <datetime>2019.06 - 2019.09</datetime> <head_><head_title>项目实习（硕士学位论文）</head_title> @ Astroscreen </head_>
 <description>
 <small>
-是给某个朋友的相识周年的礼物，是一个端到端的项目。我收集了我们所有的聊天记录（微信不提供公开方式导出数据），并对如下方面进行了分析：单句情感分析（在一个标签分布均匀的6类微博情感数据集(开心，中性，生气，害怕，焦虑，兴奋)上fine-turning了一个Roberta, 取得了80%的accuracy [因为是个人项目且标签均匀只简单看了下accuracy]), 词云生成, 微信emoji统计, 和聊天实际统计. 最终产出是一个用 wechat-h5-boilerplate写出的包含所有信息的html5展示页. 
+社交媒体帖子语言来源识别（推文和Gab帖子）项目。
+完成了Gab.com的语言（帖子）数据收集爬虫，使用正则表达式进行数据预处理，通过微调BERT和XLNet构建模型来分类这些数据的来源，
+使用t-SNE可视化结果，进行了"leave-one-hashtag-out"交叉验证，并使用一些常见指标（准确率、F1分数、混淆矩阵、马修斯相关系数）评估模型。
+微调后，XLNet在标签均衡的测试数据集上显示了86%的F1分数，而在随机均衡的测试数据集上为97%。结果显示了使用模型进行来源检查的潜力，也表明了避免数据泄漏的重要性。
 </small>
 </description>
 
-- <datetime>2019.06 - 2019.09</datetime> <head_><head_title>项目实习 (研究生学位论文) @ Astroscreen</head_title> </head_>
-<techstack><small>技术栈: Python, Keras, Tensorflow, MulticoreTSNE, Matlabplot</small></techstack>
+- <datetime>2019.02 - 2019.03</datetime> <head_><head_title>将BERT和嵌入集成到CommonsenseQA挑战中</head_title> </head_>
 <description><small>
-社交网络语言的来源识别（推特和Gab）
-完成了一个爬虫从Gab.com爬取语言（帖子），使用正则表达式预处理数据，fine turning BERT 和 XLNet来分类文本来源，并将输出使用
-t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系数评价模型。
+我们将Google BERT微调到CommonsenseQA挑战1.0（每个问题有3个选项），然后集成Conceptnet Numberbatch和ELMo嵌入，试图提高模型性能。
+该挑战包括一组需要人类常识知识的选择题。我们使用BERT + ELMo在验证集上达到了68.79%的准确率（仅使用BERT: 67.47%; BERT + Numberbatch: 67.68%）。
 </small>
 </description>
-
-- <datetime>2019.03 - 2019.04</datetime> <head_><head_title>信息检索课程项目</head_title> </head_>
-<description><small>
-使用Fact Extraction and Verification (FEVER)数据集进行了多项练习。  
-包括词频统计并验证zipf's law;实现向量空间文档索引（TF-IDF); 实现查询似然（Query likelihood）文档索引（并分别应用Laplace平滑，Jelinek-Mercer平滑和Dirichlet平滑），实现逻辑回归比较句子相似性; 实现Precious, Recall和F score函数; 使用神经网络检验文档Truthfulness。
-</small>
-</description>
-
-- <datetime>2019.02 - 2019.03</datetime> <head_><head_title>Integrating BERT and Embeddings into CommonsenseQA Chanllenge</head_title> </head_>
-<description><small>
-我们在CommonsenseQA 1.0数据集（3选项）上fine-turning了Google BERT并尝试整合了Conceptnet Numberbatch and ELMo 词嵌入来尝试提高模型性能。这个数据集包含一组需要人类常识来回答的多选题。  
-使用BERT+ELMo的组合我们在验证集上取得了68.79%的准确率（BERT: 67.47%; BERT + Numberbatch: 67.68%)。多次实验取最佳结果</small></description>
-
-
-- <datetime>2018.12 - 2019.01</datetime> <head_><head_title>上传越多的up主越受欢迎吗？一个对bilibili基于网络的分析</head_title> </head_>
-<techstack><small>技术栈: Python, networkx, graph-tool, MySQL</small></techstack>
-<description><small>
-该项目检验了一些b站用户（up主）关注网络的属性（度分布和assortative系数），并通过网络可视化检查了是否上传视频数量（反映活跃度）和节点入度（反映受欢迎程度）是相关的。
-过程中写了一个爬虫来通过b站的RESTful API抓取数据。</small>
-</description>
-
 
 技术分享
 --------
@@ -109,4 +83,5 @@ t-SNE可视化，使用准确率，F1 Score, 困惑矩阵，马修斯相关系�
 作者: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  链接: https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng
 </small>
 </description>
+
 
