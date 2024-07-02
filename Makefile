@@ -14,4 +14,4 @@ pdf/Haoxuan_Wang_resume_cn.pdf: markdown/resume_cn.md Makefile
 
 pdf/Haoxuan_Wang_resume_en_China.pdf: markdown/resume_en\ -\ China.md Makefile
 	md2pdf markdown/resume_en\ -\ China.md -s css/style.css -o html/resume_en_China.html
-	xvfb-run -a -- /usr/bin/wkhtmltopdf --zoom 1 'html/resume_en_China.html' 'pdf/Haoxuan_Wang_resume_en_China.pdf'
+	xvfb-run -a -- /usr/bin/wkhtmltopdf --zoom 0.2 'html/resume_en_China.html' 'pdf/Haoxuan_Wang_resume_en_China.pdf'

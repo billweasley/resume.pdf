@@ -9,7 +9,7 @@ Tech stack: Torch/Pytorch, ONNX, Kubernates, Huggingface
 <li> 实现并训练语音识别和文本标点模型，从零开始构建丹麦语模型。测试数据集上的初始词错误率（WER）约为<b>8%</b>，通过音素数据增强进一步降低了WER，<b>优于MS Teams的结果</b>。初始大小写和标点的整体F1约为<b>70%</b>。 </li>
 <li> 实现、测试、维护和评估推理系统的关键功能，包括<b>解码</b>、<b>多头注意力（MHA）时间戳生成</b>和<b>后处理</b>代码。 </li>
 <li> 在LAS/seq2seq模型上实现基于多头注意力（MHA）的时间对齐，从而提供良好的单词级时间戳，以满足多语言转录的业务需求。[为此申请了一项美国专利] </li>
-<li> 撰写meta-prompt，使用开源LLM模型（比如Mistral MoE 8x7B）生成几百个对话场景prompt, 并结合LLM模型生成的数字序列的不同读法（reading format）。将两者结合创建对话场景下的带数字文本，将文本交由同事使用内部/微软tts服务生成音频，从而得到测试集和部分训练数据。将训练数据对产线模型进行微调后，在另外的内部的digita数据集上有少量提升（Absolute digital WER 降低约0.4%）
+<li> 撰写meta-prompt，使用开源LLM模型（比如Mistral MoE 8x7B）生成几百个对话场景prompt, 并结合LLM模型生成的数字序列的不同读法（reading format）。将两者结合创建对话场景下的带数字文本，将文本交由同事使用内部/微软tts服务生成音频，从而得到测试集和部分训练数据。将训练数据对产线模型进行微调后，在另外的内部的digits数据集上有少量提升（Absolute digit WER 降低约0.4%）
 <li> （进行中）实验性质的对音频大模型的ASR能力进行内部评估，比如Qwen Audio, Whisper</li>
 <li> 独立完成<b>Whisper</b></n>推理支持的实现，优化和性能评估（WER, RTF/latency/throughput）, 使用内部in-house VAD（人声检测）模型和开源的WhisperX，相比OpenAI的实现取得了更高的吞吐，并在多数测试集上实现了更低的wer。 </li>
 <li> 与下游Web和基础设施团队合作，简化离线转录系统架构和部署，以支持<b>35+</b>种单语言模型在<b>10+</b>个不同区域的<b>5+</b>个不同下游服务中使用。 </li>
@@ -58,6 +58,24 @@ Tech stack: Openshift (Kubernetes), GridGain, Maven, Gradle, Wiremock, Mockito, 
 </li>
 </ul>
 
+个人项目
+--------
+
+-  <head_><datetime>2024.06 - </datetime> <head_title>关于病历数据在LLM上的微调与评估 </head_title> </head_>
+<description>
+<small>
+（进行中）使用数十万条病例数据，在科室分类，病历总结，出院证明等任务上对不同的LLM foundation模型进行全量微调和(Q)Lora微调，评估其效果。我们计划后续将数据开源。
+</small>
+</description>
+
+技术分享
+--------
+- <head_><head_title>"Accelerating Deep Learning on the JVM with Apache Spark and NVIDIA GPUs" </head_title> </head_>
+<description><small>
+作者: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  链接: https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng
+</small>
+</description>
+
 早期项目
 --------
 
@@ -78,12 +96,6 @@ Tech stack: Openshift (Kubernetes), GridGain, Maven, Gradle, Wiremock, Mockito, 
 </small>
 </description>
 
-技术分享
---------
-- <head_><head_title>"Accelerating Deep Learning on the JVM with Apache Spark and NVIDIA GPUs" </head_title> </head_>
-<description><small>
-作者: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  链接: https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng
-</small>
-</description>
+
 
 
