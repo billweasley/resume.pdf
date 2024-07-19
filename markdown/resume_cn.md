@@ -6,22 +6,19 @@
 <description><small>
 Tech stack: Torch/Pytorch, ONNX, Kubernates, Huggingface
 <ul>
-<li> 实现并训练语音识别和文本标点模型，从零开始构建丹麦语模型。测试数据集上的初始词错误率（WER）约为<b>8%</b>，通过音素数据增强进一步降低了WER，<b>优于MS Teams的结果</b>。初始大小写和标点的整体F1约为<b>70%</b>。 </li>
-<li> 实现、测试、维护和评估推理系统的关键功能，包括<b>解码</b>、<b>多头注意力（MHA）时间戳生成</b>和<b>后处理</b>代码。 </li>
-<li> 在LAS/seq2seq模型上实现基于多头注意力（MHA）的时间对齐，从而提供良好的单词级时间戳，以满足多语言转录的业务需求。[为此申请了一项美国专利] </li>
-<li> 撰写meta-prompt，使用开源LLM模型（比如Mistral MoE 8x7B）生成几百个对话场景prompt, 并结合LLM模型生成的数字序列的不同读法（reading format）。将两者结合创建对话场景下的带数字文本，将文本交由同事使用内部/微软tts服务生成音频，从而得到测试集和部分训练数据。将训练数据对产线模型进行微调后，在另外的内部的digits数据集上有少量提升（Absolute digit WER 降低约0.4%）
-<li> （进行中）实验性质的对音频大模型的ASR能力进行内部评估，比如Qwen Audio, Whisper</li>
+<li> 使用闭源LLM进行ASR error correction后处理，从Conformer-Transducer模型中导出N-best list，结合biasing word list撰写prompt发送到GPT-4进行name entity修正，离线实验在medical数据集上<b>Rare word WER从37.8变为17.5</b>。</li>
+<li> 撰写meta-prompt，使用开源LLM模型（比如Mistral MoE 8x7B）生成几百个对话场景prompt, 并结合LLM模型生成的数字序列的不同读法（reading format）。将两者结合创建对话场景下的带数字文本，将文本交由同事使用内部/微软tts服务生成音频，从而得到测试集和部分训练数据。将训练数据对产线模型进行微调后，在另外的内部的digits数据集上有少量提升（<b>Absolute digit WER 降低约0.4%</b>）</li>
+<li>（正在进行） 使用SLAM-LLM尝试进行一些ASR/LLM的结合进行语音+文本模态sft的实验，尝试提高ASR解码结果的一致性。</li>
+<li> 训练语音识别和文本标点模型，从零开始构建LAS-S2S丹麦语模型。测试数据集上的初始词错误率（WER）约为<b>8%</b>，通过音素数据增强进一步降低了WER，<b>优于MS Teams的结果</b>。初始大小写和标点的整体F1约为<b>70%</b>。 </li>
 <li> 独立完成<b>Whisper</b></n>推理支持的实现，优化和性能评估（WER, RTF/latency/throughput）, 使用内部in-house VAD（人声检测）模型和开源的WhisperX，相比OpenAI的实现取得了更高的吞吐，并在多数测试集上实现了更低的wer。 </li>
+<li> 实现、测试、维护和评估推理系统的关键功能，包括<b>解码</b>, <b>时间戳生成</b>和<b>后处理</b>代码。 </li>
+<li> 在LAS/seq2seq模型上实现基于多头注意力（MHA）的时间对齐，从而提供良好的单词级时间戳，以满足多语言转录的业务需求。[为此申请了一项美国专利] </li>
 <li> 与下游Web和基础设施团队合作，简化离线转录系统架构和部署，以支持<b>35+</b>种单语言模型在<b>10+</b>个不同区域的<b>5+</b>个不同下游服务中使用。 </li>
-<li> 从头开始建立系统化的模型管理实践，以应对复杂的业务和语言需求。 </li>
 <li> 评估语音识别系统的性能，寻找最合适的参数以减少实时因素或提高系统的吞吐量。 </li>
-<li> 密切关注客户报告的产线错误，并通过代码或数据质量方面的改进进行修复。 </li>
-<li> 与硬件制造商（如Nvidia）合作，评估专有推理系统的推理性能，以降低推理的资源成本。 </li>
-<li> 一些正在进行的前沿探索：例如LLM重评分/生成式错误修正等。 </li>
 </ul>
 </small></description>
 
-- <datetime>2020.09 - 2021.12 </datetime> <head_><head_title> 数据科学家 </head_title> @ Barclays </head_>
+- <datetime>2019.11 - 2021.12 </datetime> <head_><head_title> 数据科学家 </head_title> @ Barclays </head_>
 <description><small>
 Tech stack: Spark / PySpark, Amazon Deep Java Library (DJL), Tensorflow / Keras, Pandas, Jupyter, 预训练Transformer / 似然比
 <ul>
@@ -34,17 +31,6 @@ Tech stack: Spark / PySpark, Amazon Deep Java Library (DJL), Tensorflow / Keras,
 <li>
 维护团队的Spark集群，并通过结合DJL / PySpark UDF与模型建立分布式推理管道。与我的一位同事合作，我们创建了一个团队范围的包，只需4行代码即可启动Spark会话，这显著减少了非分布式计算背景的同事使用Spark的开销。
 </li>
-</ul>
-</small></description>
-
-- <datetime>2019.08 - 2020.09</datetime> <head_><head_title>Java 后端开发工程师 </head_title> @ Barclays </head_> 
-<description><small>
-Tech stack: Openshift (Kubernetes), GridGain, Maven, Gradle, Wiremock, Mockito, Spring Boot
-<ul>
-<li>端到端功能开发、测试（单元、功能、性能）、部署（CD）  </li>
-<li>为现有API添加缓存层，以减少重复数据访问的延迟  </li>
-<li>将遗留代码迁移到内部Spring Boot模板，并进行重构以提高代码可读性和性能  </li>
-<li>从头开始构建便捷的内部工具（如git hooks）和脚本（python / bash），以自动化软件开发过程</li>
 </ul>
 </small></description>
 
@@ -64,7 +50,7 @@ Tech stack: Openshift (Kubernetes), GridGain, Maven, Gradle, Wiremock, Mockito, 
 -  <head_><datetime>2024.06 - </datetime> <head_title>关于病历数据在LLM上的微调与评估 </head_title> </head_>
 <description>
 <small>
-（进行中）使用数十万条病例数据，在科室分类，病历总结，出院证明等任务上对不同的LLM foundation模型进行全量微调和(Q)Lora微调，评估其效果。我们计划后续将数据开源。
+（进行中）使用十几万条中文病例数据，在科室分类，病历总结，出院证明等任务上对不同的LLM foundation模型（Llama3-instruct, Llama3中文-chat，Qwen2）进行全量微调和，在域内测试数据集上，微调后的数据集在问诊总结/出院总结等场景下的BLEU/ROUGH，和科室分类的多分类accuracy上均取得了巨大的提升（BLEU 0% ~ 30% -> 49% ~ 55%， ROUGE-L 20% ~ 30% -> 60% ~ 64%, Accauracy 0% ~ 36% -> 69% ~ 71%）。我们计划后续将数据开源。
 </small>
 </description>
 
