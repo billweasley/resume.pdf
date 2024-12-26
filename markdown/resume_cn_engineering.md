@@ -5,24 +5,22 @@
 - <datetime>2022.03 - Now </datetime> <head_><head_title> 机器学习工程师，语音识别与语言技术 </head_title> @ Zoom </head_>
 <description><small>
 <ul>
-<li> 独立开展ASR/LLM的结合进行语音+文本模态sft的实验，尝试提高ASR解码结果的一致性。目前在全格式的WER（词错率）和正规化的RWER（稀有词词错率）均取得优于产线模型相当的水平。 </li>
-<li> 使用闭源LLM进行ASR error correction后处理，从Zipformer-Transducer模型中导出N-best list，结合biasing word list撰写prompt发送到GPT-4进行name entity修正，离线实验在medical数据集上<b>Rare word WER从37.8%变为17.5%</b>。</li>
-<li> 撰写meta-prompt，使用开源LLM模型（比如Mistral MoE 8x7B）生成几百个对话场景prompt, 并结合LLM模型生成的数字序列的不同读法（reading format）。将两者结合创建对话场景下的带数字文本，将文本交由同事使用内部/微软tts服务生成音频，从而得到测试集和部分训练数据。将训练数据对产线模型进行微调后，在另外的内部的digits数据集上有少量提升（<b>Absolute digit WER 降低约0.4%</b>）</li>
-<li> 训练语音识别和文本标点模型，从零开始构建LAS-S2S丹麦语模型。测试数据集上的初始词错误率（WER）约为<b>8%</b>，通过数据增强进一步降低了WER，<b>优于Microsoft Teams的结果</b>。初始大小写和标点的整体F1约为<b>70%</b>。 </li>
+<li> 与其它2名同事合作，设计, 实现和完成了Zoom的离线转录服务的升级和改造，使得该服务由一个单语种服务变成了多语种（36种）支持多业务（5+）的服务。架构基于AsyncMQ/Kafka，使用k8s和istio进行部署, 基于cpu用量进行动态扩缩容策略，服务全球Zoom客户。</li>
+<li> 维护 ASR 的推理仓库, 并解决线上的转录质量相关的问题。</li>
+<li> 对ASR模型和服务进行压测，以确定最优的推理参数，内存用量，cpu用量等参数。</li>
+<li> 在LAS/seq2seq模型上实现基于多头注意力（MHA）的时间对齐，从而提供良好的单词级时间戳，以满足多语言转录的业务需求。 </li>
 <li> 独立完成<b>Whisper</b></n>推理支持的实现，优化和性能评估（WER, RTF/latency/throughput）, 使用内部in-house VAD（人声检测）模型和开源的WhisperX，相比OpenAI的实现取得了更高的吞吐，并在多数测试集上实现了更低的wer。 </li>
-<li> 在LAS/seq2seq模型上实现基于多头注意力（MHA）的时间对齐，从而提供良好的单词级时间戳，以满足多语言转录的业务需求。[为此申请了一项美国专利] </li>
-<li> 维护 ASR 的推理仓库, 并解决线上的转录质量相关的问题. </li>
+<li> 使用闭源LLM进行ASR error correction后处理，从Zipformer-Transducer模型中导出N-best list，结合biasing word list撰写prompt发送到GPT-4进行name entity修正，离线实验在medical数据集上<b>Rare word WER从37.8%变为17.5%</b>。</li>
+<li> 独立开展ASR/LLM的结合进行语音+文本模态supervised finetuning的实验，尝试提高ASR解码结果的一致性。目前在全格式的WER（词错率）和正规化的RWER（稀有词词错率）均取得优于产线模型相当的水平。 </li>
 </ul>
 </small></description>
 
-- <datetime>2019.08 - 2021.12 </datetime> <head_><head_title> 数据科学家 </head_title> @ Barclays </head_>
+- <datetime>2019.08 - 2021.12 </datetime> <head_><head_title> 软件工程师和数据科学家 </head_title> @ Barclays </head_>
 <description><small>
 <ul>
+<li>入职时作为Java工程师，在Barclayscard做Java后端开发，支持Springboot的缓存业务。</li>
 <li>
-公司地址匹配和实体匹配，没有内部GPU和可用的标签数据。使用主动学习方法解决。从构建一些小数据集开始，只使用外部数据并训练一个XGBoost树，然后在边界上标记样本并以迭代方式微调BERT模型。在CPU集群上使用我自己从头开始构建的基于DJL的管道完成了600万内部配对样本的推断。该模型在嘈杂的测试数据集上实现了<b>94%的F1得分（起初为89%）</b>。模型在我们的Spark集群上以分布式方式进行离线推断。对于600万配对样本，运行时间不到1小时（在拥有80个CPU的集群上）。
-</li>
-<li>
-使用历史平均值和Informer模型（Transformer的变体）预测聚合的用户交易活动（转账数和转账金额）。然后构建反事实评估，以评估系统停机对银行造成的财务损失，并找出系统可靠性的关键时期。
+公司地址匹配和实体匹配，没有内部GPU和可用的标签数据。使用主动学习方法解决。在CPU集群上使用我自己从头开始构建的基于DJL的管道完成了600万内部配对样本的推断。该模型在嘈杂的测试数据集上实现了<b>94%的F1得分（起初为89%）</b>。模型在我们的Spark集群上以分布式方式进行离线推断。对于600万配对样本，运行时间不到1小时（在拥有80个CPU的集群上）。
 </li>
 </ul>
 </small></description>

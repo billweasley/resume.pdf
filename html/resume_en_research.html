@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <style type="text/css" media="all">
+    body {
+  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Headlines has different font sizes */
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+/* H1 and H2 has underline */
+h2 {
+  border-bottom: 1px solid #999;
+  font-weight: bold;
+}
+h1 {
+	font-weight: bold;
+}
+
+/* ul & li */
+ul {
+  list-style-type: disc;
+  margin-left: -0.4em;
+  margin-top: 0.4em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+li {
+  display: list-item;
+}
+
+/* school logo */
+img[alt="school-logo"] {
+  position: absolute;
+  top: .3em;
+  right: .8em;
+  height: 1.7em;
+  background-color: #fff;
+}
+
+/* avatar */
+img[alt="avatar"] {
+  position: absolute;
+  top: 3.8em;
+  right: 1em;
+  height: 8.5em;
+  background-color: #fff;
+}
+
+
+/* strong fonts as little title */
+/* ---- only for those ugly lists !--- */
+
+li em {
+  font-size: .8em;
+  color: #777;
+  font-style: italic;
+  display: flex;
+}
+
+datetime {
+  width: 10em;
+  float: left;
+}
+
+head_title {
+    text-decoration: underline;
+    text-decoration-color: #ddd;
+    text-decoration-thickness: 1px;
+    font-weight: bold;
+}
+head_ {
+  margin-left: 0.5em;
+  display: flex;
+}
+
+lang {
+  float: right;
+  font-size: .8em;
+  border-bottom: 1px dotted #ddd;
+}
+to_right{
+ float: right;
+}
+to_left{
+ float: left;
+}
+description_nleft {
+  margin-top: 1em; /* away from big title, looks like a block*/
+  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+}
+description {
+  margin-top: 1em; /* away from big title, looks like a block*/
+  display: block;
+  text-align:justify;
+}
+techstack{
+  margin-top: .5em; /* away from big title, looks like a block*/
+  display: block;
+  text-align:justify;
+  margin-bottom:.5em;
+}
+adjestl{
+  margin-left: 5em; 
+}
+desline {
+  margin-left: 15em;
+}
+
+hireable {
+  font-size: 1em;
+  color: #777;
+}
+
+footnote {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  font-size: .8em;
+  color: #777;
+}
+
+small {
+  font-size: .9em;
+}
+  </style>
+</head>
+<body>
+  <h1><to_left>Hao-xuan (Horace) Wang</to_left>  <description_nleft><to_right><a href="tel://008618622468042"> +86 18622468042</a></to_right><br> <to_right><a href="billweasley20092@gmail.com">billweasley20092@gmail.com</a> </to_right><br><to_right><b>Github: </b> <a href="https://github.com/billweasley">https://github.com/billweasley</a></to_right><br><to_right><b>Linkedin: </b> <a href="https://www.linkedin.com/in/horace-haoxuan-wang">https://www.linkedin.com/in/horace-haoxuan-wang</a></to_right><br><to_right><b>Personal Website: </b> <a href="http://shellcottage.me">http://shellcottage.me</a></to_right></description_nleft></h1>
+
+<h2>Work Experience  </h2>
+
+<ul>
+<li><p><datetime>2022.03 - Now </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_><description><small>
+<ul>
+<li> Led experiments on integrating <strong>LLMs with ASR models</strong> in multimodal settings, significantly improving consistency in ASR decoding. Achieved better <strong>orthographic WER</strong> and <strong>rare word WER</strong> compared to the production model.</li>
+<li> Developed <strong>LLM-based transcription post-processing pipelines</strong>, leveraging N-best lists from <strong>Zipformer-Transducer models</strong> and customized prompts with biasing word lists sent to <strong>Claude</strong>. Offline experiments on a medical dataset reduced <strong>Rare Word WER from 37.8% to 17.5%</strong>.</li>
+<li> Designed <strong>LLM-driven data augmentation workflows</strong>, utilizing <strong>Mistral MoE 8x7B</strong> to generate diverse dialogue scenarios and numerical reading formats. Resulting datasets improved ASR digit recognition performance (<strong>Absolute digit WER reduced by ~0.4%</strong>).</li>
+<li> Built a <strong>LAS-S2S Danish ASR model</strong> from scratch, achieving an initial <strong>WER of ~8%</strong> and <strong>punctuation/case F1 score of ~70%</strong>, outperforming <strong>MS Teams&#39; benchmarks</strong> after data augmentation.</li>
+<li> Independently optimized <strong>Whisper inference pipelines</strong>, integrating in-house <strong>VAD models</strong> and <strong>WhisperX</strong> to deliver superior <strong>WER and throughput</strong> performance compared to OpenAI’s implementation.</li>
+<li> Implemented <strong>multi-head attention-based time alignment</strong> in LAS/Seq2Seq models to deliver precise <strong>word-level timestamps</strong> for multilingual transcription. (<strong>Patent filed</strong>)</li>
+<li> Maintained and optimized <strong>ASR inference pipelines</strong>, resolving production-level issues and ensuring smooth operations.</li>
+</ul>
+</small></description>  </p></li>
+<li><p><datetime>2019.08 - 2021.12 </datetime> <head_><head_title> Data Scientist and Software Engineer </head_title> @ Barclays </head_><description><small>
+<ul>
+<li> Developed an <strong>entity-matching pipeline</strong> using <strong>active learning techniques</strong>. Constructed small, externally sourced datasets with fine-tuned <strong>BERT models</strong>, achieving a <strong>94% F1 score</strong> on noisy test datasets. Deployed inference on a distributed <strong>DJL-based CPU cluster</strong>, processing <strong>6 million pairwise samples in under 1 hour</strong>.</li>
+<li> Applied <strong>Informer models</strong> for <strong>time-series transaction forecasting</strong>, enabling accurate predictions of transaction volume and counterfactual financial loss assessments during system downtimes.</li>
+</ul>
+</small></description>  </p></li>
+</ul>
+
+<h2>Education  </h2>
+
+<ul style="list-style-type: none;">  
+<li><head_><datetime>2018 - 2019</datetime> MSc Web Science and Big Data Analytics  @&nbsp;<b>University College London, </b>&nbsp;Distinction</head_></li>  
+<li><head_><datetime>2016 - 2018</datetime> BSc Internet Computing  @&nbsp;<b>University of Liverpool *, </b>&nbsp; First class</head_></li>  
+<li><head_><datetime>2014 - 2016</datetime> BSc Information and Computing Science  @&nbsp;<b>Xi'an Jiaotong-Liverpool University * </b>&nbsp;</head_></li>  
+<li><description><small><b>*Note: </b>2+2 pathway program (first 2 years in Suzhou, China, final 2 years in Liverpool, UK), dual degree.</small></description></li>  
+</ul>  
+
+<h2>Personal Project  </h2>
+
+<ul>
+<li><p><head_><datetime>2024.06 - </datetime> <head_title>Fine-tuning and evaluation of medical record data on Large Language Models (LLMs) </head_title> </head_><description><small>
+(Ongoing) Fine-tuning <strong>LLaMA3-instruct</strong>, <strong>LLaMA3 Chinese-chat</strong>, and <strong>Qwen2</strong> models on large-scale <strong>Chinese medical datasets</strong> for tasks such as <strong>department classification</strong>, <strong>medical record summarization</strong>, and <strong>discharge report generation</strong>. It was planned to <strong>open-sourcing datasets</strong>. Achieved notable improvements:  </p>
+
+<ul>
+<li><strong>Consultation/Discharge Summarization:</strong> BLEU (<strong>0%-30% → 49%-55%</strong>), ROUGE-L (<strong>20%-30% → 60%-64%</strong>)<br></li>
+<li><strong>Department Classification:</strong> Accuracy (<strong>0%-36% → 69%-71%</strong>)<br></li>
+</ul>
+
+<p></small></description>  </p></li>
+</ul>
+
+<h2>Technical Article  </h2>
+
+<ul>
+<li><head_><head_title>&quot;Accelerating Deep Learning on the JVM with Apache Spark and NVIDIA GPUs&quot; </head_title> </head_>
+<description><small>
+Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];<br>
+Link: <a href="https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&amp;itm_medium=link&amp;itm_campaign=ai-ml-data-eng">https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&amp;itm_medium=link&amp;itm_campaign=ai-ml-data-eng</a>
+</small>
+</description></li>
+</ul>
+
+<h2>Early Stage Project  </h2>
+
+<ul>
+<li><p><datetime>2019.06 - 2019.09</datetime> <head_><head_title>Project Internship (Master Degree Thesis) </head_title>  @ Astroscreen </head_><description><small>
+Worked on <strong>social media language source identification</strong> (e.g., tweets and gabs).  </p>
+
+<ul>
+<li>Implemented a <strong>crawler for Gab.com</strong> to collect linguistic data.<br></li>
+<li>Processed data using <strong>Regular Expressions</strong> and fine-tuned <strong>BERT</strong> and <strong>XLNet</strong> models for classification tasks.<br></li>
+<li>Applied <strong>t-SNE visualization</strong> and <strong>&quot;leave-one-hashtag-out&quot; cross-validation</strong> to prevent data leakage.<br></li>
+<li>Achieved <strong>86% F1 score</strong> on a <strong>hashtag-balanced test dataset</strong>, demonstrating the importance of avoiding biased splits during training.
+</small></description></li>
+</ul></li>
+<li><p><datetime>2019.02 - 2019.03</datetime> <head_><head_title>Integrated BERT and Embeddings in CommonsenseQA Challenge</head_title> </head_>
+<description><small>
+Fine-tuned <strong>Google BERT</strong> for <strong>CommonsenseQA Challenge 1.0</strong>, integrating <strong>ConceptNet Numberbatch and ELMo embeddings</strong>. Achieved <strong>68.79% accuracy</strong> on validation datasets (BERT only: 67.47%).
+</small>
+</description></p></li>
+</ul>
+
+</body>
+</html>
