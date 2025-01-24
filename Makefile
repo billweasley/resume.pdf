@@ -1,6 +1,6 @@
 # vim:set noet:
 
-all: pdf/Haoxuan_Wang_resume_cn.pdf pdf/Haoxuan_Wang_resume_en_China.pdf pdf/Haoxuan_Wang_resume_cn_engineering.pdf pdf/Haoxuan_Wang_resume_en_engineering.pdf pdf/Haoxuan_Wang_resume_en_research.pdf
+all: css/style.css pdf/Haoxuan_Wang_resume_cn.pdf pdf/Haoxuan_Wang_resume_en_China.pdf pdf/Haoxuan_Wang_resume_cn_engineering.pdf pdf/Haoxuan_Wang_resume_en_engineering.pdf pdf/Haoxuan_Wang_resume_en_research.pdf
 
 css/style.css: pdf/Haoxuan_Wang_resume_cn.pdf pdf/Haoxuan_Wang_resume_en_China.pdf
 
@@ -15,7 +15,7 @@ pdf/Haoxuan_Wang_resume_cn_engineering.pdf: markdown/resume_cn_engineering.md Ma
 
 pdf/Haoxuan_Wang_resume_en_China.pdf: markdown/resume_en\ -\ China.md Makefile
 	md2pdf markdown/resume_en\ -\ China.md -s css/style.css -o html/resume_en_China.html
-	xvfb-run -a -- /usr/bin/wkhtmltopdf --zoom 0.2 'html/resume_en_China.html' 'pdf/Haoxuan_Wang_resume_en_China.pdf'
+	xvfb-run -a -- /usr/bin/wkhtmltopdf --zoom 0.15 'html/resume_en_China.html' 'pdf/Haoxuan_Wang_resume_en_China.pdf'
 
 pdf/Haoxuan_Wang_resume_en_engineering.pdf: markdown/resume_en_engineering.md Makefile
 	md2pdf markdown/resume_en_engineering.md -s css/style.css -o html/resume_en_engineering.html

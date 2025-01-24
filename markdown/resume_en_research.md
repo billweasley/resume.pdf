@@ -5,7 +5,7 @@ Work Experience
 - <datetime>2022.03 - Now </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_><description><small>
   <ul>
   <li> Led experiments on integrating **LLMs with ASR models** in multimodal settings, significantly improving consistency in ASR decoding. Achieved better **orthographic WER** and **rare word WER** compared to the production model.</li>
-  <li> Developed **LLM-based transcription post-processing pipelines**, leveraging N-best lists from **Zipformer-Transducer models** and customized prompts with biasing word lists sent to **Claude**. Offline experiments on a medical dataset reduced **Rare Word WER from 37.8% to 17.5%**.</li>
+  <li> Developed **LLM-based transcription post-processing pipelines**, leveraging N-best lists from **Zipformer-Transducer models** and customized prompts with biasing word lists sent to Claude 3.5 Sonnet. Offline experiments on a medical dataset reduced **Rare Word WER from 37.8% to 17.5%**.</li>
   <li> Designed **LLM-driven data augmentation workflows**, utilizing **Mistral MoE 8x7B** to generate diverse dialogue scenarios and numerical reading formats. Resulting datasets improved ASR digit recognition performance (**Absolute digit WER reduced by ~0.4%**).</li>
   <li> Built a **LAS-S2S Danish ASR model** from scratch, achieving an initial **WER of ~8%** and **punctuation/case F1 score of ~70%**, outperforming **MS Teams' benchmarks** after data augmentation.</li>
   <li> Independently optimized **Whisper inference pipelines**, integrating in-house **VAD models** and **WhisperX** to deliver superior **WER and throughput** performance compared to OpenAI’s implementation.</li>
@@ -33,7 +33,7 @@ Education
 Personal Project  
 --------  
 - <head_><datetime>2024.06 - </datetime> <head_title>Fine-tuning and evaluation of medical record data on Large Language Models (LLMs) </head_title> </head_><description><small>
-  (Ongoing) Fine-tuning **LLaMA3-instruct**, **LLaMA3 Chinese-chat**, and **Qwen2** models on large-scale **Chinese medical datasets** for tasks such as **department classification**, **medical record summarization**, and **discharge report generation**. It was planned to **open-sourcing datasets**. Achieved notable improvements:  
+  Fine-tuning **LLaMA3-instruct**, **LLaMA3 Chinese-chat**, and **Qwen2** models on large-scale **Chinese medical datasets** for tasks such as **department classification**, **medical record summarization**, and **discharge report generation**. It was planned to **open-sourcing datasets**. Achieved notable improvements:  
   - **Consultation/Discharge Summarization:** BLEU (**0%-30% → 49%-55%**), ROUGE-L (**20%-30% → 60%-64%**)  
   - **Department Classification:** Accuracy (**0%-36% → 69%-71%**)  
   
@@ -43,8 +43,7 @@ Technical Article
 --------  
 - <head_><head_title>"Accelerating Deep Learning on the JVM with Apache Spark and NVIDIA GPUs" </head_title> </head_>
 <description><small>
-Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  
-Link: [https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng](https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng)
+Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  Link: [https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng](https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng)
 </small>
 </description>
 

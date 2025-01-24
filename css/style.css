@@ -1,5 +1,5 @@
 body {
-  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+  font: 13px/1.41 "DejaVu", Verdana Helvetica, arial, freesans, clean, sans-serif;
   color: #333;
   background-color: #fff;
 }
@@ -31,7 +31,7 @@ h1 {
 ul {
   list-style-type: disc;
   margin-left: -0.4em;
-  margin-top: 0.4em;
+  margin-top: 0.3em;
   padding-left: 3em;
   padding-right: 3em;
 }
@@ -98,10 +98,10 @@ to_left{
 }
 description_nleft {
   margin-top: 1em; /* away from big title, looks like a block*/
-  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+  font: 13px/1.3   "DejaVu", Verdana Helvetica, arial, freesans, clean, sans-serif;
 }
 description {
-  margin-top: 1em; /* away from big title, looks like a block*/
+  margin-top: 0.5em; /* away from big title, looks like a block*/
   display: block;
   text-align:justify;
 }
@@ -132,5 +132,5 @@ footnote {
 }
 
 small {
-  font-size: .9em;
+  font-size: 1em;
 }

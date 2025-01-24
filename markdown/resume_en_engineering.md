@@ -41,7 +41,7 @@ Personal Project
 - <head_><datetime>2024.06 - </datetime> <head_title>Fine-tuning and evaluation of medical record data on Large Language Models (LLMs) </head_title> </head_>
 <description>
 <small>
-(Ongoing) Fine-tuned various **LLMs (Llama3-instruct, Llama3 Chinese-chat, Qwen2)** on **Chinese medical records datasets**, focusing on tasks such as **department classification, record summarization, and discharge certification**.  
+Fine-tuned various **LLMs (Llama3-instruct, Llama3 Chinese-chat, Qwen2)** on **Chinese medical records datasets**, focusing on tasks such as **department classification, record summarization, and discharge certification**.  
 <ul>
 <li><b>Consultation Summary/Discharge Summary:</b> BLEU improved from **0%-30%** to **49%-55%**, ROUGE-L from **20%-30%** to **60%-64%**.</li>
 <li><b>Department Classification:</b> Accuracy improved from **0%-36%** to **69%-71%**.</li>
@@ -54,8 +54,7 @@ Technical Article
 --------
 - <head_><head_title>"Accelerating Deep Learning on the JVM with Apache Spark and NVIDIA GPUs" </head_title> </head_>
 <description><small>
-Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  
-Link: [https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng](https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng)
+Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  Link: [https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng](https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&itm_medium=link&itm_campaign=ai-ml-data-eng)
 </small>
 </description>
 

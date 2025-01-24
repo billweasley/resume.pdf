@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <style type="text/css" media="all">
     body {
-  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+  font: 13px/1.41 "DejaVu", Verdana Helvetica, arial, freesans, clean, sans-serif;
   color: #333;
   background-color: #fff;
 }
@@ -36,7 +36,7 @@ h1 {
 ul {
   list-style-type: disc;
   margin-left: -0.4em;
-  margin-top: 0.4em;
+  margin-top: 0.3em;
   padding-left: 3em;
   padding-right: 3em;
 }
@@ -103,10 +103,10 @@ to_left{
 }
 description_nleft {
   margin-top: 1em; /* away from big title, looks like a block*/
-  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+  font: 13px/1.3   "DejaVu", Verdana Helvetica, arial, freesans, clean, sans-serif;
 }
 description {
-  margin-top: 1em; /* away from big title, looks like a block*/
+  margin-top: 0.5em; /* away from big title, looks like a block*/
   display: block;
   text-align:justify;
 }
@@ -137,8 +137,9 @@ footnote {
 }
 
 small {
-  font-size: .9em;
+  font-size: 1em;
 }
+
   </style>
 </head>
 <body>
@@ -150,7 +151,7 @@ small {
 <li><p><datetime>2022.03 - Now </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_><description><small>
 <ul>
 <li> Led experiments on integrating <strong>LLMs with ASR models</strong> in multimodal settings, significantly improving consistency in ASR decoding. Achieved better <strong>orthographic WER</strong> and <strong>rare word WER</strong> compared to the production model.</li>
-<li> Developed <strong>LLM-based transcription post-processing pipelines</strong>, leveraging N-best lists from <strong>Zipformer-Transducer models</strong> and customized prompts with biasing word lists sent to <strong>Claude</strong>. Offline experiments on a medical dataset reduced <strong>Rare Word WER from 37.8% to 17.5%</strong>.</li>
+<li> Developed <strong>LLM-based transcription post-processing pipelines</strong>, leveraging N-best lists from <strong>Zipformer-Transducer models</strong> and customized prompts with biasing word lists sent to Claude 3.5 Sonnet. Offline experiments on a medical dataset reduced <strong>Rare Word WER from 37.8% to 17.5%</strong>.</li>
 <li> Designed <strong>LLM-driven data augmentation workflows</strong>, utilizing <strong>Mistral MoE 8x7B</strong> to generate diverse dialogue scenarios and numerical reading formats. Resulting datasets improved ASR digit recognition performance (<strong>Absolute digit WER reduced by ~0.4%</strong>).</li>
 <li> Built a <strong>LAS-S2S Danish ASR model</strong> from scratch, achieving an initial <strong>WER of ~8%</strong> and <strong>punctuation/case F1 score of ~70%</strong>, outperforming <strong>MS Teams&#39; benchmarks</strong> after data augmentation.</li>
 <li> Independently optimized <strong>Whisper inference pipelines</strong>, integrating in-house <strong>VAD models</strong> and <strong>WhisperX</strong> to deliver superior <strong>WER and throughput</strong> performance compared to OpenAI’s implementation.</li>
@@ -179,7 +180,7 @@ small {
 
 <ul>
 <li><p><head_><datetime>2024.06 - </datetime> <head_title>Fine-tuning and evaluation of medical record data on Large Language Models (LLMs) </head_title> </head_><description><small>
-(Ongoing) Fine-tuning <strong>LLaMA3-instruct</strong>, <strong>LLaMA3 Chinese-chat</strong>, and <strong>Qwen2</strong> models on large-scale <strong>Chinese medical datasets</strong> for tasks such as <strong>department classification</strong>, <strong>medical record summarization</strong>, and <strong>discharge report generation</strong>. It was planned to <strong>open-sourcing datasets</strong>. Achieved notable improvements:  </p>
+Fine-tuning <strong>LLaMA3-instruct</strong>, <strong>LLaMA3 Chinese-chat</strong>, and <strong>Qwen2</strong> models on large-scale <strong>Chinese medical datasets</strong> for tasks such as <strong>department classification</strong>, <strong>medical record summarization</strong>, and <strong>discharge report generation</strong>. It was planned to <strong>open-sourcing datasets</strong>. Achieved notable improvements:  </p>
 
 <ul>
 <li><strong>Consultation/Discharge Summarization:</strong> BLEU (<strong>0%-30% → 49%-55%</strong>), ROUGE-L (<strong>20%-30% → 60%-64%</strong>)<br></li>
@@ -194,8 +195,7 @@ small {
 <ul>
 <li><head_><head_title>&quot;Accelerating Deep Learning on the JVM with Apache Spark and NVIDIA GPUs&quot; </head_title> </head_>
 <description><small>
-Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];<br>
-Link: <a href="https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&amp;itm_medium=link&amp;itm_campaign=ai-ml-data-eng">https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&amp;itm_medium=link&amp;itm_campaign=ai-ml-data-eng</a>
+Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  Link: <a href="https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&amp;itm_medium=link&amp;itm_campaign=ai-ml-data-eng">https://www.infoq.com/articles/deep-learning-apache-spark-nvidia-gpu/?itm_source=articles_about_ai-ml-data-eng&amp;itm_medium=link&amp;itm_campaign=ai-ml-data-eng</a>
 </small>
 </description></li>
 </ul>

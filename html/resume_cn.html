@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <style type="text/css" media="all">
     body {
-  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+  font: 13px/1.41 "DejaVu", Verdana Helvetica, arial, freesans, clean, sans-serif;
   color: #333;
   background-color: #fff;
 }
@@ -36,7 +36,7 @@ h1 {
 ul {
   list-style-type: disc;
   margin-left: -0.4em;
-  margin-top: 0.4em;
+  margin-top: 0.3em;
   padding-left: 3em;
   padding-right: 3em;
 }
@@ -103,10 +103,10 @@ to_left{
 }
 description_nleft {
   margin-top: 1em; /* away from big title, looks like a block*/
-  font: 13px/1.3 Verdana Helvetica, arial, freesans, clean, sans-serif;
+  font: 13px/1.3   "DejaVu", Verdana Helvetica, arial, freesans, clean, sans-serif;
 }
 description {
-  margin-top: 1em; /* away from big title, looks like a block*/
+  margin-top: 0.5em; /* away from big title, looks like a block*/
   display: block;
   text-align:justify;
 }
@@ -137,8 +137,9 @@ footnote {
 }
 
 small {
-  font-size: .9em;
+  font-size: 1em;
 }
+
   </style>
 </head>
 <body>
@@ -151,12 +152,12 @@ small {
 <description><small>
 <ul>
 <li> 独立开展ASR/LLM的结合进行语音+文本模态sft的实验，尝试提高ASR解码结果的一致性。目前在全格式的WER（词错率）和正规化的RWER（稀有词词错率）均取得优于产线模型相当的水平。 </li>
-<li> 使用闭源LLM进行ASR error correction后处理，从Zipformer-Transducer模型中导出N-best list，结合biasing word list撰写prompt发送到GPT-4进行name entity修正，离线实验在medical数据集上<b>Rare word WER从37.8%变为17.5%</b>。</li>
-<li> 撰写meta-prompt，使用开源LLM模型（比如Mistral MoE 8x7B）生成几百个对话场景prompt, 并结合LLM模型生成的数字序列的不同读法（reading format）。将两者结合创建对话场景下的带数字文本，将文本交由同事使用内部/微软tts服务生成音频，从而得到测试集和部分训练数据。将训练数据对产线模型进行微调后，在另外的内部的digits数据集上有少量提升（<b>Absolute digit WER 降低约0.4%</b>）</li>
+<li> 使用闭源LLM进行ASR error correction后处理，从Zipformer-Transducer模型中导出N-best list，结合biasing word list撰写prompt发送到Claude 3.5 Sonnet进行name entity修正，离线实验在medical数据集上<b>Rare word WER从37.8%变为17.5%</b>。</li>
 <li> 训练语音识别和文本标点模型，从零开始构建LAS-S2S丹麦语模型。测试数据集上的初始词错误率（WER）约为<b>8%</b>，通过数据增强进一步降低了WER，<b>优于Microsoft Teams的结果</b>。初始大小写和标点的整体F1约为<b>70%</b>。 </li>
 <li> 独立完成<b>Whisper</b></n>推理支持的实现，优化和性能评估（WER, RTF/latency/throughput）, 使用内部in-house VAD（人声检测）模型和开源的WhisperX，相比OpenAI的实现取得了更高的吞吐，并在多数测试集上实现了更低的wer。 </li>
 <li> 在LAS/seq2seq模型上实现基于多头注意力（MHA）的时间对齐，从而提供良好的单词级时间戳，以满足多语言转录的业务需求。[为此申请了一项美国专利] </li>
 <li> 维护 ASR 的推理仓库, 并解决线上的转录质量相关的问题. </li>
+<li> 撰写meta-prompt，使用开源LLM模型（比如Mistral MoE 8x7B）生成几百个对话场景prompt, 并结合LLM模型生成的数字序列的不同读法（reading format）。将两者结合创建对话场景下的带数字文本，将文本交由同事使用内部/微软tts服务生成音频，从而得到测试集和部分训练数据。将训练数据对产线模型进行微调后，在另外的内部的digits数据集上有少量提升（<b>Absolute digit WER 降低约0.4%</b>）</li>
 </ul>
 </small></description></p></li>
 <li><p><datetime>2019.08 - 2021.12 </datetime> <head_><head_title> 数据科学家 </head_title> @ Barclays </head_>
@@ -188,7 +189,7 @@ small {
 <li> <head_><datetime>2024.06 - </datetime> <head_title>关于病历数据在LLM上的微调与评估 </head_title> </head_>
 <description>
 <small>
-（进行中）使用十几万条中文病例数据，在科室分类，病历总结，出院证明等任务上对不同的LLM foundation模型（Llama3-instruct, Llama3中文-chat，Qwen2）进行全量微调，在域内测试数据集上，微调后的数据集在问诊总结/出院总结等场景下的BLEU/ROUGH，和科室分类的多分类accuracy上均取得了巨大的提升（BLEU 0% ~ 30% -&gt; 49% ~ 55%， ROUGE-L 20% ~ 30% -&gt; 60% ~ 64%, Accauracy 0% ~ 36% -&gt; 69% ~ 71%）。我们计划后续将数据开源。
+使用十几万条中文病例数据，在科室分类，病历总结，出院证明等任务上对不同的LLM foundation模型（Llama3-instruct, Llama3中文-chat，Qwen2）进行全量微调，在域内测试数据集上，微调后的数据集在问诊总结/出院总结等场景下的BLEU/ROUGH，和科室分类的多分类accuracy上均取得了巨大的提升（BLEU 0% ~ 30% -&gt; 49% ~ 55%， ROUGE-L 20% ~ 30% -&gt; 60% ~ 64%, Accauracy 0% ~ 36% -&gt; 69% ~ 71%）。我们计划后续将数据开源。
 </small>
 </description></li>
 </ul>
@@ -209,10 +210,7 @@ small {
 <li><p><datetime>2019.06 - 2019.09</datetime> <head_><head_title>项目实习（硕士学位论文）</head_title> @ Astroscreen </head_>
 <description>
 <small>
-社交媒体帖子语言来源识别（推文和Gab帖子）项目。
-完成了Gab.com的语言（帖子）数据收集爬虫，使用正则表达式进行数据预处理，通过微调BERT和XLNet构建模型来分类这些数据的来源，
-使用t-SNE可视化结果，进行了&quot;leave-one-hashtag-out&quot;交叉验证，并使用一些常见指标（准确率、F1分数、混淆矩阵、马修斯相关系数）评估模型。
-微调后，XLNet在标签均衡的测试数据集上显示了86%的F1分数，而在随机均衡的测试数据集上为97%。结果显示了使用模型进行来源检查的潜力，也表明了避免数据泄漏的重要性。
+社交媒体帖子语言来源识别（推文和Gab帖子）项目。完成了Gab.com的语言（帖子）数据收集爬虫，使用正则表达式进行数据预处理，通过微调BERT和XLNet构建模型来分类这些数据的来源; 使用t-SNE可视化结果，进行了&quot;leave-one-hashtag-out&quot;交叉验证，并使用一些常见指标（准确率、F1分数、混淆矩阵、马修斯相关系数）评估模型。微调后，XLNet在标签均衡的测试数据集上显示了86%的F1分数，而在随机均衡的测试数据集上为97%。结果显示了使用模型进行来源检查的潜力，也表明了避免数据泄漏的重要性。
 </small>
 </description></p></li>
 <li><p><datetime>2019.02 - 2019.03</datetime> <head_><head_title>将BERT和嵌入集成到CommonsenseQA挑战中</head_title> </head_>
@@ -221,6 +219,16 @@ small {
 该挑战包括一组需要人类常识知识的选择题。我们使用BERT + ELMo在验证集上达到了68.79%的准确率（仅使用BERT: 67.47%; BERT + Numberbatch: 67.68%）。
 </small>
 </description></p></li>
+</ul>
+
+<h2>技能</h2>
+
+<ul>
+<li><head_><description><small>语言: Python, Java, C  </small></description></head_></li>
+<li><head_><description><small>深度学习, 语音识别和自然语言处理: PyTorch, HuggingFace, Whisper, K2, Transformers (和各种变种), LLM fine-tuning (LoRA, Full-paramter) </small></description></head_></li>
+<li><head_><description><small>数据处理: Spark, Pandas </small></description></head_></li>
+<li><head_><description><small>训练和系统基建: DeepSpeed, AsyncMQ/Kafka, Docker, Kubernetes (Istio, Knative, ...)  </small></description></head_></li>
+<li><head_><description><small>通用: Jenkins, git, JIRA  </small></description></head_></li>
 </ul>
 
 </body>

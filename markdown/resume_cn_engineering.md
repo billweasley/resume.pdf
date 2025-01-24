@@ -10,7 +10,7 @@
 <li> 对ASR模型和服务进行压测，以确定最优的推理参数，内存用量，cpu用量等参数。</li>
 <li> 在LAS/seq2seq模型上实现基于多头注意力（MHA）的时间对齐，从而提供良好的单词级时间戳，以满足多语言转录的业务需求。 </li>
 <li> 独立完成<b>Whisper</b></n>推理支持的实现，优化和性能评估（WER, RTF/latency/throughput）, 使用内部in-house VAD（人声检测）模型和开源的WhisperX，相比OpenAI的实现取得了更高的吞吐，并在多数测试集上实现了更低的wer。 </li>
-<li> 使用闭源LLM进行ASR error correction后处理，从Zipformer-Transducer模型中导出N-best list，结合biasing word list撰写prompt发送到GPT-4进行name entity修正，离线实验在medical数据集上<b>Rare word WER从37.8%变为17.5%</b>。</li>
+<li> 使用闭源LLM进行ASR error correction后处理，从Zipformer-Transducer模型中导出N-best list，结合biasing word list撰写prompt发送到Claude进行name entity修正，离线实验在medical数据集上<b>Rare word WER从37.8%变为17.5%</b>。</li>
 <li> 独立开展ASR/LLM的结合进行语音+文本模态supervised finetuning的实验，尝试提高ASR解码结果的一致性。目前在全格式的WER（词错率）和正规化的RWER（稀有词词错率）均取得优于产线模型相当的水平。 </li>
 </ul>
 </small></description>
