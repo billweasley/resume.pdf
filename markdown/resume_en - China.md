@@ -2,7 +2,13 @@
 
 Work Experience
 --------
-- <datetime>2022.03 - Now </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_>
+- <datetime>2025.03 - Now </datetime> <head_><head_title> Senior Data Scientist, Integrity and customer experience </head_title> @ Grab </head_>
+<description><small>
+<ul>
+<li> Initial project is about producing an enhanced on-device keyword spotting model and combining it with service-side multimodality LLM to detect safety issue during taxi hailing. </li>
+</ul>
+</small></description>
+- <datetime>2022.03 - 2025.02 </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_>
 <description><small>
 <ul>
 <li> Independently experimented with LLM for ASR in multimodality setting, aiming to improve the consistency of ASR decoding results. The orthographic (fully-format) WER (word error rate), and the rare word WER achieved a better result compared with the production model. </li>
@@ -10,7 +16,6 @@ Work Experience
 <li> Trained a speech recognition and text punctuation model, building a LAS-S2S Danish model from scratch. The initial WER on the test dataset was about <b>8%</b>, further reduced by data augmentation, <b>outperforming MS Teams' results</b>. The initial overall F1 score for case and punctuation was about <b>70%</b>.</li>
 <li> Independently implemented <b>Whisper</b> inference support, optimization, and performance evaluation (WER, RTF/latency/throughput), using an in-house VAD (voice activity detection) model and open-source WhisperX. Achieved higher throughput compared to OpenAI's implementation and lower WER on most test sets.</li>
 <li> Implemented multi-head attention (MHA) based time alignment on LAS/seq2seq models to provide good word-level timestamps, meeting the business needs for multilingual transcription. [Filed a US patent for this]</li>
-<li> Maintain ASR inference pipeline, and resolve issues from production. </li>
 </ul>
 </small></description>
 
@@ -54,14 +59,13 @@ Author: Haoxuan Wang, Qin Lan [AWS], Carol McDonald [Nvidia];  Link: https://www
 </description>
 
 
-Early Stage Project
+Project
 --------
-- <head_><datetime>2019.06 - 2019.09</datetime> <head_title>Project Internship (Master Degree Thesis) </head_title>  @ Astroscreen </head_>
+-  <datetime>2025.02 - 2025.02</datetime> <head_title>Work trail </head_title>  @ Finalround.ai
 <description>
 <small>
-Social media posting language source identification (tweets and gabs) project.
-Finished a crawler for collecting language (posts) data from Gab.com, pre-processed data using Regular Expression, built models for classifying the source of these data by fine-turning BERT and XLNet,
-visualized results using t-SNE, did "leave-one-hashtag-out" cross-validation, and evaluated models using some common matrics (Accuracy, F1 score, Confusion Matrix, Matthews Correlation Coefficient). After fine-turning, XLNet shows a 86% F1 score on hashtag-balanced test dataset, reducing from 97% on random-balanced test dataset. The results show the protential for doing source checking using a model and also indicate the importance for avoiding data leakage.
+In a one-week project focused on intent detection from intermediate ASR results, I independently implemented a detection pipeline and achieved an F1 score of 87% on a validation meeting. Notably, half of the intents were detected ahead of the ASR final utterance. This work enables me to receiving a job offer from them. The complete pipeline included:
+1) Rule-based handling of greeting utterances.2) Evaluating sentence completeness using segment-any-text, syntactic parsing, and perplexity scoring. 3)Detecting confirmation-type questions (e.g., "Can you hear me?") using Sentence-BERT embeddings. 4) Classifying final question intents with a small language model. Also, I developed prompts for extracting resume information, which improved the personalization and quality of LLM responses.
 </small>
 </description>
 

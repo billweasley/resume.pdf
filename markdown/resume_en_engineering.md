@@ -2,7 +2,13 @@
 
 Work Experience
 --------
-- <datetime>2022.03 - Now </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_>
+- <datetime>2025.03 - Now </datetime> <head_><head_title> Senior Data Scientist, Integrity and customer experience </head_title> @ Grab </head_>
+<description><small>
+<ul>
+<li> Initial project is about producing an enhanced on-device keyword spotting model and combining it with service-side multimodality LLM to detect safety issue during taxi hailing. </li>
+</ul>
+</small></description>
+- <datetime>2022.03 - 2025.02 </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_>
 <description><small>
 <ul>
 <li> Designed and implemented a **multilingual ASR service** supporting **36 languages** and **5+ workflows**. The architecture is based on **AsyncMQ/Kafka**, deployed via **Kubernetes (K8s)** and **Istio**, supporting dynamic CPU-based scaling to serve global Zoom customers. </li>
@@ -67,8 +73,9 @@ Built data crawlers for **Gab.com** and pre-processed datasets using **Regular E
 </small>
 </description>
 
-- <datetime>2019.02 - 2019.03</datetime> <head_><head_title>Integrated BERT and Embeddings in CommonsenseQA Challenge</head_title> </head_>
-<description><small>
-Fine-tuned **Google BERT** for **CommonsenseQA Challenge 1.0**, integrating **ConceptNet Numberbatch and ELMo embeddings**. Achieved **68.79% accuracy** on validation datasets (BERT only: 67.47%).
+- <datetime>2025.02 - 2025.02</datetime> <head_><head_title>Work trail </head_title> @ Finalround.ai </head_><description>
+<small>
+In a one-week project focused on intent detection from intermediate ASR results, I independently implemented a complete detection pipeline and achieved an F1 score of 87% on a validation meeting. Notably, half of the intents were detected ahead of the ASR final utterance. This work enables me to receiving a job offer from them. The complete pipeline included:
+1) Rule-based handling of greeting utterances.2) Evaluating sentence completeness using segment-any-text, syntactic parsing, and perplexity scoring. 3)Detecting confirmation-type questions (e.g., "Can you hear me?") using Sentence-BERT embeddings. 4) Classifying final question intents with a small language model. Also, I developed prompts for extracting resume information, which improved the personalization and quality of LLM-generated responses.
 </small>
 </description>

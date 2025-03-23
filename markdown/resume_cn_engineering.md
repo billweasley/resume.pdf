@@ -2,7 +2,13 @@
 
 工作经历
 --------
-- <datetime>2022.03 - Now </datetime> <head_><head_title> 机器学习工程师，语音识别与语言技术 </head_title> @ Zoom </head_>
+- <datetime>2025.03 - 现在 </datetime> <head_><head_title> 高级(senior)数据科学家, 诚信和顾客体验 </head_title> @ Grab </head_>
+<description><small>
+<ul>
+<li> 初始项目是计划产生一个手机上用的关键词识别模型，以结合多模态大模型来保护的士司乘安全。</li>
+</ul>
+</small></description>
+- <datetime>2022.03 - 2025.02 </datetime> <head_><head_title> 机器学习工程师，语音识别与语言技术 </head_title> @ Zoom </head_>
 <description><small>
 <ul>
 <li> 与其它2名同事合作，设计, 实现和完成了Zoom的离线转录服务的升级和改造，使得该服务由一个单语种服务变成了多语种（36种）支持多业务（5+）的服务。架构基于AsyncMQ/Kafka，使用k8s和istio进行部署, 基于cpu用量进行动态扩缩容策略，服务全球Zoom客户。</li>
@@ -66,10 +72,10 @@
 </small>
 </description>
 
-- <datetime>2019.02 - 2019.03</datetime> <head_><head_title>将BERT和嵌入集成到CommonsenseQA挑战中</head_title> </head_>
-<description><small>
-我们将Google BERT微调到CommonsenseQA挑战1.0（每个问题有3个选项），然后集成Conceptnet Numberbatch和ELMo嵌入，试图提高模型性能。
-该挑战包括一组需要人类常识知识的选择题。我们使用BERT + ELMo在验证集上达到了68.79%的准确率（仅使用BERT: 67.47%; BERT + Numberbatch: 67.68%）。
+- <datetime>2025.02 - 2025.02</datetime> <head_><head_title>Work trail </head_title> @ Finalround.ai </head_>
+<description>
+<small>
+单周项目，目标是ASR 中间结果的问题意图检测。独立实现了整个检测流程，在验证会议数据上取得了87%的F1结果，其中一半是早于asr final utterance提前检出的，并取得了offer。整个流程包括：1）使用规则处理问候句 2）使用segment-any-text, 句法分析和llama 1B模型的困惑度判断句子是否完整 3）使用sentence bert检测是否是确认性质的问题（e.g. "can you hear me?"）4）使用3B SLM判断最终提问意图。此外，实现了简历抽取的prompt，实践中可以大幅提高llm答案的个性化。
 </small>
 </description>
 

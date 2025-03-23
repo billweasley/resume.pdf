@@ -2,7 +2,13 @@
 
 Work Experience  
 --------  
-- <datetime>2022.03 - Now </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_><description><small>
+- <datetime>2025.03 - Now </datetime> <head_><head_title> Senior Data Scientist, Integrity and customer experience </head_title> @ Grab </head_>
+<description><small>
+<ul>
+<li> Initial project is about producing an enhanced on-device keyword spotting model and combining it with service-side multimodality LLM to detect safety issue during taxi hailing. </li>
+</ul>
+</small></description>
+- <datetime>2022.03 - 2025.02 </datetime> <head_><head_title> Machine Learning Engineer, ASR and Language Tech </head_title> @ Zoom </head_><description><small>
   <ul>
   <li> Led experiments on integrating **LLMs with ASR models** in multimodal settings, significantly improving consistency in ASR decoding. Achieved better **orthographic WER** and **rare word WER** compared to the production model.</li>
   <li> Developed **LLM-based transcription post-processing pipelines**, leveraging N-best lists from **Zipformer-Transducer models** and customized prompts with biasing word lists sent to Claude 3.5 Sonnet. Offline experiments on a medical dataset reduced **Rare Word WER from 37.8% to 17.5%**.</li>
@@ -57,8 +63,10 @@ Early Stage Project
   - Achieved **86% F1 score** on a **hashtag-balanced test dataset**, demonstrating the importance of avoiding biased splits during training.
   </small></description>
 
-- <datetime>2019.02 - 2019.03</datetime> <head_><head_title>Integrated BERT and Embeddings in CommonsenseQA Challenge</head_title> </head_>
-<description><small>
-Fine-tuned **Google BERT** for **CommonsenseQA Challenge 1.0**, integrating **ConceptNet Numberbatch and ELMo embeddings**. Achieved **68.79% accuracy** on validation datasets (BERT only: 67.47%).
+- <datetime>2025.02 - 2025.02</datetime> <head_><head_title>Work trail </head_title> @ Finalround.ai </head_>
+<description>
+<small>
+In a one-week project focused on intent detection from intermediate ASR results, I independently implemented a complete detection pipeline and achieved an F1 score of 87% on a validation meeting. Notably, half of the intents were detected ahead of the ASR final utterance. This work enables me to receiving a job offer from them. The complete pipeline included:
+1) Rule-based handling of greeting utterances.2) Evaluating sentence completeness using segment-any-text, syntactic parsing, and perplexity scoring. 3)Detecting confirmation-type questions (e.g., "Can you hear me?") using Sentence-BERT embeddings. 4) Classifying final question intents with a 3B small language model (SLM). Additionally, I developed prompts for extracting resume information, which improved the personalization and quality of LLM-generated responses.
 </small>
 </description>

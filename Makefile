@@ -1,6 +1,6 @@
 # vim:set noet:
 
-all: css/style.css pdf/Haoxuan_Wang_resume_cn.pdf pdf/Haoxuan_Wang_resume_en_China.pdf pdf/Haoxuan_Wang_resume_cn_engineering.pdf pdf/Haoxuan_Wang_resume_en_engineering.pdf pdf/Haoxuan_Wang_resume_en_research.pdf
+all: css/style.css pdf/Haoxuan_Wang_resume_cn.pdf pdf/Haoxuan_Wang_resume_en_China.pdf pdf/Haoxuan_Wang_resume_cn_engineering.pdf pdf/Haoxuan_Wang_resume_en_engineering.pdf pdf/Haoxuan_Wang_resume_en_research.pdf pdf/HSBC_Haoxuan_Wang_resume_en_China.pdf
 
 css/style.css: pdf/Haoxuan_Wang_resume_cn.pdf pdf/Haoxuan_Wang_resume_en_China.pdf
 

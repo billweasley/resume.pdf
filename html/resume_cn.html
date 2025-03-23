@@ -148,7 +148,13 @@ small {
 <h2>工作经历</h2>
 
 <ul>
-<li><p><datetime>2022.03 - Now </datetime> <head_><head_title> 机器学习工程师，语音识别与语言技术 </head_title> @ Zoom </head_>
+<li><datetime>2024.03 - 现在 </datetime> <head_><head_title> 高级(senior)数据科学家, 诚信和顾客体验 </head_title> @ Grab </head_>
+<description><small>
+<ul>
+<li> 初始项目是计划产生一个手机上用的关键词识别模型，以结合多模态大模型来保护的士司乘安全。</li>
+</ul>
+</small></description></li>
+<li><p><datetime>2022.03 - 2025.02 </datetime> <head_><head_title> 机器学习工程师，语音识别与语言技术 </head_title> @ Zoom </head_>
 <description><small>
 <ul>
 <li> 独立开展ASR/LLM的结合进行语音+文本模态sft的实验，尝试提高ASR解码结果的一致性。目前在全格式的WER（词错率）和正规化的RWER（稀有词词错率）均取得优于产线模型相当的水平。 </li>
@@ -186,7 +192,7 @@ small {
 <h2>个人项目</h2>
 
 <ul>
-<li> <head_><datetime>2024.06 - </datetime> <head_title>关于病历数据在LLM上的微调与评估 </head_title> </head_>
+<li> <head_><datetime>2024.06 - 2024.08 </datetime> <head_title>关于病历数据在LLM上的微调与评估 </head_title> </head_>
 <description>
 <small>
 使用十几万条中文病例数据，在科室分类，病历总结，出院证明等任务上对不同的LLM foundation模型（Llama3-instruct, Llama3中文-chat，Qwen2）进行全量微调，在域内测试数据集上，微调后的数据集在问诊总结/出院总结等场景下的BLEU/ROUGH，和科室分类的多分类accuracy上均取得了巨大的提升（BLEU 0% ~ 30% -&gt; 49% ~ 55%， ROUGE-L 20% ~ 30% -&gt; 60% ~ 64%, Accauracy 0% ~ 36% -&gt; 69% ~ 71%）。我们计划后续将数据开源。
@@ -204,19 +210,19 @@ small {
 </description></li>
 </ul>
 
-<h2>早期项目</h2>
+<h2>项目</h2>
 
 <ul>
+<li><p><datetime>2025.02 - 2025.02</datetime> <head_><head_title>Work trail </head_title> @ Finalround.ai </head_>
+<description>
+<small>
+单周项目，目标是ASR 中间结果的问题意图检测。独立实现了整个检测流程，在验证会议数据上取得了87%的F1结果，其中一半是早于asr final utterance提前检出的，并取得了offer。整个流程包括：1）使用规则处理问候句 2）使用segment-any-text, 句法分析和llama 1B模型的困惑度判断句子是否完整 3）使用sentence bert检测是否是确认性质的问题（e.g. &quot;can you hear me?&quot;）4）使用3B SLM判断最终提问意图。此外，实现了简历抽取的prompt，实践中可以大幅提高llm答案的个性化。
+</small>
+</description></p></li>
 <li><p><datetime>2019.06 - 2019.09</datetime> <head_><head_title>项目实习（硕士学位论文）</head_title> @ Astroscreen </head_>
 <description>
 <small>
 社交媒体帖子语言来源识别（推文和Gab帖子）项目。完成了Gab.com的语言（帖子）数据收集爬虫，使用正则表达式进行数据预处理，通过微调BERT和XLNet构建模型来分类这些数据的来源; 使用t-SNE可视化结果，进行了&quot;leave-one-hashtag-out&quot;交叉验证，并使用一些常见指标（准确率、F1分数、混淆矩阵、马修斯相关系数）评估模型。微调后，XLNet在标签均衡的测试数据集上显示了86%的F1分数，而在随机均衡的测试数据集上为97%。结果显示了使用模型进行来源检查的潜力，也表明了避免数据泄漏的重要性。
-</small>
-</description></p></li>
-<li><p><datetime>2019.02 - 2019.03</datetime> <head_><head_title>将BERT和嵌入集成到CommonsenseQA挑战中</head_title> </head_>
-<description><small>
-我们将Google BERT微调到CommonsenseQA挑战1.0（每个问题有3个选项），然后集成Conceptnet Numberbatch和ELMo嵌入，试图提高模型性能。
-该挑战包括一组需要人类常识知识的选择题。我们使用BERT + ELMo在验证集上达到了68.79%的准确率（仅使用BERT: 67.47%; BERT + Numberbatch: 67.68%）。
 </small>
 </description></p></li>
 </ul>
