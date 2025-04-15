@@ -81,11 +81,11 @@
 技能
 --------
 <ul>
-<li><head_><description><small>语言: Python, Java, C  </small></description></head_></li>
-<li><head_><description><small>深度学习, 语音识别和自然语言处理: PyTorch, HuggingFace, Whisper, K2, Transformers (和各种变种), LLM fine-tuning (LoRA, Full-paramter) </small></description></head_></li>
-<li><head_><description><small>数据处理: Spark, Pandas </small></description></head_></li>
-<li><head_><description><small>训练和系统基建: DeepSpeed, AsyncMQ/Kafka, Docker, Kubernetes (Istio, Knative, ...)  </small></description></head_></li>
-<li><head_><description><small>通用: Jenkins, git, JIRA  </small></description></head_></li>
+<li><description><small>语言: Python, Java, C  </small></description></li>
+<li><description><small>深度学习, 语音识别和自然语言处理: PyTorch, HuggingFace, Whisper, K2, Transformers (和各种变种), LLM fine-tuning (LoRA, Full-paramter) </small></description></li>
+<li><description><small>数据处理: Spark, Pandas </small></description></li>
+<li><description><small>训练和系统基建: DeepSpeed, AsyncMQ/Kafka, Docker, Kubernetes (Istio, Knative, ...)  </small></description></li>
+<li><description><small>通用: Jenkins, git, JIRA  </small></description></li>
 </ul>
 
 
