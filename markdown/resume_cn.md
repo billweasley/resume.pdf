@@ -2,7 +2,7 @@
 
 工作经历
 --------
-- <datetime>2024.03 - 现在 </datetime> <head_><head_title> 高级(senior)数据科学家, 诚信和顾客体验 </head_title> @ Grab </head_>
+- <datetime>2025.03 - 现在 </datetime> <head_><head_title> 高级(senior)数据科学家, 诚信和顾客体验 </head_title> @ Grab </head_>
 <description><small>
 <ul>
 <li> 初始项目是计划产生一个手机上用的关键词识别模型，以结合多模态大模型来保护的士司乘安全。</li>
